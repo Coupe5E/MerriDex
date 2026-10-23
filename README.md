@@ -2,7 +2,7 @@
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab – ohne Cloud und Benutzerkonto.
 
-> Aktuell: **MeeriDEX 1.3.4** und **Companion 0.4.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.3.5** und **Companion 0.4.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 ## Downloads und Schnellstart
 
@@ -33,6 +33,7 @@ Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm.
 | **Züchterprofil** | Zuchtname, Ort, Kontaktangaben und soziale Links pflegen. Zuchtname und Ort werden für neue Tiere vorbelegt; das Profil wird beim Sync zur Ansicht an die App übertragen. |
 | **Sicherung und Excel** | Sicherungen exportieren/importieren und Tierdaten einschließlich Fotos, Gewichten, Familien, Genen und Verpaarungen als Excel-Datei austauschen. Ein Import ersetzt die Kartei nach Vorschau und Bestätigung. Züchterprofil und Einstellungen sind separat zu sichern. |
 | **Updates und Datenübernahme** | Updates über GitHub prüfen. Vor einem installierten Programmupdate entstehen eine ZIP-Sicherung und ein Excel-Export. Alte JSON-Tierdaten werden beim ersten Start der SQLite-Version automatisch übernommen. |
+| **So geht’s** | Kurze Anleitungen für alle sechs Hauptbereiche in einer pixeligen Sprechblase mit Ryo, eingebetteter Pixelschrift und scrollbar lesbaren Absätzen. |
 | **Companion-Sync** | Tierprofile und Fotos mit Android abgleichen; Konflikte und Löschungen am PC bestätigen. |
 
 ### Desktop installieren und aktualisieren
@@ -160,4 +161,4 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. Die Programme dürfen für 
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 23.10.2026 · Desktop 1.3.4 / Companion 0.4.0.*
+*Dokumentationsstand: 23.10.2026 · Desktop 1.3.5 / Companion 0.4.0.*
