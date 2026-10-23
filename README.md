@@ -2,14 +2,14 @@
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab – ohne Cloud und Benutzerkonto.
 
-> Aktuell: **MeeriDEX 1.3.4** und **Companion 0.3.2**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.3.4** und **Companion 0.4.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 ## Downloads und Schnellstart
 
 | Anwendung | Download | Voraussetzung |
 | --- | --- | --- |
 | Windows-PC | [Aktuelle Desktop-Version](https://github.com/Coupe5E/MerriDex/releases/latest) – `MeeriDEX.exe` oder `MeeriDEX-Testversion.zip` | Windows 10/11; .NET Framework 4.x und die Windows-SQLite-Komponente |
-| Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.3.2) – `MeeriDex-Companion-0.3.2-test.apk` unter **Assets** | Android 8.0 oder neuer |
+| Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.4.0) – `MeeriDex-Companion-0.4.0-test.apk` unter **Assets** | Android 8.0 oder neuer |
 
 Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm. GitHubs „Source code“-ZIPs enthalten nur die öffentlichen Repository-Hinweise und sind ebenfalls keine Programmpakete.
 
@@ -66,6 +66,8 @@ Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm.
 | --- | --- |
 | **Tierliste im Pixel-Look** | Deine Tiere mit Pixel-Meeri, Name und Geschlecht sehen. Über das Menü oben links neue Tiere anlegen, suchen, synchronisieren und Updates prüfen. |
 | **Tierprofile** | Stammdaten, Geburtstag, Geburtsort, Züchter, Rasse, Farbe, Codes, Eltern, Kastration und Notizen anlegen oder bearbeiten. |
+| **Gewicht & Alter** | Aktuelles Gewicht und kleine Verlaufsgrafik ansehen. Messdatum und Gramm erfassen, Messungen korrigieren oder entfernen. Änderungen erst mit Verlauf speichern übernehmen. Gewichte werden mit dem PC synchronisiert. |
+| **Familie und weitere Profildaten** | Eltern, Geschwister und Kinder mit direkt aufrufbaren Profilen ansehen. Vorhandene Abgabedaten und Krankenverläufe vom PC nachlesen; deren Bearbeitung bleibt am PC. |
 | **Kamera und Fotos** | Mit der Handykamera ein Profilfoto aufnehmen oder vorhandene Bilder auswählen; mehrere Bilder pro Tier verwalten. Für das Fotografieren wird die Kamera-App verwendet, der QR-Scanner hat eine eigene Kameraansicht. |
 | **Farbtabelle und Rassengene** | Dieselben Rassen- und Farbvorgaben wie am PC nutzen. Große Farbmuster, Suche und Gruppenfilter erleichtern die Auswahl; erst „Übernehmen“ trägt die Farbe ein. Eigene Angaben bleiben möglich. |
 | **Prüfung der Eingaben** | Nur Weibchen als Mutter und Böcke als Vater auswählen. Kastration erscheint nur bei Böcken. Datumsangaben, Familienkreise und die Konsistenz von Vorlagen und Codes werden beim Speichern geprüft. Historisch kastrierte Väter bleiben möglich. Das ist keine vollständige genetische Vererbungsberechnung. |
@@ -73,12 +75,12 @@ Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm.
 | **Offline und WLAN** | Tiere und Fotos lokal auf dem Handy speichern und später im selben privaten WLAN mit dem PC abgleichen. |
 | **GitHub-Updates** | Neue Companion-APKs über die App finden und laden. Android fragt vor der eigentlichen Installation nochmals nach. |
 
-**Umfang der Testversion:** Grafische Stammbäume, Verpaarungsverwaltung, Gewichtserfassung, Krankenstation und Abgaben werden weiterhin am Desktop bedient. Vorhandene zusätzliche PC-Felder im Tierprofil bleiben beim Bearbeiten in Companion erhalten. Die App ist derzeit weder eine iPhone-App noch eine Play-Store-Veröffentlichung.
+**Umfang der Testversion:** Grafische Stammbäume und Verpaarungsverwaltung werden weiterhin am Desktop bedient. Abgabedaten und Krankenverläufe sind in der App zur Ansicht verfügbar; ihre Bearbeitung erfolgt am PC. Gewichtserfassung und Verlauf sind ab Companion 0.4.0 auch auf dem Handy möglich. Vorhandene zusätzliche PC-Felder im Tierprofil bleiben beim Bearbeiten in Companion erhalten. Die App ist derzeit weder eine iPhone-App noch eine Play-Store-Veröffentlichung.
 
 ### Android installieren – Schritt für Schritt
 
-1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.3.2) wechseln.
-2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.3.2-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
+1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.4.0) wechseln.
+2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.4.0-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
 3. Die heruntergeladene APK über die Downloadmeldung oder die Dateien-App im Ordner **Downloads** öffnen.
 4. Meldet Android, dass diese Quelle keine Apps installieren darf, über die angezeigten **Einstellungen** die Installation für genau den verwendeten Browser oder die Dateien-App erlauben. Die Einstellung heißt je nach Gerät **Unbekannte Apps installieren** oder **Aus dieser Quelle zulassen**; häufig unter **Einstellungen → Apps → Spezieller App-Zugriff**. Nur für eine bewusst gewählte vertrauenswürdige Quelle freigeben. Hersteller und Android-Version können andere Bezeichnungen verwenden.
 5. Zur APK zurückkehren und **Installieren** wählen. Eine angebotene Sicherheitsprüfung abwarten. Beachte bei weiteren Meldungen den folgenden Abschnitt.
@@ -158,4 +160,4 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. Die Programme dürfen für 
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 23.10.2026 · Desktop 1.3.4 / Companion 0.3.2.*
+*Dokumentationsstand: 23.10.2026 · Desktop 1.3.4 / Companion 0.4.0.*
