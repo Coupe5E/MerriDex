@@ -1,8 +1,8 @@
 # MeeriDEX & MeeriDex Companion
 
-Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab – ohne Cloud und Benutzerkonto.
+Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.3.7** und **Companion 0.4.3**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.4.0** und **Companion 0.4.3**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 ## Downloads und Schnellstart
 
@@ -22,6 +22,7 @@ Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm.
 | Bereich | Was du damit machen kannst |
 | --- | --- |
 | **Meine Meeris** | Tiere anlegen, suchen, bearbeiten und mit Name, Geschlecht, Geburtstag, Geburtsort, Züchter, Notizen und Kastrationsangaben verwalten. |
+| **Lizenz & Aktivierung** | Windows ab 1.4.0: manuell vergebene Dauerlizenz oder 15-Tage-Testlizenz, gebunden an Vorname, Nachname und Zuchtname. Zwei PCs sind gleichzeitig nutzbar. Testtage beginnen mit der ersten Aktivierung und gelten gemeinsam für beide PCs. Online aktivieren und spätestens alle 30 Tage erneut prüfen; Tests höchstens bis Testende. Ohne gültige Bestätigung bleiben Lesen und ZIP-/Excel-Export möglich. Android bleibt kostenlos. |
 | **Pixel-Meeris** | 16 Rassenbilder einschließlich Skinny und 18 zusätzliche Farbvarianten. PC und App wählen dieselben lokalen Bilder nach Rasse und Farbe aus; ohne passende Variante bleibt das Rassenbild, ohne bekannte Rasse Ryo. Die Illustration ist ein Beispiel und kein exakt rekonstruiertes Tierfoto. |
 | **RFID-Chipnummer** | Eine optionale Chipkennung als Text speichern, im Profil nachlesen und danach suchen. Führende Nullen bleiben erhalten. Der Abgleich mit Companion und Excel enthalten das Feld; zum Sync von Chipnummern Desktop ab 1.3.6 und Companion ab 0.4.1 verwenden. Das Feld erfasst die Kennung und liest keinen Chip mit dem Handy aus. |
 | **Fotos und Tierprofile** | Mehrere Bilder hinterlegen und im Profil Stammdaten, Familie, Gewicht und Krankenverlauf ansehen. Fotos werden für die Kartei verkleinert; ausgewählte Originaldateien bleiben unverändert. |
@@ -42,7 +43,7 @@ Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm.
 
 1. Auf der [Desktop-Release-Seite](https://github.com/Coupe5E/MerriDex/releases/latest) unter **Assets** die EXE oder das Programmpaket herunterladen.
 2. Bei der ZIP-Datei zuerst **alles entpacken**. Einen eigenen beschreibbaren Ordner nutzen, zum Beispiel im Benutzerordner. Das Programm legt seine Daten neben der EXE ab; nicht direkt aus der ZIP starten.
-3. `MeeriDEX.exe` öffnen und das Züchterprofil einrichten. Die Tierverwaltung funktioniert offline. Internet ist nur für GitHub-Updates erforderlich; der Handyabgleich benötigt das lokale Netz.
+3. `MeeriDEX.exe` öffnen. Ab Version 1.4.0 unter **Lizenz / Aktivierung** Vorname, Nachname, Zuchtname und den erhaltenen Lizenzschlüssel eintragen und online aktivieren; anschließend das Züchterprofil vervollständigen. Die aktivierte Tierverwaltung funktioniert bis zum angezeigten Prüftermin offline. Internet wird zur Aktivierung, spätestens nach 30 Tagen zur erneuten Lizenzprüfung und für GitHub-Updates benötigt; der Handyabgleich benötigt das lokale Netz.
 4. Für spätere Updates **Updates prüfen** im Programm verwenden. Beim manuellen Austausch MeeriDEX zuerst schließen und den gesamten bisherigen Programmordner zusätzlich sichern. Die EXE am bisherigen Ort ersetzen, damit die vorhandenen Daten dort gefunden werden.
 
 **Daten aufbewahren:** `meeridex.sqlite` enthält die Tierkartei; `Profil` enthält unter anderem Züchterangaben und Tierfotos. Im Ordner `Sicherungen` liegen zusätzliche Backups. Für einen Umzug den gesamten Programmordner bei geschlossenem Programm kopieren. Die EXE allein enthält keine Tierkartei.
@@ -160,8 +161,8 @@ MeeriDex gefällt dir? Über **Gürkchen spendieren** kannst du die Weiterentwic
 
 MeeriDEX und MeeriDex Companion werden als **Closed Source** veröffentlicht. Dieses öffentliche Repository dient Downloads, Updates und Hinweisen; die eigenen Programmquellen bleiben privat. Alte Releases und die veröffentlichten Quellcode-ZIPs wurden entfernt.
 
-Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. Die Programme dürfen für die eigene Tierverwaltung verwendet werden. Es wird keine Open-Source-Lizenz für die eigenen Programmquellen oder Grafiken erteilt. Zwingende gesetzliche Rechte bleiben unberührt. Siehe `LIZENZ.txt` in den aktuellen Releases; Lizenzen enthaltener Komponenten Dritter gelten weiterhin.
+Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. MeeriDEX für Windows ab 1.4.0 benötigt eine gültige personalisierte Lizenz; MeeriDex Companion für Android bleibt kostenlos. Es wird keine Open-Source-Lizenz für die eigenen Programmquellen oder Grafiken erteilt. Zwingende gesetzliche Rechte bleiben unberührt. Siehe `LIZENZ.txt` in den aktuellen Releases; Lizenzen enthaltener Komponenten Dritter gelten weiterhin.
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 24.10.2026 · Desktop 1.3.7 / Companion 0.4.3.*
+*Dokumentationsstand: 24.10.2026 · Desktop 1.4.0 / Companion 0.4.3.*
