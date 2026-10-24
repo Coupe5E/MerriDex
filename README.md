@@ -1,8 +1,8 @@
-# MeeriDEX & MeeriDex Companion
+﻿# MeeriDEX & MeeriDex Companion
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.4.0** und **Companion 0.4.3**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.4.1** und **Companion 0.4.3**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 ## Downloads und Schnellstart
 
@@ -38,6 +38,8 @@ Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm.
 | **Updates und Datenübernahme** | Updates über GitHub prüfen. Vor einem installierten Programmupdate entstehen eine ZIP-Sicherung und ein Excel-Export. Alte JSON-Tierdaten werden beim ersten Start der SQLite-Version automatisch übernommen. |
 | **So geht’s** | Kurze Anleitungen für alle sechs Hauptbereiche in einer pixeligen Sprechblase mit Ryo, eingebetteter Pixelschrift und scrollbar lesbaren Absätzen. |
 | **Companion-Sync** | Tierprofile und Fotos mit Android abgleichen; Konflikte und Löschungen am PC bestätigen. |
+
+Das X in der Lizenzabfrage beendet den Programmstart. Über **Nur lesen / Sicherungen exportieren** lässt sich die Kartei ausdrücklich im Lesemodus öffnen; Speichern, Import und WLAN-Abgleich benötigen eine gültige Lizenz.
 
 ### Desktop installieren und aktualisieren
 
@@ -165,4 +167,4 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. MeeriDEX für Windows ab 1.
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 24.10.2026 · Desktop 1.4.0 / Companion 0.4.3.*
+*Dokumentationsstand: 24.10.2026 · Desktop 1.4.1 / Companion 0.4.3.*
