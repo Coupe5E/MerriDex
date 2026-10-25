@@ -1,10 +1,16 @@
-﻿# MeeriDEX & MeeriDex Companion
+# MeeriDEX & MeeriDex Companion
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.9.3** und **Companion 0.8.4**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.9.4** und **Companion 0.8.5**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 **Update-Hinweis für ältere Companion-Versionen:** APKs ab 0.5.2 überschreiten deren bisherige 100-MiB-Grenze und werden eventuell nicht angeboten. Die aktuelle Companion-Version einmalig über den APK-Download installieren, ohne die vorhandene App zu deinstallieren. Danach berücksichtigt die Updatesuche größere Bildpakete.
+
+## Neue CH-Teddy-Pixelbilder
+
+Neu in **MeeriDEX 1.9.4 / Companion 0.8.5**: fünf freigestellte CH-Teddys in **Brindle Blau-Amber, Buntschimmel Blau-Amber, Dalmatiner Blau, California Amber-Blau und Dapple Schokolade**. Zusammen mit den Motiven aus 1.9.3 sind jetzt 25 Bilder dieser Farbserie enthalten; insgesamt sind 97 Farbvarianten hinterlegt.
+
+Die Bilder erscheinen bei passender Rasse und Katalogfarbe automatisch nach dem Update auf Windows und Android. Ein erneutes Ändern der Farbe ist nicht nötig.
 
 ## Neue Pixelbilder für die erweiterten Farben
 
@@ -94,7 +100,7 @@ Ab **MeeriDEX 1.8.0 / Companion 0.8.0** gibt es eine Wurfliste im gewohnten Pixe
 | Anwendung | Download | Voraussetzung |
 | --- | --- | --- |
 | Windows-PC | [Aktuelle Desktop-Version](https://github.com/Coupe5E/MerriDex/releases/latest) – `MeeriDEX.exe` oder `MeeriDEX-Testversion.zip` | Windows 10/11; Windows 7 nur mit SP1, .NET Framework 4.8 und aktuellen Stammzertifikaten (siehe Hinweis); SQLite ist enthalten |
-| Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.4) – `MeeriDex-Companion-0.8.4-test.apk` unter **Assets** | Android 8.0 oder neuer |
+| Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.5) – `MeeriDex-Companion-0.8.5-test.apk` unter **Assets** | Android 8.0 oder neuer |
 
 Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm. GitHubs „Source code“-ZIPs enthalten nur die öffentlichen Repository-Hinweise und sind ebenfalls keine Programmpakete.
 
@@ -202,8 +208,8 @@ Die aktuelle Windows-Version von MeeriDEX ist **noch nicht digital signiert**. B
 
 ### Android installieren – Schritt für Schritt
 
-1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.4) wechseln.
-2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.8.4-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
+1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.5) wechseln.
+2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.8.5-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
 3. Die heruntergeladene APK über die Downloadmeldung oder die Dateien-App im Ordner **Downloads** öffnen.
 4. Meldet Android, dass diese Quelle keine Apps installieren darf, über die angezeigten **Einstellungen** die Installation für genau den verwendeten Browser oder die Dateien-App erlauben. Die Einstellung heißt je nach Gerät **Unbekannte Apps installieren** oder **Aus dieser Quelle zulassen**; häufig unter **Einstellungen → Apps → Spezieller App-Zugriff**. Nur für eine bewusst gewählte vertrauenswürdige Quelle freigeben. Hersteller und Android-Version können andere Bezeichnungen verwenden.
 5. Zur APK zurückkehren und **Installieren** wählen. Eine angebotene Sicherheitsprüfung abwarten. Beachte bei weiteren Meldungen den folgenden Abschnitt.
@@ -284,7 +290,7 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. MeeriDEX für Windows ab 1.
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 25.10.2026 · Desktop 1.9.3 / Companion 0.8.4.*
+*Dokumentationsstand: 25.10.2026 · Desktop 1.9.4 / Companion 0.8.5.*
 
 ## MeeriHimmel
 
