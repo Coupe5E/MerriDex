@@ -2,9 +2,23 @@
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.8.1** und **Companion 0.8.1**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.9.0** und **Companion 0.8.1**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 **Update-Hinweis für ältere Companion-Versionen:** APKs ab 0.5.2 überschreiten deren bisherige 100-MiB-Grenze und werden eventuell nicht angeboten. Die aktuelle Companion-Version einmalig über den APK-Download installieren, ohne die vorhandene App zu deinstallieren. Danach berücksichtigt die Updatesuche größere Bildpakete.
+
+## Stammbaum als A4-PDF exportieren und drucken
+
+Ab **MeeriDEX 1.9.0** am Windows-PC unter **Stammbäume** ein Tier auswählen und **A4-Stammbaum / PDF** öffnen. Standard sind **vier Generationen inklusive des gewählten Tiers**: Tier, Eltern, Großeltern und Urgroßeltern. Für größere Schrift ist auch eine Dreigenerationen-Ausgabe möglich.
+
+Oben stehen Zuchtname, Name, Ort, Telefon, E-Mail und Website aus dem Züchterprofil. Eine zusätzliche Adresszeile kann für den jeweiligen Export ergänzt werden. Der Kopf verwendet dein Züchterprofil; der Herkunftszüchter jedes Tiers steht separat bei dessen Daten. Abgabe-Empfänger werden nicht in den Stammbaum übernommen.
+
+Beim gewählten Tier ein **hinterlegtes echtes Profilfoto auswählen** oder ein Foto aus einer Datei wählen. Das Foto wird vollständig eingepasst und nicht abgeschnitten; eine nur für den Export gewählte Datei verändert die Tierkartei nicht. Fehlt ein Foto, wird dies ausdrücklich angezeigt. Die Vorfahren verwenden die passenden Pixelbilder.
+
+Enthalten sind Name, Geschlecht, Geburtstag, Rasse, Farbe, Herkunftszüchter, Geburtsgewicht, Wurfquote, Genetik-/Rassencode und Farbcode, soweit eingetragen. **Geburtsgewicht** wird nur aus einer Gewichtsmessung am tatsächlichen Geburtstag übernommen. Die **Wurfquote M/W/T** bezeichnet den Geburtswurf des jeweiligen Tiers, nicht dessen eigene späteren Würfe. Bei automatisch abgeleiteten Würfen bleiben unbekannte Totgeburten als **?** erkennbar; fehlendes Geschlecht ergibt **unvollständig**. Fehlende Angaben und Vorfahren werden nicht geraten.
+
+**Als PDF speichern** erzeugt eine einzelne A4-Seite im Hochformat als verlustfreies Bild-PDF mit **300 dpi**. Es benötigt keinen installierten PDF-Drucker und keine zusätzliche Laufzeit. Der Text ist im Bild-PDF nicht separat markierbar. Alternativ öffnet **Drucken** die Windows-Druckerauswahl. Für das PDF beim Ausdruck **A4 und tatsächliche Größe / 100 %** wählen. Eine Vorschau ist direkt im Exportfenster sichtbar.
+
+Außergewöhnlich lange Angaben werden nicht still abgeschnitten: Bei zu umfangreichen Daten erscheint eine Meldung. Dann gegebenenfalls drei Generationen wählen oder die Angaben prüfen. Der Export verändert keine Tierdaten und ist auch im Lesemodus möglich. Android Companion 0.8.1 bleibt aktuell; diese Druckfunktion ist zunächst in Windows verfügbar.
 
 ## Eigene Tiere und Stammbaum richtig anlegen
 
@@ -230,7 +244,7 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. MeeriDEX für Windows ab 1.
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 25.10.2026 · Desktop 1.8.1 / Companion 0.8.1.*
+*Dokumentationsstand: 25.10.2026 · Desktop 1.9.0 / Companion 0.8.1.*
 
 ## MeeriHimmel
 
