@@ -2,16 +2,16 @@
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.5.4** und **Companion 0.5.3**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.5.5** und **Companion 0.6.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
-**Update-Hinweis für ältere Companion-Versionen:** APKs ab 0.5.2 überschreiten deren bisherige 100-MiB-Grenze und werden eventuell nicht angeboten. Companion 0.5.3 einmalig über den APK-Download installieren, ohne die vorhandene App zu deinstallieren. Danach berücksichtigt die Updatesuche größere Bildpakete.
+**Update-Hinweis für ältere Companion-Versionen:** APKs ab 0.5.2 überschreiten deren bisherige 100-MiB-Grenze und werden eventuell nicht angeboten. Die aktuelle Companion-Version einmalig über den APK-Download installieren, ohne die vorhandene App zu deinstallieren. Danach berücksichtigt die Updatesuche größere Bildpakete.
 
 ## Downloads und Schnellstart
 
 | Anwendung | Download | Voraussetzung |
 | --- | --- | --- |
 | Windows-PC | [Aktuelle Desktop-Version](https://github.com/Coupe5E/MerriDex/releases/latest) – `MeeriDEX.exe` oder `MeeriDEX-Testversion.zip` | Windows 10/11; .NET Framework 4.x und die Windows-SQLite-Komponente |
-| Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.5.3) – `MeeriDex-Companion-0.5.3-test.apk` unter **Assets** | Android 8.0 oder neuer |
+| Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.6.0) – `MeeriDex-Companion-0.6.0-test.apk` unter **Assets** | Android 8.0 oder neuer |
 
 Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm. GitHubs „Source code“-ZIPs enthalten nur die öffentlichen Repository-Hinweise und sind ebenfalls keine Programmpakete.
 
@@ -74,10 +74,14 @@ Das X in der Lizenzabfrage beendet den Programmstart. Über **Nur lesen / Sicher
 | Bereich | Was du damit machen kannst |
 | --- | --- |
 | **Tierliste im Pixel-Look** | Deine Tiere mit Pixel-Meeri passend zu Rasse und unterstützter Farbkombination, Name und Geschlecht sehen. Über das Menü oben links neue Tiere anlegen, suchen, synchronisieren und Updates prüfen. |
+| **Schnell wiegen** | Direkt aus der Liste oder dem Profil Messtag und Gramm speichern, letzte Messung und Unterschied sehen. Der Geburtstag wird für die Altersberechnung benötigt. |
+| **Filter und Favoriten** | Bestand, Stammbaumtiere oder abgegebene Tiere anzeigen und mit Rasse, Farbe, Geschlecht, Suche und Favoriten kombinieren. Favoriten stehen oben und bleiben als persönliche Auswahl auf dem Handy. |
+| **Mobiler Stammbaum** | Drei Generationen mit Eltern und Großeltern im Profil ansehen; antippen öffnet das jeweilige Tierprofil. |
+| **Sync-Übersicht** | Vor dem Speichern den Übernahmeplan bestätigen oder abbrechen. Mit Desktop 1.5.5 zeigt er Profile, Löschungen und neue Fotos für beide Geräte. Abschluss und letzter bestätigter Sync sind nachlesbar. |
 | **Tierprofile** | Stammdaten, RFID-Chipnummer, Geburtstag, Geburtsort, Züchter, Rasse, Farbe, Codes, Eltern, Kastration und Notizen anlegen oder bearbeiten. |
 | **Gewicht & Alter** | Aktuelles Gewicht und kleine Verlaufsgrafik ansehen. Messdatum und Gramm erfassen, Messungen korrigieren oder entfernen. Änderungen erst mit Verlauf speichern übernehmen. Gewichte werden mit dem PC synchronisiert. |
 | **Familie und weitere Profildaten** | Eltern, Geschwister und Kinder mit direkt aufrufbaren Profilen ansehen. Vorhandene Abgabedaten und Krankenverläufe vom PC nachlesen; deren Bearbeitung bleibt am PC. |
-| **Kamera und Fotos** | Mit der Handykamera ein Profilfoto aufnehmen oder vorhandene Bilder auswählen; mehrere Bilder pro Tier verwalten. Für das Fotografieren wird die Kamera-App verwendet, der QR-Scanner hat eine eigene Kameraansicht. |
+| **Kamera und Fotos** | Direkt im Profil mit der Handykamera ein Foto aufnehmen und zuordnen oder im Bearbeiten-Modus ein Profilfoto aufnehmen oder vorhandene Bilder auswählen; mehrere Bilder pro Tier verwalten. Für das Fotografieren wird die Kamera-App verwendet, der QR-Scanner hat eine eigene Kameraansicht. |
 | **Farbtabelle und Rassengene** | Dieselben Rassen- und Farbvorgaben wie am PC nutzen. Große Farbmuster, Suche und Gruppenfilter erleichtern die Auswahl; erst „Übernehmen“ trägt die Farbe ein. Eigene Angaben bleiben möglich. |
 | **Prüfung der Eingaben** | Nur Weibchen als Mutter und Böcke als Vater auswählen. Kastration erscheint nur bei Böcken. Datumsangaben, Familienkreise und die Konsistenz von Vorlagen und Codes werden beim Speichern geprüft. Historisch kastrierte Väter bleiben möglich. Das ist keine vollständige genetische Vererbungsberechnung. |
 | **Züchterprofil und Vorgaben** | Das aktuelle PC-Züchterprofil nach dem Sync ansehen. Zuchtname und Geburtsort für neue Tiere vom PC übernehmen oder eigene App-Vorgaben nutzen. Änderungen am vollständigen Züchterprofil erfolgen am PC. |
@@ -88,8 +92,8 @@ Das X in der Lizenzabfrage beendet den Programmstart. Über **Nur lesen / Sicher
 
 ### Android installieren – Schritt für Schritt
 
-1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.5.3) wechseln.
-2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.5.3-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
+1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.6.0) wechseln.
+2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.6.0-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
 3. Die heruntergeladene APK über die Downloadmeldung oder die Dateien-App im Ordner **Downloads** öffnen.
 4. Meldet Android, dass diese Quelle keine Apps installieren darf, über die angezeigten **Einstellungen** die Installation für genau den verwendeten Browser oder die Dateien-App erlauben. Die Einstellung heißt je nach Gerät **Unbekannte Apps installieren** oder **Aus dieser Quelle zulassen**; häufig unter **Einstellungen → Apps → Spezieller App-Zugriff**. Nur für eine bewusst gewählte vertrauenswürdige Quelle freigeben. Hersteller und Android-Version können andere Bezeichnungen verwenden.
 5. Zur APK zurückkehren und **Installieren** wählen. Eine angebotene Sicherheitsprüfung abwarten. Beachte bei weiteren Meldungen den folgenden Abschnitt.
@@ -170,4 +174,4 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. MeeriDEX für Windows ab 1.
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 25.10.2026 · Desktop 1.5.4 / Companion 0.5.3.*
+*Dokumentationsstand: 25.10.2026 · Desktop 1.5.5 / Companion 0.6.0.*
