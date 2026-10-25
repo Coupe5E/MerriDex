@@ -28,7 +28,7 @@ Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm.
 | **Fotos und Tierprofile** | Mehrere Bilder hinterlegen und im Profil Stammdaten, Familie, Gewicht und Krankenverlauf ansehen. Fotos werden für die Kartei verkleinert; ausgewählte Originaldateien bleiben unverändert. |
 | **Rassen, Farben und Gene** | Rassen- und Farbvorlagen auswählen, Farbcodes erklären lassen sowie eigene Angaben und bekannte Trägergene erfassen. Vorlagen sind kein Nachweis des individuellen Genotyps. |
 | **Familie und Stammbäume** | Mutter, Vater und Geschwister verknüpfen. Stammbäume über drei bis sechs Generationen anzeigen, verschieben und zoomen; Tierprofile direkt daraus öffnen. |
-| **Ryo denkt mit · Erinnerungen** | Merkzettel für Wiegen, Medikamente, Kontrollen und eigene Aufgaben mit Termin, Wiederholung und Notizen anlegen, abhaken und auf morgen verschieben. Mit Companion 0.5.0 synchronisieren; ZIP und Excel sichern die Einträge mit. Hinweise erscheinen tageweise im geöffneten Erinnerungsbereich, ohne Hintergrundalarme bei geschlossener Anwendung. |
+| **Ryo denkt mit · Erinnerungen** | Merkzettel für Wiegen, Medikamente, Kontrollen und eigene Aufgaben mit Termin, Wiederholung und Notizen anlegen, abhaken und auf morgen verschieben. Mit Companion ab 0.5.0 synchronisieren; ZIP und Excel sichern die Einträge mit. Hinweise erscheinen tageweise im geöffneten Erinnerungsbereich, ohne Hintergrundalarme bei geschlossener Anwendung. |
 | **Gewichtsverlauf** | Messdatum und Gewicht erfassen, frühere Messungen bearbeiten und den Verlauf als Diagramm betrachten. |
 | **Verpaarungen** | Gruppen mit Käfig, Tieren, Start- und Enddatum planen und verwalten. Geplante, laufende und beendete Gruppen filtern; geschätzte Geburtstermine aus den Zeiträumen ansehen. |
 | **Abgabe** | Ausgezogene Tiere mit Abgabedatum, optionalem Gewicht und Verkaufspreis erfassen. Monatliche eingetragene Verkaufssummen ansehen; Familienbeziehungen bleiben erhalten. Die Summe stellt Einnahmen und keinen Gewinn dar. |
@@ -168,4 +168,4 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. MeeriDEX für Windows ab 1.
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 24.10.2026 · Desktop 1.4.3 / Companion 0.5.0.*
+*Dokumentationsstand: 25.10.2026 · Desktop 1.5.2 / Companion 0.5.2.*
