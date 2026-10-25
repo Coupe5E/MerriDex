@@ -2,7 +2,7 @@
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.5.5** und **Companion 0.6.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.5.6** und **Companion 0.6.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 **Update-Hinweis für ältere Companion-Versionen:** APKs ab 0.5.2 überschreiten deren bisherige 100-MiB-Grenze und werden eventuell nicht angeboten. Die aktuelle Companion-Version einmalig über den APK-Download installieren, ohne die vorhandene App zu deinstallieren. Danach berücksichtigt die Updatesuche größere Bildpakete.
 
@@ -32,6 +32,7 @@ Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm.
 | **Familie und Stammbäume** | Mutter, Vater und Geschwister verknüpfen. Stammbäume über drei bis sechs Generationen anzeigen, verschieben und zoomen; Tierprofile direkt daraus öffnen. |
 | **Ryo denkt mit · Erinnerungen** | Merkzettel für Wiegen, Medikamente, Kontrollen und eigene Aufgaben mit Termin, Wiederholung und Notizen anlegen, abhaken und auf morgen verschieben. Mit Companion ab 0.5.0 synchronisieren; ZIP und Excel sichern die Einträge mit. Hinweise erscheinen tageweise im geöffneten Erinnerungsbereich, ohne Hintergrundalarme bei geschlossener Anwendung. |
 | **Gewichtsverlauf** | Messdatum und Gewicht erfassen, frühere Messungen bearbeiten und den Verlauf als Diagramm betrachten. |
+| **Pixel-Käfige** | Käfige aufklappen und Tierkarten mit Namen sowie Pixelbildern passend zu Rasse und Farbe ansehen. Böcke, Weibchen und Kastrate bleiben getrennt. |
 | **Verpaarungen** | Gruppen mit Käfig, Tieren, Start- und Enddatum planen und verwalten. Geplante, laufende und beendete Gruppen filtern; geschätzte Geburtstermine aus den Zeiträumen ansehen. |
 | **Abgabe** | Ausgezogene Tiere mit Abgabedatum, optionalem Gewicht und Verkaufspreis erfassen. Monatliche eingetragene Verkaufssummen ansehen; Familienbeziehungen bleiben erhalten. Die Summe stellt Einnahmen und keinen Gewinn dar. |
 | **WurfOrakel** | Mögliche Genpaare des Nachwuchses anhand gespeicherter Farb- und Fellgene betrachten. Unvollständige Angaben führen zu Spannen; nicht alle genetischen Faktoren werden berechnet. Das Ergebnis bestätigt weder eine Gesamtfarbe noch die gesundheitliche Eignung einer Verpaarung. |
@@ -174,4 +175,4 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. MeeriDEX für Windows ab 1.
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 25.10.2026 · Desktop 1.5.5 / Companion 0.6.0.*
+*Dokumentationsstand: 25.10.2026 · Desktop 1.5.6 / Companion 0.6.0.*
