@@ -2,14 +2,14 @@
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.5.0** und **Companion 0.5.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.5.2** und **Companion 0.5.2**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 ## Downloads und Schnellstart
 
 | Anwendung | Download | Voraussetzung |
 | --- | --- | --- |
 | Windows-PC | [Aktuelle Desktop-Version](https://github.com/Coupe5E/MerriDex/releases/latest) – `MeeriDEX.exe` oder `MeeriDEX-Testversion.zip` | Windows 10/11; .NET Framework 4.x und die Windows-SQLite-Komponente |
-| Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.5.0) – `MeeriDex-Companion-0.5.0-test.apk` unter **Assets** | Android 8.0 oder neuer |
+| Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.5.2) – `MeeriDex-Companion-0.5.2-test.apk` unter **Assets** | Android 8.0 oder neuer |
 
 Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm. GitHubs „Source code“-ZIPs enthalten nur die öffentlichen Repository-Hinweise und sind ebenfalls keine Programmpakete.
 
@@ -23,7 +23,7 @@ Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm.
 | --- | --- |
 | **Meine Meeris** | Tiere anlegen, suchen, bearbeiten und mit Name, Geschlecht, Geburtstag, Geburtsort, Züchter, Notizen und Kastrationsangaben verwalten. |
 | **Lizenz & Aktivierung** | Windows ab 1.4.0: manuell vergebene Dauerlizenz oder 15-Tage-Testlizenz, gebunden an Vorname, Nachname und Zuchtname. Zwei PCs sind gleichzeitig nutzbar. Testtage beginnen mit der ersten Aktivierung und gelten gemeinsam für beide PCs. Online aktivieren und spätestens alle 30 Tage erneut prüfen; Tests höchstens bis Testende. Ohne gültige Bestätigung bleiben Lesen und ZIP-/Excel-Export möglich. Android bleibt kostenlos. |
-| **Pixel-Meeris** | 16 Rassenbilder einschließlich Skinny und 28 zusätzliche Farbvarianten, darunter zehn weitere Rosetten. PC und App wählen dieselben lokalen Bilder nach Rasse und Farbe aus; ohne passende Variante bleibt das Rassenbild, ohne bekannte Rasse Ryo. Die Illustration ist ein Beispiel und kein exakt rekonstruiertes Tierfoto. |
+| **Pixel-Meeris** | 16 Rassenbilder einschließlich Skinny und 72 zusätzliche Farbvarianten. Neu sind je vier Brindle-/Schimmelbilder für English Crested, CH-Teddy, Coronet, Peruaner und Lunkarya. PC und App nutzen dieselben Zuordnungen für exakte Farben und 103 Farbgruppen; ein exaktes Bild hat Vorrang, ähnliche Farben können ein Gruppenbild derselben Rasse verwenden. Ohne passende Variante bleibt das Rassenbild, ohne bekannte Rasse Ryo. Die Illustration ist ein Beispiel und kein exakt rekonstruiertes Tierfoto. |
 | **RFID-Chipnummer** | Eine optionale Chipkennung als Text speichern, im Profil nachlesen und danach suchen. Führende Nullen bleiben erhalten. Der Abgleich mit Companion und Excel enthalten das Feld; zum Sync von Chipnummern Desktop ab 1.3.6 und Companion ab 0.4.1 verwenden. Das Feld erfasst die Kennung und liest keinen Chip mit dem Handy aus. |
 | **Fotos und Tierprofile** | Mehrere Bilder hinterlegen und im Profil Stammdaten, Familie, Gewicht und Krankenverlauf ansehen. Fotos werden für die Kartei verkleinert; ausgewählte Originaldateien bleiben unverändert. |
 | **Rassen, Farben und Gene** | Rassen- und Farbvorlagen auswählen, Farbcodes erklären lassen sowie eigene Angaben und bekannte Trägergene erfassen. Vorlagen sind kein Nachweis des individuellen Genotyps. |
@@ -86,8 +86,8 @@ Das X in der Lizenzabfrage beendet den Programmstart. Über **Nur lesen / Sicher
 
 ### Android installieren – Schritt für Schritt
 
-1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.5.0) wechseln.
-2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.5.0-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
+1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.5.2) wechseln.
+2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.5.2-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
 3. Die heruntergeladene APK über die Downloadmeldung oder die Dateien-App im Ordner **Downloads** öffnen.
 4. Meldet Android, dass diese Quelle keine Apps installieren darf, über die angezeigten **Einstellungen** die Installation für genau den verwendeten Browser oder die Dateien-App erlauben. Die Einstellung heißt je nach Gerät **Unbekannte Apps installieren** oder **Aus dieser Quelle zulassen**; häufig unter **Einstellungen → Apps → Spezieller App-Zugriff**. Nur für eine bewusst gewählte vertrauenswürdige Quelle freigeben. Hersteller und Android-Version können andere Bezeichnungen verwenden.
 5. Zur APK zurückkehren und **Installieren** wählen. Eine angebotene Sicherheitsprüfung abwarten. Beachte bei weiteren Meldungen den folgenden Abschnitt.
