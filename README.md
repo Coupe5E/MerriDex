@@ -2,7 +2,7 @@
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.6.0** und **Companion 0.7.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.6.2** und **Companion 0.7.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 **Update-Hinweis für ältere Companion-Versionen:** APKs ab 0.5.2 überschreiten deren bisherige 100-MiB-Grenze und werden eventuell nicht angeboten. Die aktuelle Companion-Version einmalig über den APK-Download installieren, ohne die vorhandene App zu deinstallieren. Danach berücksichtigt die Updatesuche größere Bildpakete.
 
@@ -175,8 +175,10 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. MeeriDEX für Windows ab 1.
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 25.10.2026 · Desktop 1.6.0 / Companion 0.7.0.*
+*Dokumentationsstand: 25.10.2026 · Desktop 1.6.2 / Companion 0.7.0.*
 
 ## MeeriHimmel
 
 Verstorbene Tiere können mit Todestag und optionaler Todesursache in MeeriHimmel aufgenommen werden. Profile, Fotos und Familienverknüpfungen bleiben erhalten. Windows und Android synchronisieren diese Angaben; dafür bitte beide Geräte auf Windows 1.6.0 und Companion 0.7.0 aktualisieren. Die Android-App bewahrt ungespeicherte Eingaben im MeeriHimmel-Dialog auch beim Drehen des Handys.
+
+Ab Windows 1.6.2 werden auch Zwei-Monats-Lizenzen unterstützt: zwei Kalendermonate ab erster Aktivierung, gemeinsamer Endtermin für beide PCs. Das WurfOrakel besitzt getrennte Eltern-/Ergebnisreiter, gesperrte widersprüchliche Genorte und Hinweise zu Genherkunft und Verwandtschaft.
