@@ -2,7 +2,7 @@
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.7.3** und **Companion 0.7.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.7.4** und **Companion 0.7.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 **Update-Hinweis für ältere Companion-Versionen:** APKs ab 0.5.2 überschreiten deren bisherige 100-MiB-Grenze und werden eventuell nicht angeboten. Die aktuelle Companion-Version einmalig über den APK-Download installieren, ohne die vorhandene App zu deinstallieren. Danach berücksichtigt die Updatesuche größere Bildpakete.
 
@@ -201,7 +201,7 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. MeeriDEX für Windows ab 1.
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 25.10.2026 · Desktop 1.7.3 / Companion 0.7.0.*
+*Dokumentationsstand: 25.10.2026 · Desktop 1.7.4 / Companion 0.7.0.*
 
 ## MeeriHimmel
 
@@ -222,3 +222,5 @@ MeeriDEX wird regulär unter Windows 10/11 geprüft. Der Fehler zur fehlenden `w
 ### Direkte Hilfe bei Laufzeitfehlern
 
 Ab 1.7.3 zeigt MeeriDEX bei erkannten SQLite-Ladefehlern einen Hilfedialog mit Update-Verweis und kopierbaren technischen Details. Bei Hinweisen auf fehlende Framework-Funktionen oder Framework-Dateien und einer zu alten erkannten .NET-Laufzeit bietet er den offiziellen Microsoft-Download an. Eine fehlende `winsqlite3.dll` wird nicht pauschal als .NET-Problem eingeordnet; dafür MeeriDEX ab 1.7.2 verwenden. Fehlt .NET vollständig und Windows kann die EXE gar nicht starten, ist ein appinterner Dialog nicht möglich; dafür die Microsoft-Verknüpfung im ZIP-Paket oder den Download in dieser Anleitung verwenden.
+
+Ab 1.7.4 öffnet eine fehlgeschlagene Online-Aktivierung einen Diagnose-Dialog mit Fehlerkategorie (Zertifikat, TLS, DNS, Timeout oder HTTP), ursprünglicher technischer Ursache, PC-Zeit und .NET-Version. Über „Details kopieren“ lassen sich diese zur Prüfung weitergeben. Der Bericht enthält keinen Lizenzcode, keine Namen und keine Tierdaten. Ein erfolgreicher Browsertest allein bestätigt nicht den Zertifikatszugriff von Windows/.NET.
