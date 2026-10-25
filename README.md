@@ -15,7 +15,7 @@ Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für di
 
 Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm. GitHubs „Source code“-ZIPs enthalten nur die öffentlichen Repository-Hinweise und sind ebenfalls keine Programmpakete.
 
-**Direkt zur Hilfe:** [Desktop installieren](#desktop-installieren-und-aktualisieren) · [Windows-SmartScreen](#windows-smartscreen-beim-download-oder-start) · [Desktop-Probleme](#probleme-am-pc) · [Android installieren](#android-installieren--schritt-für-schritt) · [Android-Warnungen](#android-warnungen-richtig-einordnen) · [App-Probleme](#probleme-in-der-app) · [WLAN-Sync](#pc-und-app-synchronisieren) · [Problem melden](#problem-melden)
+**Direkt zur Hilfe:** [.NET installieren](#net-framework-kostenlos-nachinstallieren) · [Desktop installieren](#desktop-installieren-und-aktualisieren) · [Windows-SmartScreen](#windows-smartscreen-beim-download-oder-start) · [Desktop-Probleme](#probleme-am-pc) · [Android installieren](#android-installieren--schritt-für-schritt) · [Android-Warnungen](#android-warnungen-richtig-einordnen) · [App-Probleme](#probleme-in-der-app) · [WLAN-Sync](#pc-und-app-synchronisieren) · [Problem melden](#problem-melden)
 
 ## MeeriDEX für Windows
 
@@ -53,6 +53,18 @@ Das X in der Lizenzabfrage beendet den Programmstart. Über **Nur lesen / Sicher
 4. Für spätere Updates **Updates prüfen** im Programm verwenden. Beim manuellen Austausch MeeriDEX zuerst schließen und den gesamten bisherigen Programmordner zusätzlich sichern. Die EXE am bisherigen Ort ersetzen, damit die vorhandenen Daten dort gefunden werden.
 
 **Daten aufbewahren:** `meeridex.sqlite` enthält die Tierkartei; `Profil` enthält unter anderem Züchterangaben und Tierfotos. Im Ordner `Sicherungen` liegen zusätzliche Backups. Für einen Umzug den gesamten Programmordner bei geschlossenem Programm kopieren. Die EXE allein enthält keine Tierkartei.
+
+### .NET Framework kostenlos nachinstallieren
+
+Falls MeeriDEX wegen einer fehlenden .NET-Laufzeit nicht startet: **[Offiziellen .NET Framework 4.8 Offline-Installer bei Microsoft herunterladen](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)**.
+
+1. Den Microsoft-Installer herunterladen und MeeriDEX schließen.
+2. Den Installer starten und die Windows-Abfrage nach Administratorrechten bestätigen. Benötigt wird die **Runtime**, kein Developer Pack und keine moderne „.NET Desktop Runtime“.
+3. Nach der Installation neu starten, falls der Installer dazu auffordert, und anschließend `MeeriDEX.exe` öffnen.
+
+Auf Windows 10/11 ist eine passende Laufzeit häufig bereits vorhanden. Wenn bereits eine neuere passende .NET-Framework-4.x-Version vorhanden ist, muss sie nicht ersetzt werden. Für **Windows 7 SP1** ist **4.8** vorgesehen, **nicht 4.8.1**. Die frühere `winsqlite3.dll`-Meldung wird durch MeeriDEX ab **1.7.2** behoben; eine .NET-Installation allein ersetzt diese Korrektur nicht.
+
+Künftige Programmpakete enthalten zusätzlich `NET-Framework-4.8-herunterladen.url` und `NET-Framework-Hilfe.txt`. Der Verweis führt direkt zum Microsoft-Download; der Installer wird nicht automatisch gestartet.
 
 ### Windows-SmartScreen beim Download oder Start
 
