@@ -8,9 +8,11 @@ Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für di
 
 ## Downloads und Schnellstart
 
+> **Windows 7: ausschließlich mit Service Pack 1 und .NET Framework 4.8 verwenden. Ältere .NET-Versionen (z. B. 4.6.1 oder 4.7.x) werden für Windows 7 nicht unterstützt. Zusätzlich müssen Datum/Uhrzeit stimmen und die Windows-Stammzertifikate aktuell sein. Ohne diese Voraussetzungen können Installation, Online-Aktivierung und Updates scheitern. .NET 4.8.1 ist für Windows 7 nicht geeignet.**
+
 | Anwendung | Download | Voraussetzung |
 | --- | --- | --- |
-| Windows-PC | [Aktuelle Desktop-Version](https://github.com/Coupe5E/MerriDex/releases/latest) – `MeeriDEX.exe` oder `MeeriDEX-Testversion.zip` | Windows 10/11; .NET Framework 4.8 empfohlen; SQLite ist enthalten |
+| Windows-PC | [Aktuelle Desktop-Version](https://github.com/Coupe5E/MerriDex/releases/latest) – `MeeriDEX.exe` oder `MeeriDEX-Testversion.zip` | Windows 10/11; Windows 7 nur mit SP1, .NET Framework 4.8 und aktuellen Stammzertifikaten (siehe Hinweis); SQLite ist enthalten |
 | Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.7.0) – `MeeriDex-Companion-0.7.0-test.apk` unter **Assets** | Android 8.0 oder neuer |
 
 Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm. GitHubs „Source code“-ZIPs enthalten nur die öffentlichen Repository-Hinweise und sind ebenfalls keine Programmpakete.
@@ -217,7 +219,9 @@ Bestehende Tiere und Verpaarungen bleiben erhalten. Vor dem Speichern werden aut
 
 ### Hinweis zu Windows 7
 
-MeeriDEX wird regulär unter Windows 10/11 geprüft. Der Fehler zur fehlenden `winsqlite3.dll` unter Windows 7 wird ab **1.7.2** durch eine eingebettete SQLite-Bibliothek vermieden. Das ist keine Zusage vollständiger Windows-7-Kompatibilität. Für einen Test Windows 7 SP1 mit [.NET Framework 4.8](https://support.microsoft.com/en-us/servicing/dotnetframework/2019/10/microsoft-net-framework-4-8-offline-installer-for-windows) verwenden; Aktivierung, Updates und Handy-Sync müssen auf dem tatsächlichen Rechner geprüft werden. Die produktive Kartei vorher sichern. Bei Fehlern Windows-Version, MeeriDEX-Version und den vollständigen Meldungstext angeben.
+> **Windows 7: ausschließlich mit Service Pack 1 und .NET Framework 4.8 verwenden. Ältere .NET-Versionen (z. B. 4.6.1 oder 4.7.x) werden für Windows 7 nicht unterstützt. Zusätzlich müssen Datum/Uhrzeit stimmen und die Windows-Stammzertifikate aktuell sein. Ohne diese Voraussetzungen können Installation, Online-Aktivierung und Updates scheitern. .NET 4.8.1 ist für Windows 7 nicht geeignet.**
+
+MeeriDEX wird regulär unter Windows 10/11 geprüft. Der Fehler zur fehlenden `winsqlite3.dll` unter Windows 7 wird ab **1.7.2** durch eine eingebettete SQLite-Bibliothek vermieden. Das ist keine Zusage vollständiger Windows-7-Kompatibilität. Voraussetzung für Windows 7 ist Windows 7 SP1 mit [.NET Framework 4.8](https://support.microsoft.com/en-us/servicing/dotnetframework/2019/10/microsoft-net-framework-4-8-offline-installer-for-windows) verwenden; Aktivierung, Updates und Handy-Sync müssen auf dem tatsächlichen Rechner geprüft werden. Die produktive Kartei vorher sichern. Bei Fehlern Windows-Version, MeeriDEX-Version und den vollständigen Meldungstext angeben.
 
 ### Direkte Hilfe bei Laufzeitfehlern
 
