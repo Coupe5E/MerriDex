@@ -15,7 +15,7 @@ Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für di
 
 Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm. GitHubs „Source code“-ZIPs enthalten nur die öffentlichen Repository-Hinweise und sind ebenfalls keine Programmpakete.
 
-**Direkt zur Hilfe:** [Desktop installieren](#desktop-installieren-und-aktualisieren) · [Desktop-Probleme](#probleme-am-pc) · [Android installieren](#android-installieren--schritt-für-schritt) · [Android-Warnungen](#android-warnungen-richtig-einordnen) · [App-Probleme](#probleme-in-der-app) · [WLAN-Sync](#pc-und-app-synchronisieren) · [Problem melden](#problem-melden)
+**Direkt zur Hilfe:** [Desktop installieren](#desktop-installieren-und-aktualisieren) · [Windows-SmartScreen](#windows-smartscreen-beim-download-oder-start) · [Desktop-Probleme](#probleme-am-pc) · [Android installieren](#android-installieren--schritt-für-schritt) · [Android-Warnungen](#android-warnungen-richtig-einordnen) · [App-Probleme](#probleme-in-der-app) · [WLAN-Sync](#pc-und-app-synchronisieren) · [Problem melden](#problem-melden)
 
 ## MeeriDEX für Windows
 
@@ -53,6 +53,20 @@ Das X in der Lizenzabfrage beendet den Programmstart. Über **Nur lesen / Sicher
 4. Für spätere Updates **Updates prüfen** im Programm verwenden. Beim manuellen Austausch MeeriDEX zuerst schließen und den gesamten bisherigen Programmordner zusätzlich sichern. Die EXE am bisherigen Ort ersetzen, damit die vorhandenen Daten dort gefunden werden.
 
 **Daten aufbewahren:** `meeridex.sqlite` enthält die Tierkartei; `Profil` enthält unter anderem Züchterangaben und Tierfotos. Im Ordner `Sicherungen` liegen zusätzliche Backups. Für einen Umzug den gesamten Programmordner bei geschlossenem Programm kopieren. Die EXE allein enthält keine Tierkartei.
+
+### Windows-SmartScreen beim Download oder Start
+
+Die aktuelle Windows-Version von MeeriDEX ist **noch nicht digital signiert**. Bei einer neuen oder wenig verbreiteten Datei können Microsoft Edge und Windows deshalb eine Warnung zu einer unbekannten Anwendung anzeigen. Eine Signatur-/Reputationswarnung ist von einer konkreten Schadsoftware-Erkennung zu unterscheiden.
+
+1. MeeriDEX ausschließlich von den [offiziellen GitHub-Releases dieses Projekts](https://github.com/Coupe5E/MerriDex/releases/latest) herunterladen. Unter **Assets** für die Erstinstallation `MeeriDEX-Testversion.zip` auswählen; `Source code` und `.sha256` sind keine Installationspakete.
+2. Falls Edge den Download als selten heruntergeladen meldet: Im Downloadmenü bei der Datei **…** öffnen. Wenn angeboten, **Beibehalten** und anschließend **Mehr anzeigen → Trotzdem beibehalten** wählen – erst nachdem Herkunft und genaue Warnung geprüft wurden. Die Bezeichnungen können je nach Edge-Version abweichen.
+3. Die ZIP mit Rechtsklick → **Alle extrahieren** in einen eigenen beschreibbaren Ordner, zum Beispiel unter **Dokumente**, entpacken. Dort `MeeriDEX.exe` starten.
+4. Erscheint beim Start die SmartScreen-Meldung **„Der Computer wurde durch Windows geschützt“** wegen einer unbekannten App, auf **Weitere Informationen** klicken. Wenn du dem Download aus diesem Projekt vertraust und die Option angeboten wird, **Trotzdem ausführen** wählen.
+5. Beim ersten Start unter **Lizenz / Aktivierung** Vorname, Nachname, Zuchtname und Lizenzcode eingeben. Alle Angaben müssen zur ausgestellten Lizenz passen; zur Aktivierung ist Internet erforderlich.
+
+**Andere Sicherheitsmeldung oder keine Fortsetzungsoption?** Den genauen Meldungstext beziehungsweise einen Screenshot und die MeeriDEX-Version melden. Bei einer konkreten Virenerkennung nicht nach dieser Anleitung fortfahren. Smart App Control oder verwaltete Geräte können andere Sperren anzeigen. Windows-Schutzfunktionen müssen für diese Anleitung nicht abgeschaltet werden.
+
+[Microsoft: Wie SmartScreen die Bekanntheit von Anwendungen bewertet](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation)
 
 ### Probleme am PC
 
