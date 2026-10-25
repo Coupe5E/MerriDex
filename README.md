@@ -2,7 +2,7 @@
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.7.1** und **Companion 0.7.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.7.2** und **Companion 0.7.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 **Update-Hinweis für ältere Companion-Versionen:** APKs ab 0.5.2 überschreiten deren bisherige 100-MiB-Grenze und werden eventuell nicht angeboten. Die aktuelle Companion-Version einmalig über den APK-Download installieren, ohne die vorhandene App zu deinstallieren. Danach berücksichtigt die Updatesuche größere Bildpakete.
 
@@ -10,7 +10,7 @@ Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für di
 
 | Anwendung | Download | Voraussetzung |
 | --- | --- | --- |
-| Windows-PC | [Aktuelle Desktop-Version](https://github.com/Coupe5E/MerriDex/releases/latest) – `MeeriDEX.exe` oder `MeeriDEX-Testversion.zip` | Windows 10/11; .NET Framework 4.x und die Windows-SQLite-Komponente |
+| Windows-PC | [Aktuelle Desktop-Version](https://github.com/Coupe5E/MerriDex/releases/latest) – `MeeriDEX.exe` oder `MeeriDEX-Testversion.zip` | Windows 10/11; .NET Framework 4.8 empfohlen; SQLite ist enthalten |
 | Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.7.0) – `MeeriDex-Companion-0.7.0-test.apk` unter **Assets** | Android 8.0 oder neuer |
 
 Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm. GitHubs „Source code“-ZIPs enthalten nur die öffentlichen Repository-Hinweise und sind ebenfalls keine Programmpakete.
@@ -73,7 +73,7 @@ Die aktuelle Windows-Version von MeeriDEX ist **noch nicht digital signiert**. B
 | Problem | Was du prüfen kannst |
 | --- | --- |
 | **Meldung zu fehlendem .NET Framework / Programm startet nicht** | Windows aktualisieren und die passende **.NET Framework 4.x-Laufzeit** von Microsoft prüfen/installieren, beispielsweise 4.8 oder 4.8.1 passend zur Windows-Version. Neuere Windows-Versionen enthalten sie bereits. Das ist ein anderes Produkt als die moderne „.NET Desktop Runtime“. [Microsoft-Anleitung](https://learn.microsoft.com/de-de/dotnet/framework/install/on-windows-10). |
-| **`winsqlite3.dll` fehlt** | MeeriDEX nutzt die SQLite-Komponente von Windows 10/11. Windows-Version und Systemupdates prüfen; auf einem unterstützten System gegebenenfalls Windows reparieren lassen. Keine einzelnen DLLs von fremden Downloadseiten beziehen. Ein SQL-Server muss nicht installiert werden. |
+| **`winsqlite3.dll` fehlt** | Ab **1.7.2** enthält die EXE ihre eigene SQLite-Bibliothek; `winsqlite3.dll` muss nicht mehr vorhanden sein. Eine ältere MeeriDEX-Version durch die aktuelle EXE ersetzen, dabei den Datenordner behalten. Keine einzelnen DLLs von fremden Downloadseiten beziehen. Bei weiterem Fehler den vollständigen Meldungstext melden. |
 | **Muss ich Java, Office oder Datenbankwerkzeuge nachinstallieren?** | Nein. Java, Python, Android Studio und ein separater SQLite-/SQL-Server werden für die Nutzung nicht benötigt. Excel muss für Import und Export nicht installiert sein; zum Ansehen einer XLSX-Datei ist ein kompatibles Tabellenprogramm nötig. |
 | **Windows oder Virenschutz warnt vor dem Download** | Eine unbekannte oder wenig verbreitete EXE kann einen Hinweis auslösen. Das allein sagt nicht, dass sie schädlich ist. Herkunft und genaue Meldung prüfen; eine konkrete Virenerkennung nicht pauschal ignorieren und den Virenschutz nicht für MeeriDEX abschalten. Mit Meldung und Version ein Problem melden. |
 | **Speichern oder Sicherung schlägt fehl** | Freien Speicherplatz und Schreibrechte im Programmordner prüfen. Einen eigenen beschreibbaren Ordner verwenden; das Programm nicht innerhalb einer ZIP betreiben. Eine fehlgeschlagene Sicherung verhindert die automatische Updateinstallation. |
@@ -189,7 +189,7 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. MeeriDEX für Windows ab 1.
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 25.10.2026 · Desktop 1.7.1 / Companion 0.7.0.*
+*Dokumentationsstand: 25.10.2026 · Desktop 1.7.2 / Companion 0.7.0.*
 
 ## MeeriHimmel
 
@@ -202,3 +202,7 @@ Ab Windows 1.6.2 werden auch Zwei-Monats-Lizenzen unterstützt: zwei Kalendermon
 Ab Windows 1.7.0 gibt es unter „Meine Meeris“ den eigenen Knopf „MeeriPro3 importieren“. Eine Original-ZIP mit genau einer `.back3up`-Datei und zugehörigen Fotos auswählen. Die Vorschau zeigt neue Tiere und mögliche Dubletten. Je Tier kann man neu anlegen, vorhandene Angaben behalten, bekannte Importwerte übernehmen oder den Eintrag auslassen. Elternverweise werden entsprechend zugeordnet; mehrdeutige Zuordnungen und Familienkreise müssen vor dem Speichern gelöst werden.
 
 Bestehende Tiere und Verpaarungen bleiben erhalten. Vor dem Speichern werden automatisch Sicherungen angelegt. Unter `Importberichte` bleiben Original-ZIP, vollständige Originaltabellen und die Importentscheidungen lokal erhalten. Nicht automatisch abgebildete Zusatzdaten werden vor dem Übernehmen ausdrücklich genannt. Der MeeriPro3-Import benötigt kein Python.
+
+### Hinweis zu Windows 7
+
+MeeriDEX wird regulär unter Windows 10/11 geprüft. Der Fehler zur fehlenden `winsqlite3.dll` unter Windows 7 wird ab **1.7.2** durch eine eingebettete SQLite-Bibliothek vermieden. Das ist keine Zusage vollständiger Windows-7-Kompatibilität. Für einen Test Windows 7 SP1 mit [.NET Framework 4.8](https://support.microsoft.com/en-us/servicing/dotnetframework/2019/10/microsoft-net-framework-4-8-offline-installer-for-windows) verwenden; Aktivierung, Updates und Handy-Sync müssen auf dem tatsächlichen Rechner geprüft werden. Die produktive Kartei vorher sichern. Bei Fehlern Windows-Version, MeeriDEX-Version und den vollständigen Meldungstext angeben.
