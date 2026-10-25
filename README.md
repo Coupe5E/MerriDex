@@ -2,7 +2,7 @@
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.8.0** und **Companion 0.8.0**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.8.1** und **Companion 0.8.1**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 **Update-Hinweis für ältere Companion-Versionen:** APKs ab 0.5.2 überschreiten deren bisherige 100-MiB-Grenze und werden eventuell nicht angeboten. Die aktuelle Companion-Version einmalig über den APK-Download installieren, ohne die vorhandene App zu deinstallieren. Danach berücksichtigt die Updatesuche größere Bildpakete.
 
@@ -11,6 +11,16 @@ Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für di
 **Deine eigenen Meeris gehören immer unter „Meine Meeris“ in den aktuellen Bestand.** Dort im Tierprofil über „Bearbeiten“ Mutter und Vater zuordnen. **Aus diesen Verknüpfungen entsteht der Stammbaum automatisch.** Unter „Stammbäume“ wird er angezeigt.
 
 **„Tiere für den Stammbaum“ ist nur für Vorfahren und andere Tiere außerhalb deines aktuellen Bestands vorgesehen.** Eigene Tiere versehentlich dort angelegt? Unter „Stammbäume → Tiere für den Stammbaum“ das Tier auswählen und **„In Bestand übernehmen“** anklicken. Profil, Fotos und Familienverknüpfungen bleiben erhalten; das Tier muss nicht neu angelegt werden.
+
+## Abgabe: übernehmende Personen und Zuchten
+
+Ab **MeeriDEX 1.8.1 / Companion 0.8.1** lassen sich bei einer Abgabe **Name, optionaler Zuchtname, Anschrift, Telefon, E-Mail und eine Notiz zur Abgabe** eintragen. Alle Angaben sind freiwillig; ältere Abgaben ohne Kontakt bleiben gültig. Der Zuchtname der übernehmenden Person ist von der Herkunftszucht des Tiers getrennt.
+
+Am PC unter **Abgabe → Abgabedaten bearbeiten** erfassen oder beim Abgeben direkt ergänzen. Person und Zuchtname stehen in der Abgabeliste und können über **Tier / Person / Zucht** gesucht werden. Die vollständigen Angaben stehen im Tierprofil. **Zurück in Hauptliste** nimmt die Abgabe zurück und entfernt auch die zugehörigen Empfängerangaben.
+
+Auf Android das Profil eines abgegebenen Tiers öffnen und **Übernehmende Person bearbeiten** wählen. Dort können die Kontaktdaten ergänzt oder geändert werden. Abgabedatum, Gewicht und Preis werden weiterhin am PC erfasst. Beim Drehen des Handys bleibt das offene Kontaktformular erhalten.
+
+Die Angaben werden pro Tier gespeichert und über SQLite, ZIP, Excel und WLAN mitgenommen. Normale Profiländerungen erhalten sie. Beim Abgleich werden unterschiedliche Kontaktangaben als Profilkonflikt angezeigt. **Windows und Android gemeinsam aktualisieren**; ältere Versionen werden zum Update aufgefordert, bevor sie neue Kontaktangaben verlieren könnten.
 
 ## Würfe auf PC und Android
 
@@ -30,7 +40,7 @@ Ab **MeeriDEX 1.8.0 / Companion 0.8.0** gibt es eine Wurfliste im gewohnten Pixe
 | Anwendung | Download | Voraussetzung |
 | --- | --- | --- |
 | Windows-PC | [Aktuelle Desktop-Version](https://github.com/Coupe5E/MerriDex/releases/latest) – `MeeriDEX.exe` oder `MeeriDEX-Testversion.zip` | Windows 10/11; Windows 7 nur mit SP1, .NET Framework 4.8 und aktuellen Stammzertifikaten (siehe Hinweis); SQLite ist enthalten |
-| Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.0) – `MeeriDex-Companion-0.8.0-test.apk` unter **Assets** | Android 8.0 oder neuer |
+| Android | [Aktuelle Companion-Testversion](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.1) – `MeeriDex-Companion-0.8.1-test.apk` unter **Assets** | Android 8.0 oder neuer |
 
 Die Datei `.sha256` enthält eine Prüfsumme und ist kein Installationsprogramm. GitHubs „Source code“-ZIPs enthalten nur die öffentlichen Repository-Hinweise und sind ebenfalls keine Programmpakete.
 
@@ -138,8 +148,8 @@ Die aktuelle Windows-Version von MeeriDEX ist **noch nicht digital signiert**. B
 
 ### Android installieren – Schritt für Schritt
 
-1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.0) wechseln.
-2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.8.0-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
+1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.1) wechseln.
+2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.8.1-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
 3. Die heruntergeladene APK über die Downloadmeldung oder die Dateien-App im Ordner **Downloads** öffnen.
 4. Meldet Android, dass diese Quelle keine Apps installieren darf, über die angezeigten **Einstellungen** die Installation für genau den verwendeten Browser oder die Dateien-App erlauben. Die Einstellung heißt je nach Gerät **Unbekannte Apps installieren** oder **Aus dieser Quelle zulassen**; häufig unter **Einstellungen → Apps → Spezieller App-Zugriff**. Nur für eine bewusst gewählte vertrauenswürdige Quelle freigeben. Hersteller und Android-Version können andere Bezeichnungen verwenden.
 5. Zur APK zurückkehren und **Installieren** wählen. Eine angebotene Sicherheitsprüfung abwarten. Beachte bei weiteren Meldungen den folgenden Abschnitt.
@@ -220,7 +230,7 @@ Copyright (c) 2026 Coupe5E. Alle Rechte vorbehalten. MeeriDEX für Windows ab 1.
 
 Die GitHub-Adresse enthält aus Gründen der Update-Kompatibilität weiterhin die frühere Schreibweise. Die Anwendungen heißen **MeeriDEX** und **MeeriDex Companion**.
 
-*Dokumentationsstand: 25.10.2026 · Desktop 1.8.0 / Companion 0.8.0.*
+*Dokumentationsstand: 25.10.2026 · Desktop 1.8.1 / Companion 0.8.1.*
 
 ## MeeriHimmel
 
