@@ -2,7 +2,7 @@
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.9.4** und **Companion 0.8.5**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.9.5** und **Companion 0.8.5**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 **Update-Hinweis für ältere Companion-Versionen:** APKs ab 0.5.2 überschreiten deren bisherige 100-MiB-Grenze und werden eventuell nicht angeboten. Die aktuelle Companion-Version einmalig über den APK-Download installieren, ohne die vorhandene App zu deinstallieren. Danach berücksichtigt die Updatesuche größere Bildpakete.
 
@@ -51,6 +51,17 @@ Ab **MeeriDEX 1.9.1 / Companion 0.8.2** unter **Züchterprofil → Logo auswähl
 Das Logo wird proportional auf höchstens 768 Pixel verkleinert und als PNG direkt im Profil gespeichert. Transparenz bleibt erhalten. Es erscheint in einer Ecke der Tierprofile und oben auf dem **A4-Stammbaum in PDF und Ausdruck**. Der Kopf zeigt das Logo deines Züchterprofils; es bezeichnet nicht automatisch den Herkunftszüchter des jeweiligen Tiers.
 
 Mit **Profil speichern** werden Auswahl und Entfernung übernommen; **Abbrechen** verwirft die Änderung. Das Logo ist in der normalen ZIP-Sicherung enthalten. Nach einem erfolgreichen **WLAN-Sync** zeigt Android es im PC-Züchterprofil und auf den Tierprofilen. Auch das Entfernen wird übertragen. Das Logo wird am PC gepflegt; ältere Companion-Versionen zeigen es noch nicht an. Es wird nicht an den Lizenzdienst geschickt.
+
+## Neu in Windows 1.9.5: Ryo räumt auf
+
+- Die Tierliste zeigt **Geboren am** statt der Farbcode-Spalte. Farbcodes bleiben im Profil verfügbar.
+- Im Tierprofil sind **Eigene Würfe** und **Geburtswurf** getrennt. Bei Nachkommen steht die jeweilige Liste; ähnliche Einträge werden als mögliche Doppelgänger gekennzeichnet.
+- Bei gleichem Namen, Geburtstag und gleichen Eltern fragt Ryo vor dem Speichern freundlich nach. Ein bewusst weiteres Tier bleibt möglich; vorhandene Tiere werden nicht automatisch zusammengeführt oder gelöscht.
+- Nach erfolgreichem Speichern eines Tierprofils bestätigt eine Pixel-Sprechblase: **Alles im Nest – gespeichert!**
+- Im A4-Fenster gibt es **Foto im Profil speichern** (dauerhaft) und **Foto nur für dieses Blatt** (nur der aktuelle Export). Die Auswahl zeigt die tatsächliche Fotoquelle. **Foto auf diesem Blatt ausblenden** löscht kein Profilfoto.
+- **Ryos Leselupe**, Zoomknöpfe und Scrollen machen die Vorschau gut lesbar. Die A4-Ausgabe bleibt unverändert. Das **Zuchtlogo / Züchterprofil** lässt sich direkt aus dem A4-Fenster öffnen.
+
+Android bleibt bei Companion 0.8.5. Dieses Update benötigt keine Änderung der Datenbank oder des Sync-Formats. Für einen gemeldeten bestehenden Doppelgänger ist weiterhin die konkrete Kartei zur Ursachenklärung nötig.
 
 ## Stammbaum als A4-PDF exportieren und drucken
 
