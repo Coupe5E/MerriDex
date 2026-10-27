@@ -1,10 +1,18 @@
-# MeeriDEX & MeeriDex Companion
+﻿# MeeriDEX & MeeriDex Companion
 
 Deine Meerschweinchenverwaltung im Pixel-Look: **MeeriDEX für Windows** für die vollständige Kartei und **MeeriDex Companion für Android** für Tierprofile und Fotos unterwegs. Beide speichern Tierdaten lokal und gleichen Tierprofile und Fotos im selben privaten WLAN ab. Windows ab 1.4.0 benötigt eine personalisierte Lizenz mit Online-Aktivierung; Android bleibt kostenlos. Der Lizenzdienst erhält keine Tierprofile oder Tierfotos.
 
-> Aktuell: **MeeriDEX 1.9.5** und **Companion 0.8.5**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
+> Aktuell: **MeeriDEX 1.9.13** und **Companion 0.8.5**. Companion ist eine **Android-Testversion** und steht deshalb als „Pre-release“ bei GitHub.
 
 **Update-Hinweis für ältere Companion-Versionen:** APKs ab 0.5.2 überschreiten deren bisherige 100-MiB-Grenze und werden eventuell nicht angeboten. Die aktuelle Companion-Version einmalig über den APK-Download installieren, ohne die vorhandene App zu deinstallieren. Danach berücksichtigt die Updatesuche größere Bildpakete.
+
+## Neu in Windows 1.9.13: Deine Bande macht Gurkenpause
+
+Unter **Meine Meeris** begrüßen dich bis zu vier zufällig ausgewählte Pixel-Meeris aus deinem eigenen Bestand, mit Namen, passender Rasse und Farbe. Ihre Anzahl passt sich der Fensterbreite an; Zweiergruppen schauen einander an. Im **A4-Stammbaum** sind die Vorfahrenbilder jetzt größer.
+
+Als kleine Spielerei lässt jedes angezeigte Meeri unabhängig alle **12–90 Sekunden** einen Pixel-Kötel fallen. Die Kötel hüpfen auf Bedienelementen, rollen über deren Kanten, stoßen zusammen und bleiben unten liegen. Mit der linken Maustaste kannst du sie in den **Pixel-Mülleimer unten rechts** ziehen.
+
+Unter **Optionen → Kötelparty** die Animation ein-/ausschalten oder Platz für **1–200 Kötel** einstellen (Standard: 50). Mausbewegungen lassen den Haufen liegen; ein Ansichtswechsel räumt auf. Ist die Grenze voll, räumt der nächste neue Kötel ebenfalls auf. Mengenänderungen und Ansichtswechsel unterbrechen den Nachschub nicht. Tierdaten werden durch die Spielerei nicht verändert. Android bleibt bei Companion 0.8.5.
 
 ## Neue CH-Teddy-Pixelbilder
 
