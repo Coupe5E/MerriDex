@@ -9,8 +9,8 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 ## Schnellstart & Downloads
 
 <p align="center">
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.13/MeeriDEX-Testversion.zip"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.13 für Windows herunterladen – Programm-ZIP" width="280"></a>
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.5/MeeriDex-Companion-0.8.5-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion 0.8.5 für Android herunterladen – Test-APK" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.15/MeeriDEX-Testversion.zip"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.15 für Windows herunterladen – Programm-ZIP" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.6/MeeriDex-Companion-0.8.6-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion 0.8.6 für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
 | Am Windows-PC einziehen | Auf Android loslegen |
@@ -21,7 +21,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 **Voraussetzungen:** Windows 10/11 mit .NET Framework 4.8 oder passender neuerer 4.x-Laufzeit · Android ab 8.0. **Windows braucht eine Lizenz; Android bleibt kostenlos.** Companion ist eine Testversion außerhalb des Play Stores.
 
-[Windows-EXE einzeln / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.5) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
+[Windows-EXE einzeln / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.6) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
 
 **Hilfe beim ersten Start:** [Windows installieren & SmartScreen](docs/Handbuch.md#windows-smartscreen-beim-download-oder-start) · [Android Schritt für Schritt & Warnmeldungen](docs/Handbuch.md#android-installieren--schritt-für-schritt) · [Windows 7](docs/Handbuch.md#hinweis-zu-windows-7)
 
@@ -137,4 +137,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 28.10.2026 · Windows 1.9.13 · Companion 0.8.5 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 28.10.2026 · Windows 1.9.15 · Companion 0.8.6 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
