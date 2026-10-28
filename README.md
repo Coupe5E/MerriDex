@@ -9,13 +9,13 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 ## Schnellstart & Downloads
 
 <p align="center">
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.16/MeeriDEX-Testversion.zip"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.16 für Windows herunterladen – Programm-ZIP" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.16/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.16 für Windows herunterladen – EXE" width="280"></a>
   <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.6/MeeriDex-Companion-0.8.6-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion 0.8.6 für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
 | Am Windows-PC einziehen | Auf Android loslegen |
 | --- | --- |
-| **1.** Programm-ZIP laden und vollständig in einen eigenen, beschreibbaren Ordner entpacken. | **1.** Die APK direkt auf dem Handy herunterladen und öffnen. |
+| **1.** EXE laden und in einen eigenen, beschreibbaren Ordner legen. | **1.** Die APK direkt auf dem Handy herunterladen und öffnen. |
 | **2.** `MeeriDEX.exe` starten, Lizenz aktivieren und Züchterprofil ausfüllen. | **2.** Falls angefordert, die Installation für die verwendete Downloadquelle erlauben und **Installieren** wählen. |
 | **3.** Unter **Meine Meeris → + Tier hinzufügen** die erste Fellnase anlegen. | **3.** Ein Tier anlegen oder die App über **Sync** mit dem PC verbinden. |
 
