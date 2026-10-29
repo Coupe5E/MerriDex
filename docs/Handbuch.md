@@ -148,14 +148,16 @@ Der Abgleich überträgt Tierprofile und Fotos in beide Richtungen verschlüssel
 
 ## Stammbaum als A4-PDF exportieren und drucken
 
-Ab **1.9.18** stehen überlange Rassen- und Farbgenetik vollständig auf automatischen **Genetik-Beiblättern**. Verweise wie **[G1]** verbinden Tierkarte und vollständige Angabe. Auf dem Beiblatt stehen Tiername, Tierkennung, Feld und Ahnenposition. Wiederholte Darstellungen desselben Eintrags verwenden denselben Verweis. Die Profile bleiben unverändert. Auch ein kompaktes Ahnenblatt kann deshalb zusätzliche Genetik-Beiblätter erhalten; Vorschauseitenauswahl, PDF und Druck enthalten sie automatisch.
+Ab **1.9.19** stehen Rassengenetik und Farbcodes grundsätzlich in einer eigenen **Übersicht ab Seite 2**. Jedes bekannte Tier aus dem gewählten Stammbaum erhält einen Eintrag mit seinem Namen als Überschrift und beiden Angaben darunter. G-Nummern und entsprechende Kartenverweise entfallen. Wiederkehrende Tiere erscheinen einmal; unterschiedliche Tiere mit gleichem Namen bleiben getrennte Einträge. Fehlende Codes stehen als „nicht erfasst“ da. Die gespeicherten Profile werden beim Druck nicht verändert.
+
+Die Reihenfolge lautet: Hauptblatt, Genetikübersicht(en), weitere Familienblätter. Alle Seitenzahlen und Anschlussverweise werden automatisch angepasst. Mit kurzen Codes passen 15 Tiere vollständig auf eine zweite Seite. Bei vielen Tieren oder langen Texten kommen zusätzliche Übersichtsseiten hinzu. Auch die kompakte Fünf-Generationen-Ausgabe erhält vollständige Einträge für alle bekannten Tiere. Lange Farbnamen nutzen auf dem Hauptblatt und den Vorfahrenkarten bis zu zwei Zeilen.
 
 Links sind **„Blatt & Ahnen“** und **„Foto & Zucht“** getrennt. Der erste Bereich enthält Generationen und Ausgabeart, der zweite Fotoauswahl, Zuchtlogo und zusätzliche Adresszeile. Die Werkzeugleiste passt ihre Höhe an die Fensterbreite an, damit die Seitenauswahl erreichbar bleibt.
 
 Andere nicht darstellbare Angaben nennen Tier, Tierkennung, Feld, Ahnenposition, einen Inhaltsauszug und die Zeichenanzahl oben in Rot. Der normale Bildschirm-Stammbaum verwendet jetzt dieselben rassen- und farbabhängigen Pixelbilder wie die Tierliste.
 
 
-Ab **1.9.17** gibt es zusätzlich **5 Generationen kompakt** mit bis zu 31 Tieren auf einem Blatt. Entfernte Vorfahren haben kurze Karten mit Name, Geschlecht, Geburtstag, Rasse und Farbe. Alternativ stehen **5 oder 6 Generationen mit Folgeseiten** bereit: bei vollständigen Ahnen drei bzw. sieben Blätter mit Seitenzahlen und Anschlussverweisen. Die Anschlussseiten zeigen Vater- und Mutterlinien mit ihren zugehörigen Tieren; unbekannte Ahnen erzeugen keine leeren Zusatzseiten.
+Ab **1.9.17** gibt es zusätzlich **5 Generationen kompakt** mit bis zu 31 Tieren auf einem Blatt. Entfernte Vorfahren haben kurze Karten mit Name, Geschlecht, Geburtstag, Rasse und Farbe. Alternativ stehen **5 oder 6 Generationen mit Folgeseiten** bereit: bei vollständigen Ahnen drei bzw. sieben Familienblätter mit Seitenzahlen und Anschlussverweisen, zusätzlich zu den Genetikübersichten. Die Anschlussseiten zeigen Vater- und Mutterlinien mit ihren zugehörigen Tieren; unbekannte Ahnen erzeugen keine leeren Zusatzseiten.
 
 Die Seitenauswahl neben den Zoomknöpfen zeigt jedes Blatt einzeln. PDF und Druck geben alle Blätter aus. Auf der Hauptseite gilt die gewählte Foto-Option, auf Anschlussseiten steht das passende Pixel-Meeri beim jeweiligen Tier.
 
