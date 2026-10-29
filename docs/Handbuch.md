@@ -148,6 +148,13 @@ Der Abgleich überträgt Tierprofile und Fotos in beide Richtungen verschlüssel
 
 ## Stammbaum als A4-PDF exportieren und drucken
 
+Ab **1.9.17** gibt es zusätzlich **5 Generationen kompakt** mit bis zu 31 Tieren auf einem Blatt. Entfernte Vorfahren haben kurze Karten mit Name, Geschlecht, Geburtstag, Rasse und Farbe. Alternativ stehen **5 oder 6 Generationen mit Folgeseiten** bereit: bei vollständigen Ahnen drei bzw. sieben Blätter mit Seitenzahlen und Anschlussverweisen. Die Anschlussseiten zeigen Vater- und Mutterlinien mit ihren zugehörigen Tieren; unbekannte Ahnen erzeugen keine leeren Zusatzseiten.
+
+Die Seitenauswahl neben den Zoomknöpfen zeigt jedes Blatt einzeln. PDF und Druck geben alle Blätter aus. Auf der Hauptseite gilt die gewählte Foto-Option, auf Anschlussseiten steht das passende Pixel-Meeri beim jeweiligen Tier.
+
+Fehler erscheinen oben in roter Schrift auf einem hellroten Hinweisfeld. Statt einer weißen Vorschau steht ein Hinweis auf den nächsten Schritt. Meldungen erklären zu lange Angaben, unlesbare Tierfotos und Logos, doppelte Geburtsgewichte und Tierkennungen sowie Kreise in der Abstammung. Fehlende normale Angaben und unbekannte Vorfahren bleiben erlaubt. Nach einer Korrektur die Vorschau aktualisieren; bei einem Foto-Problem gegebenenfalls „Foto auf diesem Blatt ausblenden“ wählen. Technische Details bleiben lokal unter `Diagnose/A4-Stammbaum-letzter-Fehler.txt`.
+
+
 Ab **MeeriDEX 1.9.0** am Windows-PC unter **Stammbäume** ein Tier auswählen und **A4-Stammbaum / PDF** öffnen. Standard sind **vier Generationen inklusive des gewählten Tiers**: Tier, Eltern, Großeltern und Urgroßeltern. Für größere Schrift ist auch eine Dreigenerationen-Ausgabe möglich.
 
 Oben stehen Zuchtname, Name, Ort, Telefon, E-Mail und Website aus dem Züchterprofil. Eine zusätzliche Adresszeile kann für den jeweiligen Export ergänzt werden. Der Kopf verwendet dein Züchterprofil; der Herkunftszüchter jedes Tiers steht separat bei dessen Daten. Abgabe-Empfänger werden nicht in den Stammbaum übernommen.
@@ -156,7 +163,7 @@ Beim gewählten Tier ein **hinterlegtes echtes Profilfoto auswählen** oder ein 
 
 Enthalten sind Name, Geschlecht, Geburtstag, Rasse, Farbe, Herkunftszüchter, Geburtsgewicht, Wurfquote, Genetik-/Rassencode und Farbcode, soweit eingetragen. **Geburtsgewicht** wird nur aus einer Gewichtsmessung am tatsächlichen Geburtstag übernommen. Die **Wurfquote M/W/T** bezeichnet den Geburtswurf des jeweiligen Tiers, nicht dessen eigene späteren Würfe. Bei automatisch abgeleiteten Würfen bleiben unbekannte Totgeburten als **?** erkennbar; fehlendes Geschlecht ergibt **unvollständig**. Fehlende Angaben und Vorfahren werden nicht geraten.
 
-**Als PDF speichern** erzeugt eine einzelne A4-Seite im Hochformat als verlustfreies Bild-PDF mit **300 dpi**. Es benötigt keinen installierten PDF-Drucker und keine zusätzliche Laufzeit. Der Text ist im Bild-PDF nicht separat markierbar. Alternativ öffnet **Drucken** die Windows-Druckerauswahl. Für das PDF beim Ausdruck **A4 und tatsächliche Größe / 100 %** wählen. Eine Vorschau ist direkt im Exportfenster sichtbar.
+**Als PDF speichern** erzeugt je nach Auswahl eine oder mehrere A4-Seiten im Hochformat als verlustfreies Bild-PDF mit **300 dpi**. Es benötigt keinen installierten PDF-Drucker und keine zusätzliche Laufzeit. Der Text ist im Bild-PDF nicht separat markierbar. Alternativ öffnet **Drucken** die Windows-Druckerauswahl. Für das PDF beim Ausdruck **A4 und tatsächliche Größe / 100 %** wählen. Eine Vorschau ist direkt im Exportfenster sichtbar.
 
 Außergewöhnlich lange Angaben werden nicht still abgeschnitten: Bei zu umfangreichen Daten erscheint eine Meldung. Dann gegebenenfalls drei Generationen wählen oder die Angaben prüfen. Der Export verändert keine Tierdaten und ist auch im Lesemodus möglich. Die Druckfunktion ist zunächst in Windows verfügbar.
 
