@@ -9,7 +9,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 ## Schnellstart & Downloads
 
 <p align="center">
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.17/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.17 für Windows herunterladen – EXE" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.18/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.18 für Windows herunterladen – EXE" width="280"></a>
   <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.6/MeeriDex-Companion-0.8.6-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion 0.8.6 für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
@@ -44,7 +44,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 | --- | --- |
 | **Meine Meeris & Profile** | Tiere anlegen, suchen und bearbeiten: Name, Geschlecht, Geburtstag, Rasse, Farbe, Herkunft, Eltern, Notizen und Kastrationsangaben. Mehrere Fotos pro Tier und optionale RFID-Chipnummern gehören dazu. |
 | **Familie & Stammbäume** | Mutter, Vater und Geschwister verknüpfen, Familienbäume über drei bis sechs Generationen erkunden und Profile direkt öffnen. |
-| **A4-Stammbaum & PDF** | Einen Stammbaum mit Tierfoto, größeren Pixelbildern der Vorfahren und deinem Zuchtlogo als A4-PDF speichern oder drucken. Bis zu 31 Tiere auf einem Blatt oder fünf/sechs Generationen mit verknüpften Folgeseiten. Mit Seitenauswahl, Zoom, Ryos Leselupe und roten Fehlerhinweisen oben. |
+| **A4-Stammbaum & PDF** | Einen Stammbaum mit Tierfoto, größeren Pixelbildern der Vorfahren und deinem Zuchtlogo als A4-PDF speichern oder drucken. Bis zu 31 Tiere auf einem Blatt oder fünf/sechs Generationen mit verknüpften Folgeseiten. Mit automatischen Genetik-Beiblättern, Seitenauswahl, Zoom, Ryos Leselupe und genauen roten Fehlerhinweisen oben. |
 | **Gewicht & Erinnerungen** | Messungen mit Datum erfassen und als Verlauf ansehen. Eigene Aufgaben mit Termin, Wiederholung und Notizen anlegen, abhaken oder verschieben. |
 | **Verpaarungen & Würfe** | Käfige und Tiergruppen planen, Start- und Enddaten festhalten und Würfe mit Eltern, Jungtieren und M/W/T-Quote verwalten. |
 | **Farben & WurfOrakel** | Rassen, Farbvorlagen, Codes und bekannte Trägergene erfassen; mögliche Genpaare des Nachwuchses ansehen. Unvollständige Angaben bleiben als solche erkennbar. |
@@ -139,4 +139,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 29.10.2026 · Windows 1.9.17 · Companion 0.8.6 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 29.10.2026 · Windows 1.9.18 · Companion 0.8.6 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
