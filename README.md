@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="docs/assets/meeridex-banner.svg" alt="MeeriDEX – Deine Meeri-Bande. Alles im Nest." width="100%">
 </p>
 
@@ -8,8 +8,11 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 ## Schnellstart & Downloads
 
+**Neu in Windows 1.9.20:** MeeriPro3-Sicherungen lassen sich direkt als `.back3up` importieren. Den zugehörigen Ordner `Name._bilder` neben `Name.back3up` belassen; die Fotos werden automatisch erkannt. ZIP bleibt unterstützt. Unter **Meine Meeris → MeeriPro3 importieren** zeigt die Vorschau mögliche Dubletten und fehlende Bilder, bevor die geprüfte Auswahl übernommen wird.
+
+
 <p align="center">
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.19/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.19 für Windows herunterladen – EXE" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.20/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.20 für Windows herunterladen – EXE" width="280"></a>
   <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.6/MeeriDex-Companion-0.8.6-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion 0.8.6 für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
@@ -51,7 +54,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 | **Krankenstation** | Befunde, Verdachtsfälle, Behandlungen und Krankheitsverläufe dokumentieren sowie Familienbeziehungen nachsehen. |
 | **Abgabe & MeeriHimmel** | Ausgezogene Tiere mit Datum, Kontaktangaben und optionalem Verkaufspreis verwalten. Verstorbene Meeris behalten ihr Profil, ihre Fotos und ihren Platz im Stammbaum. |
 | **Züchterprofil** | Zuchtname, Ort, Kontakte und ein eigenes Logo hinterlegen; Vorgaben für neue Tiere übernehmen. |
-| **Sicherungen & Import** | ZIP-Sicherungen, Excel-Import/-Export und MeeriPro3-ZIP-Übernahme. Vor Programmupdates erstellt MeeriDEX automatisch eine ZIP- und eine Excel-Sicherung. |
+| **Sicherungen & Import** | ZIP-Sicherungen, Excel-Import/-Export und MeeriPro3-Übernahme aus `.back3up` oder ZIP. Vor Programmupdates erstellt MeeriDEX automatisch eine ZIP- und eine Excel-Sicherung. |
 | **Pixel-Meeris & kleine Extras** | Passende Rassen- und Farbbilder, bis zu vier eigene Meeris mit Namen im Kopfbereich, pixelige „So geht’s“-Sprechblasen und eine abschaltbare Kötelparty. |
 
 **Eigene Tiere gehören unter „Meine Meeris“.** „Tiere für den Stammbaum“ ist für Vorfahren und andere Tiere außerhalb deines aktuellen Bestands gedacht. [Mehr zur Familie und zum Stammbaum](docs/Handbuch.md#eigene-tiere-und-stammbaum-richtig-anlegen)
@@ -139,4 +142,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 29.10.2026 · Windows 1.9.19 · Companion 0.8.6 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 01.11.2026 · Windows 1.9.20 · Companion 0.8.6 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
