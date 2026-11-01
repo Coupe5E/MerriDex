@@ -1,4 +1,4 @@
-﻿# MeeriDEX · Handbuch und Hilfe
+# MeeriDEX · Handbuch und Hilfe
 
 [Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.5)
 
@@ -12,7 +12,7 @@ Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze V
 - [WLAN-Sync](#pc-und-app-synchronisieren)
 - [Eigene Tiere und Stammbaum](#eigene-tiere-und-stammbaum-richtig-anlegen) · [A4/PDF](#stammbaum-als-a4-pdf-exportieren-und-drucken)
 - [Würfe](#würfe-auf-pc-und-android) · [Abgabe](#abgabe-übernehmende-personen-und-zuchten) · [MeeriHimmel](#meerihimmel)
-- [Zuchtlogo](#eigenes-zuchtlogo) · [Chipnummer/TASSO](#chipnummer-prüfen-und-bei-tasso-registrieren) · [MeeriPro3-Import](#meeripro3-zip-übernehmen)
+- [Zuchtlogo](#eigenes-zuchtlogo) · [Chipnummer/TASSO](#chipnummer-prüfen-und-bei-tasso-registrieren) · [MeeriPro3-Import](#meeripro3-datei-oder-zip-übernehmen)
 - [Problem melden](#problem-melden)
 
 ## Windows · Einziehen und Aktualisieren
@@ -217,11 +217,11 @@ Auch Meerschweinchen können bei TASSO registriert werden. Die Registrierung ist
 
 **Keine automatische Registrierung und kein TASSO-Login in MeeriDEX:** Anmeldung und Passwort werden direkt bei TASSO eingegeben. TASSO bietet [TASSO.Connect](https://www.tasso.net/Tierregister/Fuer-Tieraerzte-Vereine-und-mehr/Fuer-Tieraerzte/TASSO-Connect) für angebundene Praxis- und Tierheimsoftware an. Für eine echte MeeriDEX-Anbindung müssten die Zulassung, die Schnittstellendokumentation und der benötigte aktivierte Registrierungsschlüssel mit TASSO geklärt werden. Ein gewöhnliches MeinTASSO-Konto ist hier noch keine aktivierte Schnittstelle.
 
-## MeeriPro3-ZIP übernehmen
+## MeeriPro3-Datei oder ZIP übernehmen
 
-Ab Windows 1.7.0 gibt es unter „Meine Meeris“ den eigenen Knopf „MeeriPro3 importieren“. Eine Original-ZIP mit genau einer `.back3up`-Datei und zugehörigen Fotos auswählen. Die Vorschau zeigt neue Tiere und mögliche Dubletten. Je Tier kann man neu anlegen, vorhandene Angaben behalten, bekannte Importwerte übernehmen oder den Eintrag auslassen. Elternverweise werden entsprechend zugeordnet; mehrdeutige Zuordnungen und Familienkreise müssen vor dem Speichern gelöst werden.
+Ab Windows 1.7.0 gibt es unter „Meine Meeris“ den eigenen Knopf „MeeriPro3 importieren“. Ab Windows 1.9.20 direkt die `.back3up`-Datei auswählen. Der zugehörige Bildordner muss daneben liegen, zum Beispiel `MeineZucht.back3up` und `MeineZucht._bilder`; die Fotos werden automatisch erkannt. Alternativ bleibt eine ZIP mit genau einer `.back3up` und ihrem Bildordner möglich. Fehlt der Bildordner, erscheint ein Hinweis vor der Übernahme; die Tierdaten lassen sich auch ohne Fotos importieren. Die Vorschau zeigt neue Tiere und mögliche Dubletten. Je Tier kann man neu anlegen, vorhandene Angaben behalten, bekannte Importwerte übernehmen oder den Eintrag auslassen. Elternverweise werden entsprechend zugeordnet; mehrdeutige Zuordnungen und Familienkreise müssen vor dem Speichern gelöst werden.
 
-Bestehende Tiere und Verpaarungen bleiben erhalten. Vor dem Speichern werden automatisch Sicherungen angelegt. Unter `Importberichte` bleiben Original-ZIP, vollständige Originaltabellen und die Importentscheidungen lokal erhalten. Nicht automatisch abgebildete Zusatzdaten werden vor dem Übernehmen ausdrücklich genannt. Der MeeriPro3-Import benötigt kein Python.
+Bestehende Tiere und Verpaarungen bleiben erhalten. Vor dem Speichern werden automatisch Sicherungen angelegt. Unter `Importberichte` bleiben die Originalsicherung mit Bildern, vollständige Originaltabellen und die Importentscheidungen lokal erhalten. Beim Dateiimport werden die `.back3up` und zusätzlich ein ZIP-Archiv der Quelldateien aufbewahrt. Änderungen an Quelldateien während der Vorschau erfordern einen erneuten Importstart. Nicht automatisch abgebildete Zusatzdaten werden vor dem Übernehmen ausdrücklich genannt. Der MeeriPro3-Import benötigt kein Python.
 
 ## Problem melden
 
@@ -237,4 +237,4 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 ---
 
-*Stand: 28.10.2026 · MeeriDEX 1.9.13 / Companion 0.8.5.*
+*Stand: 01.11.2026 · MeeriDEX 1.9.20 / Companion 0.8.6.*
