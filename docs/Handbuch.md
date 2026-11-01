@@ -237,7 +237,7 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 ---
 
-*Stand: 01.11.2026 · MeeriDEX 1.9.24 / Companion 0.8.9.*
+*Stand: 01.11.2026 · MeeriDEX 1.9.25 / Companion 0.8.9.*
 
 
 ## Genetik verstehen und WurfOrakel
@@ -272,3 +272,12 @@ Unbekannte oder mehrdeutige Angaben wie bloß „Creme“ oder „Silber“ werd
 ## Wurfzeitraum nach dem Beenden einer Verpaarung
 
 Ab Windows 1.9.24 bleibt die Geburtsschätzung bei beendeten Verpaarungen sichtbar. Käfigzeile und Tooltip zeigen das Fenster; nach Auswahl des Zeitraums steht es zusätzlich im Detailbereich. Der Beginn der Verpaarung und der tatsächliche Trenntermin bestimmen weiterhin das bestehende Schätzfenster. Beendet bezeichnet das Ende des Zusammensitzens, nicht das Ende einer möglichen Trächtigkeit. Die Anzeige bestätigt keine Trächtigkeit. Bei Kastratengruppen wird weiterhin keine automatische Geburtsschätzung ausgegeben.
+
+
+## A4-Stammbaum anpassen
+
+Im A4-Stammbaumfenster links **Blatt & Ahnen → Anpassungen** öffnen. Dort anhaken, was erscheinen soll: Geburtsgewicht, Gen-Code (Rassengenetik), Farb-Code (Farbgenetik), Wurfquote, Farbe, Rasse, Geschlecht, Geburtsdatum, Herkunftszucht, Züchterkopf, Kontaktdaten, Zuchtlogo, Hauptbild, Pixelbilder der Vorfahren und Legende/Fußzeile. Namen bleiben immer sichtbar.
+
+**Übernehmen** aktualisiert die Vorschau und speichert die Auswahl lokal für den nächsten Ausdruck. **Abbrechen** lässt die bisherige Auswahl unverändert. **Alles anzeigen** setzt die Haken auf den vollständigen Umfang; anschließend Übernehmen wählen. Tierprofile und Züchterdaten werden dabei nicht verändert.
+
+Die Auswahl gilt für PDF und Druck, für Vorfahren und für Folgeseiten. In kompakten Ansichten bleiben entfernte Vorfahren Kurzprofile. Wird nur ein Gen-Code gewählt, enthält das Beiblatt nur diesen. Sind beide Codes aus, entfallen die Beiblätter und die Seitenwahl wird angepasst. Ausgeblendete Bilder werden nicht geladen; ohne Hauptbild steht der Text über die gesamte Kartenbreite. Die konkrete Fotoauswahl bleibt unter **Foto & Zucht** erreichbar.
