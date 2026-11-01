@@ -245,7 +245,10 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 ---
 
-*Stand: 01.11.2026 · MeeriDEX 1.9.29 / Companion 0.8.11.*
+
+**Gewichte aus MeeriPro3:** Einzelne unplausible Messungen verhindern nicht die Übernahme der übrigen Tiere. Fehlende oder ungültige Datumsangaben, Messungen vor Geburt oder in der Zukunft, Gewichte außerhalb von über 0 bis 10000 g und zusätzliche Messungen am selben Tag werden mit Hinweis zur Nachprüfung erhalten. Die Originalwerte stehen in den Tiernotizen und im Importbericht; gültige Messungen werden ins Gewichtsarchiv übernommen. Es werden keine Datums- oder Gewichtswerte geraten.
+
+*Stand: 01.11.2026 · MeeriDEX 1.9.30 / Companion 0.8.11.*
 
 
 ## Genetik verstehen und WurfOrakel
