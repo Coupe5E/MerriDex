@@ -237,7 +237,7 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 ---
 
-*Stand: 01.11.2026 · MeeriDEX 1.9.23 / Companion 0.8.9.*
+*Stand: 01.11.2026 · MeeriDEX 1.9.24 / Companion 0.8.9.*
 
 
 ## Genetik verstehen und WurfOrakel
@@ -267,3 +267,8 @@ Ab Windows 1.9.23 / Companion 0.8.9 werden eindeutige importierte Farbnamen für
 Die Originalfarbe und die Originalgenformel bleiben unverändert. Im Editor steht die erkannte Katalogfarbe für das Bild. Das ist kein Abgleich der Gene gegen eine allgemeine Vorlage. Eigene Genangaben bleiben geschützt; eine Farbvorlage ersetzt sie erst nach ausdrücklicher Auswahl und Bestätigung.
 
 Unbekannte oder mehrdeutige Angaben wie bloß „Creme“ oder „Silber“ werden nicht automatisch geraten. Bei Bedarf die Farbtabelle öffnen und selbst wählen. Eine passende Katalogzuordnung garantiert noch kein besonderes Farbbild: Ohne vorhandenes Einzel- oder Gruppenbild bleibt das allgemeine Rassenbild.
+
+
+## Wurfzeitraum nach dem Beenden einer Verpaarung
+
+Ab Windows 1.9.24 bleibt die Geburtsschätzung bei beendeten Verpaarungen sichtbar. Käfigzeile und Tooltip zeigen das Fenster; nach Auswahl des Zeitraums steht es zusätzlich im Detailbereich. Der Beginn der Verpaarung und der tatsächliche Trenntermin bestimmen weiterhin das bestehende Schätzfenster. Beendet bezeichnet das Ende des Zusammensitzens, nicht das Ende einer möglichen Trächtigkeit. Die Anzeige bestätigt keine Trächtigkeit. Bei Kastratengruppen wird weiterhin keine automatische Geburtsschätzung ausgegeben.
