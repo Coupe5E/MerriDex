@@ -13,15 +13,15 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
   <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.11/MeeriDex-Companion-0.8.11-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
-**Aktuelle Downloads:** Windows **1.9.28** · Android **0.8.11**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
+**Aktuelle Downloads:** Windows **1.9.29** · Android **0.8.11**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
 
 | Am Windows-PC einziehen | Auf Android loslegen |
 | --- | --- |
 | **1.** Windows-Installer herunterladen und starten. | **1.** Die APK direkt auf dem Handy herunterladen und öffnen. |
-| **2.** Installieren und die gewünschte Desktop-Verknüpfung anlegen lassen. | **2.** Falls angefordert, die Installation für die verwendete Downloadquelle erlauben und **Installieren** wählen. |
+| **2.** Die Windows-Abfrage bestätigen, installieren und die gewünschte Desktop-Verknüpfung anlegen lassen. | **2.** Falls angefordert, die Installation für die verwendete Downloadquelle erlauben und **Installieren** wählen. |
 | **3.** MeeriDEX öffnen, bestehende Kartei übernehmen oder neu beginnen und bei Bedarf die Lizenz aktivieren. | **3.** Ein Tier anlegen oder die App über **Sync** mit dem PC verbinden. |
 
-**Windows-Installer empfohlen:** Installation für dein Benutzerkonto mit Startmenüeintrag und optionaler Desktop-Verknüpfung. Programm und Tierdaten liegen getrennt in beschreibbaren Benutzerordnern. Beim ersten Start kannst du eine bestehende Kartei kopieren; eine Deinstallation lässt deine Tierdaten erhalten.
+**Windows-Installer empfohlen:** Installation im Programme-Ordner mit Startmenüeintrag und optionaler Desktop-Verknüpfung. Nur Installation und Programmupdates benötigen die Windows-Bestätigung. MeeriDEX startet danach ganz normal ohne Adminrechte. Die Tierdaten bleiben getrennt im beschreibbaren Benutzerordner. Beim ersten Start kannst du eine bestehende Kartei kopieren; eine Deinstallation lässt deine Tierdaten erhalten.
 
 [Portable Windows-EXE ohne Installation](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX.exe) · [Programmpaket als ZIP](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Testversion.zip)
 
@@ -154,4 +154,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 01.11.2026 · Windows 1.9.28 · Companion 0.8.11 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 01.11.2026 · Windows 1.9.29 · Companion 0.8.11 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
