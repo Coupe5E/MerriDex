@@ -8,12 +8,15 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 ## Schnellstart & Downloads
 
+**Neu in Windows 1.9.21 / Companion 0.8.7:** „Genetik verstehen“ erklärt Vererbung, Trägergene und Modellgrenzen mit Quellenhinweisen. Das PC-WurfOrakel wertet den Rn-Faktor gesondert und Rh/M gemeinsam aus. Bestehende Tierangaben bleiben erhalten. Die Texte sind eigene Erläuterungen; Buchseiten und Buchbilder werden nicht mitgeliefert.
+
+
 **Neu in Windows 1.9.20:** MeeriPro3-Sicherungen lassen sich direkt als `.back3up` importieren. Den zugehörigen Ordner `Name._bilder` neben `Name.back3up` belassen; die Fotos werden automatisch erkannt. ZIP bleibt unterstützt. Unter **Meine Meeris → MeeriPro3 importieren** zeigt die Vorschau mögliche Dubletten und fehlende Bilder, bevor die geprüfte Auswahl übernommen wird.
 
 
 <p align="center">
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.20/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.20 für Windows herunterladen – EXE" width="280"></a>
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.6/MeeriDex-Companion-0.8.6-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion 0.8.6 für Android herunterladen – Test-APK" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.21/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.21 für Windows herunterladen – EXE" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.7/MeeriDex-Companion-0.8.7-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion 0.8.7 für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
 | Am Windows-PC einziehen | Auf Android loslegen |
@@ -24,7 +27,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 **Voraussetzungen:** Windows 10/11 mit .NET Framework 4.8 oder passender neuerer 4.x-Laufzeit · Android ab 8.0. **Windows braucht eine Lizenz; Android bleibt kostenlos.** Companion ist eine Testversion außerhalb des Play Stores.
 
-[Windows-EXE einzeln / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.6) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
+[Windows-EXE einzeln / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.7) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
 
 **Hilfe beim ersten Start:** [Windows installieren & SmartScreen](docs/Handbuch.md#windows-smartscreen-beim-download-oder-start) · [Android Schritt für Schritt & Warnmeldungen](docs/Handbuch.md#android-installieren--schritt-für-schritt) · [Windows 7](docs/Handbuch.md#hinweis-zu-windows-7)
 
@@ -142,4 +145,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 01.11.2026 · Windows 1.9.20 · Companion 0.8.6 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 01.11.2026 · Windows 1.9.21 · Companion 0.8.7 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
