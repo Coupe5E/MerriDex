@@ -6,46 +6,43 @@
 
 Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos verwalten, Stammbäume entdecken, Gewichte verfolgen und deine Zucht im Blick behalten** – im verspielten Pixellook. Am Windows-PC planst und verwaltest du deine Bande; mit der Android-App fotografierst und erfasst du direkt bei deinen Meeris. Beide gleichen ihre Daten im privaten WLAN ab.
 
-## Schnellstart & Downloads
-
-**Neu in Windows 1.9.27 / Companion 0.8.11:** Nutzbare Weiß-Modellvorlagen mit erklärten Alternativen, Hilfe „Einfach erklärt“ im Genstatus und Hinweise aus Eltern- und Ahnenangaben. Mögliche Genpaare und Widersprüche werden angezeigt; vorhandene Gene bleiben erhalten.
-
-**Neu in Windows 1.9.26 / Companion 0.8.10:** Genstatus und Herkunft je Genort, eigene Zucht-Favoriten als Schnellauswahl sowie 40 bearbeitete Formellücken. Unklare Gene bleiben offen. Favoriten gelten auf dem jeweiligen Gerät und sind kein individueller Genotypnachweis.
-
-**Neu in Windows 1.9.25:** Im A4-Stammbaum links unter **Blatt & Ahnen → Anpassungen** mit 15 Haken auswählen, welche Angaben, Bilder und Züchterinformationen erscheinen. Auswahl wird gespeichert und gilt für Vorschau, PDF und Druck.
-
-**Neu in Windows 1.9.24:** Der geschätzte Wurfzeitraum bleibt auch bei beendeten Verpaarungen sichtbar – in der Käfigzeile, im Tooltip und im Detailbereich. Companion blieb bei diesem Windows-Update unverändert.
-
-**Neu in Windows 1.9.23 / Companion 0.8.9:** Eindeutige MeeriPro3-Farbnamen werden mit unserem Katalog für Pixelbilder verknüpft – auch bei bereits importierten Tieren. Originalgenformeln bleiben erhalten; unklare Namen werden nicht geraten.
-
-**Neu in Windows 1.9.22 / Companion 0.8.8:** Angora und Mohair, vier blaue Lohzeichnungen und drei Brindle-Dalmatiner. Gemeinsamer Katalog mit 487 Farben; ergänzte Quellenhinweise zu EE und MCB. Die neuen Rassen verwenden vorerst vorhandene Pixelbilder als Platzhalter.
-
-**Neu in Windows 1.9.21 / Companion 0.8.7:** „Genetik verstehen“ erklärt Vererbung, Trägergene und Modellgrenzen mit Quellenhinweisen. Das PC-WurfOrakel wertet den Rn-Faktor gesondert und Rh/M gemeinsam aus. Bestehende Tierangaben bleiben erhalten. Die Texte sind eigene Erläuterungen; Buchseiten und Buchbilder werden nicht mitgeliefert.
-
-
-**Neu in Windows 1.9.20:** MeeriPro3-Sicherungen lassen sich direkt als `.back3up` importieren. Den zugehörigen Ordner `Name._bilder` neben `Name.back3up` belassen; die Fotos werden automatisch erkannt. ZIP bleibt unterstützt. Unter **Meine Meeris → MeeriPro3 importieren** zeigt die Vorschau mögliche Dubletten und fehlende Bilder, bevor die geprüfte Auswahl übernommen wird.
-
+## Installation & Downloads
 
 <p align="center">
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.27/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.27 für Windows herunterladen – EXE" width="280"></a>
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.11/MeeriDex-Companion-0.8.11-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion 0.8.11 für Android herunterladen – Test-APK" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX für Windows herunterladen – EXE" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.11/MeeriDex-Companion-0.8.11-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
 </p>
+
+**Aktuelle Downloads:** Windows **1.9.27** · Android **0.8.11**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
 
 | Am Windows-PC einziehen | Auf Android loslegen |
 | --- | --- |
-| **1.** EXE laden und in einen eigenen, beschreibbaren Ordner legen. | **1.** Die APK direkt auf dem Handy herunterladen und öffnen. |
-| **2.** `MeeriDEX.exe` starten, Lizenz aktivieren und Züchterprofil ausfüllen. | **2.** Falls angefordert, die Installation für die verwendete Downloadquelle erlauben und **Installieren** wählen. |
-| **3.** Unter **Meine Meeris → + Tier hinzufügen** die erste Fellnase anlegen. | **3.** Ein Tier anlegen oder die App über **Sync** mit dem PC verbinden. |
+| **1.** EXE laden und in einen eigenen beschreibbaren Benutzerordner legen. | **1.** Die APK direkt auf dem Handy herunterladen und öffnen. |
+| **2.** MeeriDEX.exe starten, Lizenz aktivieren und Züchterprofil ausfüllen. | **2.** Falls angefordert, die Installation für die verwendete Downloadquelle erlauben und **Installieren** wählen. |
+| **3.** Unter Meine Meeris die erste Fellnase anlegen oder eine Sicherung einlesen. | **3.** Ein Tier anlegen oder die App über **Sync** mit dem PC verbinden. |
+
+**Windows ohne Installation:** Die EXE in einen eigenen beschreibbaren Benutzerordner legen. Tierdaten und Fotos werden neben der EXE gespeichert. Den Windows-Ordner, Programme und das Laufwerksverzeichnis vermeiden.
+
+[Programmpaket als ZIP](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Testversion.zip)
 
 **Voraussetzungen:** Windows 10/11 mit .NET Framework 4.8 oder passender neuerer 4.x-Laufzeit · Android ab 8.0. **Windows braucht eine Lizenz; Android bleibt kostenlos.** Companion ist eine Testversion außerhalb des Play Stores.
 
 [Windows-EXE einzeln / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.11) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
 
-**Hilfe beim ersten Start:** [Windows installieren & SmartScreen](docs/Handbuch.md#windows-smartscreen-beim-download-oder-start) · [Android Schritt für Schritt & Warnmeldungen](docs/Handbuch.md#android-installieren--schritt-für-schritt) · [Windows 7](docs/Handbuch.md#hinweis-zu-windows-7)
+**Ausführliche Installationsanleitung:** [Windows Schritt für Schritt](docs/Handbuch.md#desktop-installieren-und-aktualisieren) · [SmartScreen-Hilfe](docs/Handbuch.md#windows-smartscreen-beim-download-oder-start) · [Android Schritt für Schritt & Warnmeldungen](docs/Handbuch.md#android-installieren--schritt-für-schritt) · [Windows 7](docs/Handbuch.md#hinweis-zu-windows-7)
 
-> **Windows bis 1.9.15:** Dieses Update einmal manuell einspielen: MeeriDEX schließen, Datenordner sichern und nur die EXE im bisherigen Programmordner ersetzen. Die alte 200-MB-Grenze verhindert den automatischen Download. Ab 1.9.16 wächst die Grenze mit.
+<details>
+<summary><strong>Du hast MeeriDEX oder Companion schon installiert?</strong></summary>
 
-> **Schon eine Bande angelegt?** Am PC **Updates prüfen** verwenden. Manuell die EXE im bisherigen Datenordner ersetzen, nachdem MeeriDEX geschlossen und gesichert wurde. Die Android-App beim Aktualisieren **nicht deinstallieren**, damit lokale Tiere und Fotos erhalten bleiben. `.sha256` und GitHubs „Source code“-Archive sind keine Installationspakete.
+Am PC **Updates prüfen** verwenden. Beim manuellen Austausch MeeriDEX schließen, den bisherigen Programmordner sichern und die EXE am bisherigen Ort ersetzen. Die Android-APK **über die vorhandene App installieren**; nicht vorher deinstallieren oder App-Daten löschen.
+
+Bei Windows-Versionen bis 1.9.15 die aktuelle EXE einmal manuell herunterladen: Die damalige Downloadgrenze verhindert den automatischen Bezug großer Programmdateien. Sehr alte Companion-Versionen benötigen ebenfalls einmalig den direkten APK-Download.
+
+`.sha256`-Dateien dienen zur Prüfsummenkontrolle. GitHubs „Source code“-Archive sind keine Installationspakete.
+
+[Alle Installations- und Aktualisierungsschritte](docs/Handbuch.md#desktop-installieren-und-aktualisieren)
+
+</details>
 
 ---
 
@@ -62,10 +59,10 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 | --- | --- |
 | **Meine Meeris & Profile** | Tiere anlegen, suchen und bearbeiten: Name, Geschlecht, Geburtstag, Rasse, Farbe, Herkunft, Eltern, Notizen und Kastrationsangaben. Mehrere Fotos pro Tier und optionale RFID-Chipnummern gehören dazu. |
 | **Familie & Stammbäume** | Mutter, Vater und Geschwister verknüpfen, Familienbäume über drei bis sechs Generationen erkunden und Profile direkt öffnen. |
-| **A4-Stammbaum & PDF** | Einen Stammbaum mit Tierfoto, größeren Pixelbildern der Vorfahren und deinem Zuchtlogo als A4-PDF speichern oder drucken. Bis zu 31 Tiere auf einem Blatt oder fünf/sechs Generationen mit verknüpften Folgeseiten. Genetik und Farbcodes stehen gesammelt ab Seite 2, je Tier unter seinem Namen. Lange Farbnamen umbrechen zweizeilig. Mit Seitenauswahl, Zoom, Ryos Leselupe und genauen roten Fehlerhinweisen oben. |
+| **A4-Stammbaum & PDF** | Stammbäume mit Tierfoto, Vorfahrenbildern und Zuchtlogo als A4-PDF speichern oder drucken. Sichtbare Angaben anpassen und größere Familien auf Folgeseiten ausgeben. |
 | **Gewicht & Erinnerungen** | Messungen mit Datum erfassen und als Verlauf ansehen. Eigene Aufgaben mit Termin, Wiederholung und Notizen anlegen, abhaken oder verschieben. |
 | **Verpaarungen & Würfe** | Käfige und Tiergruppen planen, Start- und Enddaten festhalten und Würfe mit Eltern, Jungtieren und M/W/T-Quote verwalten. |
-| **Farben & WurfOrakel** | Rassen, Farbvorlagen, Codes und bekannte Trägergene erfassen; mögliche Genpaare des Nachwuchses ansehen. Unvollständige Angaben bleiben als solche erkennbar. |
+| **Farben & WurfOrakel** | Rassen, Farbvorlagen und bekannte Trägergene erfassen, Zucht-Favoriten speichern und mögliche Genpaare des Nachwuchses ansehen. Genstatus, Quellen und Stammbaum-Hinweise helfen beim Einordnen. |
 | **Krankenstation** | Befunde, Verdachtsfälle, Behandlungen und Krankheitsverläufe dokumentieren sowie Familienbeziehungen nachsehen. |
 | **Abgabe & MeeriHimmel** | Ausgezogene Tiere mit Datum, Kontaktangaben und optionalem Verkaufspreis verwalten. Verstorbene Meeris behalten ihr Profil, ihre Fotos und ihren Platz im Stammbaum. |
 | **Züchterprofil** | Zuchtname, Ort, Kontakte und ein eigenes Logo hinterlegen; Vorgaben für neue Tiere übernehmen. |
@@ -137,7 +134,7 @@ Tierprofile und Fotos werden in beide Richtungen übertragen. Das Züchterprofil
 | --- | --- |
 | Windows-Start, .NET oder SmartScreen | [Windows installieren](docs/Handbuch.md#desktop-installieren-und-aktualisieren) · [.NET-Hilfe](docs/Handbuch.md#net-framework-kostenlos-nachinstallieren) · [PC-Probleme](docs/Handbuch.md#probleme-am-pc) |
 | APK-Installation oder Android-Warnung | [Schritt für Schritt](docs/Handbuch.md#android-installieren--schritt-für-schritt) · [App-Probleme](docs/Handbuch.md#probleme-in-der-app) |
-| Fehlenden Tieren/Bildern nach einem Umzug | Den bisherigen Programmordner mit `meeridex.sqlite` und `Profil` verwenden. [Daten aufbewahren](docs/Handbuch.md#desktop-installieren-und-aktualisieren) |
+| Fehlenden Tieren/Bildern nach einem Umzug | Über **Datenordner öffnen** die bisherige Ablage mit `meeridex.sqlite` und `Profil` prüfen. [Daten aufbewahren](docs/Handbuch.md#desktop-installieren-und-aktualisieren) |
 | Verbindung zwischen PC und Handy | [WLAN-Sync prüfen](docs/Handbuch.md#pc-und-app-synchronisieren) |
 | Einem anderen Fehler | [Problem melden](https://github.com/Coupe5E/MerriDex/issues) – Version, System, Schritte und genauen Fehlertext angeben. |
 
