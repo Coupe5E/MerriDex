@@ -1,6 +1,6 @@
 ﻿# MeeriDEX · Handbuch und Hilfe
 
-[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.10)
+[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.11)
 
 Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze Vorstellung und alle Downloads stehen auf der Startseite.
 
@@ -13,6 +13,7 @@ Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze V
 - [Eigene Tiere und Stammbaum](#eigene-tiere-und-stammbaum-richtig-anlegen) · [A4/PDF](#stammbaum-als-a4-pdf-exportieren-und-drucken)
 - [Würfe](#würfe-auf-pc-und-android) · [Abgabe](#abgabe-übernehmende-personen-und-zuchten) · [MeeriHimmel](#meerihimmel)
 - [Zuchtlogo](#eigenes-zuchtlogo) · [Chipnummer/TASSO](#chipnummer-prüfen-und-bei-tasso-registrieren) · [MeeriPro3-Import](#meeripro3-datei-oder-zip-übernehmen)
+- [Genstatus und Zucht-Favoriten](#genstatus-herkunft-und-zucht-favoriten)
 - [Problem melden](#problem-melden)
 
 ## Windows · Einziehen und Aktualisieren
@@ -82,7 +83,7 @@ Ab 1.7.4 öffnet eine fehlgeschlagene Online-Aktivierung einen Diagnose-Dialog m
 
 ### Android installieren – Schritt für Schritt
 
-1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.10) wechseln.
+1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.11) wechseln.
 2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.8.5-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
 3. Die heruntergeladene APK über die Downloadmeldung oder die Dateien-App im Ordner **Downloads** öffnen.
 4. Meldet Android, dass diese Quelle keine Apps installieren darf, über die angezeigten **Einstellungen** die Installation für genau den verwendeten Browser oder die Dateien-App erlauben. Die Einstellung heißt je nach Gerät **Unbekannte Apps installieren** oder **Aus dieser Quelle zulassen**; häufig unter **Einstellungen → Apps → Spezieller App-Zugriff**. Nur für eine bewusst gewählte vertrauenswürdige Quelle freigeben. Hersteller und Android-Version können andere Bezeichnungen verwenden.
@@ -237,7 +238,7 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 ---
 
-*Stand: 01.11.2026 · MeeriDEX 1.9.26 / Companion 0.8.10.*
+*Stand: 01.11.2026 · MeeriDEX 1.9.27 / Companion 0.8.11.*
 
 
 ## Genetik verstehen und WurfOrakel
@@ -291,4 +292,26 @@ Optional je Genort eine Herkunft eintragen, etwa Züchterangabe oder Ableitung a
 Unter **Als Favorit speichern** eine Kombination aus Rasse, Farbe und Genangaben benennen. **Schnellauswahl** bietet die eigenen Vorlagen zum Übernehmen oder Entfernen an. Gleiche Namen können nach Rückfrage ersetzt werden. Maximal 100 Favoriten, jeweils auf dem verwendeten Gerät gespeichert. Sie werden nicht zwischen PC und Handy synchronisiert. Favoriten übertragen keine Namen, Eltern, Fotos oder individuellen Herkunftsbelege und gelten selbst nicht als Genotypnachweis.
 
 Alle 40 bisherigen Formellücken im Katalog sind behandelt: 31 ergänzte Modellvorlagen, fünf Teilvorlagen und vier genetisch offene Weiß-Varianten. Unklare Gene werden als `__` geführt. Vorhandene Tiercodes werden nicht nachträglich verändert; neue Vorlagen werden ausdrücklich in der Farbtabelle gewählt.
+
+
+## Weiß-Vorlagen und Stammbaum-Hinweise (1.9.27 / 0.8.11)
+
+Die vier Weiß-Farben besitzen jetzt nutzbare **Modellvorlagen** statt ausschließlich unbekannter Gene:
+
+| Farbe | Vorlage |
+| --- | --- |
+| Weiß, dunkle Augen | `__ bb crcr/crca ee P_ S_` |
+| Weiß mit Pigment, dunkle Augen | `__ B_ crcr/crca ee P_ S_` |
+| Weiß, rote Augen | `__ bb caca ee P_ S_` |
+| Weiß mit Pigment, rote Augen | `__ B_ caca ee P_ S_` |
+
+Basis ist das vereinfachte Zuchtmodell im [MCB-Standard](https://meerschweinchenclubbayern-mcb.de/infos/rassestandards/mcb-standard); die pigmentierten Varianten sind daraus abgeleitet. Die abweichenden C-Angaben für dunkeläugiges Weiß bleiben als Alternativen sichtbar. Rotäugig wird nicht automatisch mit `pp` gleichgesetzt. Das Modell erfasst nicht alle genetischen Weißursachen. A, D, Rn und unbekannte Trägergene bleiben offen. Insbesondere wird ein weißes Tier nicht automatisch als frei von verdecktem Schimmel eingestuft.
+
+Vorhandene Tiercodes werden nicht überschrieben. Zum Übernehmen im Tierformular **Farbtabelle öffnen**, die gewünschte Weiß-Variante wählen, gegebenenfalls Ersetzen bestätigen und **Tier speichern**. Eigene abweichende Genangaben können beibehalten werden.
+
+**Genstatus & Herkunft → Einfach erklärt** (Android: **Hilfe**) bietet Beispiele und eine Erklärung aller Eingaben. Herkunft bedeutet **Quelle der Genangabe**, etwa eine Züchterangabe. Das Feld ist freiwillig und hat nichts mit dem Geburtsort zu tun. `BB`/`bb` ist laut Eintrag reinerbig; `Bb` mischerbig; `B_`, `__` oder mehrere Alternativen bleiben unbestimmt. Dies gilt je Genort, nicht als pauschale Bestätigung für das ganze Tier. Gene werden im Tierformular bearbeitet; hier werden nur Quellennotizen ergänzt.
+
+**Stammbaum-Hinweise:** Aus vorhandenen Genangaben der Eltern und weiterer Ahnen (bis zwölf Ebenen) werden mögliche Kombinationen im bestehenden Mendel-Modell berechnet. Beispiel: `BB × bb` lässt `Bb` zu. Unbekannte Angaben begrenzen nichts zusätzlich. Reine Rasse-, Farb- oder Favoritenvorlagen der Ahnen gelten ohne passende Quellennotiz nicht als individuelle Angabe. Eine passende Quellennotiz macht die Angabe verwendbar, bestätigt sie aber nicht automatisch fachlich.
+
+Ein Widerspruch fordert zum Prüfen der Codes und Elternzuordnung auf; er beweist keine falsche Abstammung. Die Hinweise ändern weder Gene noch Quellen automatisch und berechnen keine Wahrscheinlichkeit. K/Wd bleiben außerhalb des WurfOrakels. „Übernehmen“ übernimmt Quellennotizen ins Formular; erst „Tier speichern“ speichert das Profil. Die Hilfe verwirft auf Android keine bereits eingegebenen Quellennotizen.
 
