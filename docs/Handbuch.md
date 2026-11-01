@@ -21,12 +21,12 @@ Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze V
 ### Desktop installieren und aktualisieren
 
 1. Den [Windows-Installer MeeriDEX-Setup.exe](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Setup.exe) herunterladen und starten.
-2. Den Assistenten durchgehen. **Desktop-Verknüpfung erstellen** aktiviert lassen, wenn du den Knopf auf dem Desktop möchtest. Ein Startmenüeintrag wird ebenfalls angelegt. MeeriDEX wird für das aktuelle Windows-Benutzerkonto installiert.
+2. Den Assistenten durchgehen. **Desktop-Verknüpfung erstellen** aktiviert lassen, wenn du den Knopf auf dem Desktop möchtest. Ein Startmenüeintrag wird ebenfalls angelegt. Die Windows-Abfrage einmal bestätigen. MeeriDEX wird im Programme-Ordner installiert; spätere Programmupdates benötigen ebenfalls diese Bestätigung.
 3. MeeriDEX über die Verknüpfung öffnen. Beim ersten Start eine vorhandene Kartei aus dem bisherigen Programm-/Datenordner kopieren oder eine neue Kartei beginnen. Die alte Anwendung vorher schließen. Originale und frühere Sicherungen bleiben erhalten; ein bereits belegter Zielordner wird nicht überschrieben.
 4. Falls erforderlich unter **Lizenz / Aktivierung** Vorname, Nachname, Zuchtname und Lizenzschlüssel eintragen und online aktivieren. Danach das Züchterprofil vervollständigen.
-5. Für spätere Updates **Updates prüfen** verwenden oder den aktuellen Installer erneut starten. Vor einem manuellen Austausch MeeriDEX schließen und Daten sichern. Die Desktop-Verknüpfung bleibt verwendbar.
+5. Für spätere Updates **Updates prüfen** verwenden oder den aktuellen Installer erneut starten. Vor einem manuellen Austausch MeeriDEX schließen und Daten sichern. Die Desktop-Verknüpfung bleibt verwendbar. MeeriDEX selbst startet ohne Administratorrechte; Einstellungen in den Dateieigenschaften sind nicht nötig.
 
-**Speicherorte:** Das Programm liegt standardmäßig unter `%LOCALAPPDATA%\Programs\MeeriDEX`. Tierkartei, Fotos, Profil und Sicherungen liegen getrennt unter `%LOCALAPPDATA%\MeeriDEX\Daten`. Über **Datenordner öffnen** erreichst du sie direkt. Ein dauerhafter Start als Administrator ist nicht nötig. Auch eine Deinstallation lässt die Tierdaten erhalten.
+**Speicherorte:** Das Programm liegt standardmäßig unter `C:\Programme\MeeriDEX` (auf 64-Bit-Windows; der tatsächliche Pfad kann `C:\Program Files\MeeriDEX` heißen). Tierkartei, Fotos, Profil und Sicherungen liegen getrennt unter `%LOCALAPPDATA%\MeeriDEX\Daten`. Über **Datenordner öffnen** erreichst du sie direkt. Ein dauerhafter Start als Administrator ist nicht nötig. Auch eine Deinstallation lässt die Tierdaten erhalten.
 
 **Vorhandene Kartei:** Beim ersten Start den bisherigen Ordner mit `meeridex.sqlite` oder `tiere.json` wählen. Kartei, Fotos, Profil, Einstellungen und Zucht-Favoriten werden kopiert. Alte Backups bleiben im ursprünglichen Ordner und sollten ebenfalls aufgehoben werden. Die bestehende Aktivierung im selben Windows-Benutzerkonto bleibt an ihrem bisherigen Speicherort.
 
@@ -245,7 +245,7 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 ---
 
-*Stand: 01.11.2026 · MeeriDEX 1.9.28 / Companion 0.8.11.*
+*Stand: 01.11.2026 · MeeriDEX 1.9.29 / Companion 0.8.11.*
 
 
 ## Genetik verstehen und WurfOrakel
