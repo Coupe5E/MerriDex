@@ -8,6 +8,8 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 ## Schnellstart & Downloads
 
+**Neu in Windows 1.9.23 / Companion 0.8.9:** Eindeutige MeeriPro3-Farbnamen werden mit unserem Katalog für Pixelbilder verknüpft – auch bei bereits importierten Tieren. Originalgenformeln bleiben erhalten; unklare Namen werden nicht geraten.
+
 **Neu in Windows 1.9.22 / Companion 0.8.8:** Angora und Mohair, vier blaue Lohzeichnungen und drei Brindle-Dalmatiner. Gemeinsamer Katalog mit 487 Farben; ergänzte Quellenhinweise zu EE und MCB. Die neuen Rassen verwenden vorerst vorhandene Pixelbilder als Platzhalter.
 
 **Neu in Windows 1.9.21 / Companion 0.8.7:** „Genetik verstehen“ erklärt Vererbung, Trägergene und Modellgrenzen mit Quellenhinweisen. Das PC-WurfOrakel wertet den Rn-Faktor gesondert und Rh/M gemeinsam aus. Bestehende Tierangaben bleiben erhalten. Die Texte sind eigene Erläuterungen; Buchseiten und Buchbilder werden nicht mitgeliefert.
@@ -17,8 +19,8 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 
 <p align="center">
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.22/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.22 für Windows herunterladen – EXE" width="280"></a>
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.8/MeeriDex-Companion-0.8.8-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion 0.8.8 für Android herunterladen – Test-APK" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.23/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.23 für Windows herunterladen – EXE" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.9/MeeriDex-Companion-0.8.9-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion 0.8.9 für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
 | Am Windows-PC einziehen | Auf Android loslegen |
@@ -29,7 +31,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 **Voraussetzungen:** Windows 10/11 mit .NET Framework 4.8 oder passender neuerer 4.x-Laufzeit · Android ab 8.0. **Windows braucht eine Lizenz; Android bleibt kostenlos.** Companion ist eine Testversion außerhalb des Play Stores.
 
-[Windows-EXE einzeln / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.8) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
+[Windows-EXE einzeln / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.9) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
 
 **Hilfe beim ersten Start:** [Windows installieren & SmartScreen](docs/Handbuch.md#windows-smartscreen-beim-download-oder-start) · [Android Schritt für Schritt & Warnmeldungen](docs/Handbuch.md#android-installieren--schritt-für-schritt) · [Windows 7](docs/Handbuch.md#hinweis-zu-windows-7)
 
@@ -147,4 +149,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 01.11.2026 · Windows 1.9.22 · Companion 0.8.8 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 01.11.2026 · Windows 1.9.23 · Companion 0.8.9 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
