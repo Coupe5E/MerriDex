@@ -1,6 +1,6 @@
-# MeeriDEX · Handbuch und Hilfe
+﻿# MeeriDEX · Handbuch und Hilfe
 
-[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.5)
+[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.10)
 
 Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze Vorstellung und alle Downloads stehen auf der Startseite.
 
@@ -82,7 +82,7 @@ Ab 1.7.4 öffnet eine fehlgeschlagene Online-Aktivierung einen Diagnose-Dialog m
 
 ### Android installieren – Schritt für Schritt
 
-1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.5) wechseln.
+1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.10) wechseln.
 2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.8.5-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
 3. Die heruntergeladene APK über die Downloadmeldung oder die Dateien-App im Ordner **Downloads** öffnen.
 4. Meldet Android, dass diese Quelle keine Apps installieren darf, über die angezeigten **Einstellungen** die Installation für genau den verwendeten Browser oder die Dateien-App erlauben. Die Einstellung heißt je nach Gerät **Unbekannte Apps installieren** oder **Aus dieser Quelle zulassen**; häufig unter **Einstellungen → Apps → Spezieller App-Zugriff**. Nur für eine bewusst gewählte vertrauenswürdige Quelle freigeben. Hersteller und Android-Version können andere Bezeichnungen verwenden.
@@ -237,7 +237,7 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 ---
 
-*Stand: 01.11.2026 · MeeriDEX 1.9.25 / Companion 0.8.9.*
+*Stand: 01.11.2026 · MeeriDEX 1.9.26 / Companion 0.8.10.*
 
 
 ## Genetik verstehen und WurfOrakel
@@ -281,3 +281,14 @@ Im A4-Stammbaumfenster links **Blatt & Ahnen → Anpassungen** öffnen. Dort anh
 **Übernehmen** aktualisiert die Vorschau und speichert die Auswahl lokal für den nächsten Ausdruck. **Abbrechen** lässt die bisherige Auswahl unverändert. **Alles anzeigen** setzt die Haken auf den vollständigen Umfang; anschließend Übernehmen wählen. Tierprofile und Züchterdaten werden dabei nicht verändert.
 
 Die Auswahl gilt für PDF und Druck, für Vorfahren und für Folgeseiten. In kompakten Ansichten bleiben entfernte Vorfahren Kurzprofile. Wird nur ein Gen-Code gewählt, enthält das Beiblatt nur diesen. Sind beide Codes aus, entfallen die Beiblätter und die Seitenwahl wird angepasst. Ausgeblendete Bilder werden nicht geladen; ohne Hauptbild steht der Text über die gesamte Kartenbreite. Die konkrete Fotoauswahl bleibt unter **Foto & Zucht** erreichbar.
+
+## Genstatus, Herkunft und Zucht-Favoriten
+
+Ab Windows 1.9.26 / Companion 0.8.10 im Tierformular **Genstatus & Herkunft** öffnen. Je Genort erscheint „reinerbig laut Eintrag“, „mischerbig laut Eintrag“ oder „unbekannt“. Ein offenes Allel oder mehrere alternative Genotypen bleiben unbekannt. Das ist eine Einordnung gespeicherter Angaben und kein Nachweis aus dem Aussehen. K und Wd werden angezeigt, aber im WurfOrakel weiterhin nicht berechnet.
+
+Optional je Genort eine Herkunft eintragen, etwa Züchterangabe oder Ableitung aus Nachkommen. Sie gilt für den damals eingetragenen Genotyp. Nach einer Änderung steht beim bisherigen Beleg „neu prüfen“; er wird nicht automatisch auf die neuen Gene übertragen. **Übernehmen** schließt den Dialog, **Tier speichern** speichert das Profil. Die Angaben bleiben in Sicherungen, Excel und im WLAN-Abgleich erhalten. Für ihren Abgleich beide Geräte aktualisieren; ältere Gegenstellen werden bei vorhandenen Herkunftsangaben abgehalten, damit nichts verloren geht.
+
+Unter **Als Favorit speichern** eine Kombination aus Rasse, Farbe und Genangaben benennen. **Schnellauswahl** bietet die eigenen Vorlagen zum Übernehmen oder Entfernen an. Gleiche Namen können nach Rückfrage ersetzt werden. Maximal 100 Favoriten, jeweils auf dem verwendeten Gerät gespeichert. Sie werden nicht zwischen PC und Handy synchronisiert. Favoriten übertragen keine Namen, Eltern, Fotos oder individuellen Herkunftsbelege und gelten selbst nicht als Genotypnachweis.
+
+Alle 40 bisherigen Formellücken im Katalog sind behandelt: 31 ergänzte Modellvorlagen, fünf Teilvorlagen und vier genetisch offene Weiß-Varianten. Unklare Gene werden als `__` geführt. Vorhandene Tiercodes werden nicht nachträglich verändert; neue Vorlagen werden ausdrücklich in der Farbtabelle gewählt.
+
