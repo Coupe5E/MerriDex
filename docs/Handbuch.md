@@ -237,7 +237,7 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 ---
 
-*Stand: 01.11.2026 · MeeriDEX 1.9.22 / Companion 0.8.8.*
+*Stand: 01.11.2026 · MeeriDEX 1.9.23 / Companion 0.8.9.*
 
 
 ## Genetik verstehen und WurfOrakel
@@ -258,3 +258,12 @@ Ab Windows 1.9.22 / Companion 0.8.8 stehen Angora und Mohair sowie Tan/Loh Blau,
 Die Farbtabelle nennt ergänzende Quellenhinweise zum [EE-Standard 2024](https://entente-ee.eu/wp-content/uploads/EE-standard-D-2024.pdf) und [MCB-Standard](https://meerschweinchenclubbayern-mcb.de/infos/rassestandards/mcb-standard). Die Standards werden getrennt betrachtet. Zusätzliche Katalogmodelle sind keine automatische Anerkennung oder Bewertung eines einzelnen Tiers.
 
 487 Farbauswahlen; die bisherigen Definitionen bleiben erhalten. Neue Vorlagen werden nur bei ausdrücklicher Auswahl übernommen. Eigene Gene bleiben individuell erfassbar. Schimmel/Dalmatiner nicht miteinander verpaaren.
+
+
+## MeeriPro3-Farben und Pixelbilder
+
+Ab Windows 1.9.23 / Companion 0.8.9 werden eindeutige importierte Farbnamen für die Katalog- und Bildauswahl verknüpft. Beispiele: Gold d.e., Weiß r.e., Schoko/Schokolade und Weiß/Weiss. Neue Importe speichern die erkannte Farb-ID; bereits importierte Tiere brauchen keinen erneuten Import, um die Anzeige zu nutzen. Beim normalen Bearbeiten und Speichern wird die Verknüpfung ebenfalls übernommen.
+
+Die Originalfarbe und die Originalgenformel bleiben unverändert. Im Editor steht die erkannte Katalogfarbe für das Bild. Das ist kein Abgleich der Gene gegen eine allgemeine Vorlage. Eigene Genangaben bleiben geschützt; eine Farbvorlage ersetzt sie erst nach ausdrücklicher Auswahl und Bestätigung.
+
+Unbekannte oder mehrdeutige Angaben wie bloß „Creme“ oder „Silber“ werden nicht automatisch geraten. Bei Bedarf die Farbtabelle öffnen und selbst wählen. Eine passende Katalogzuordnung garantiert noch kein besonderes Farbbild: Ohne vorhandenes Einzel- oder Gruppenbild bleibt das allgemeine Rassenbild.
