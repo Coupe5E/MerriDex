@@ -9,21 +9,21 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 ## Installation & Downloads
 
 <p align="center">
-  <a href="https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX für Windows herunterladen – EXE" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Setup.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX für Windows installieren – Setup" width="280"></a>
   <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.11/MeeriDex-Companion-0.8.11-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
-**Aktuelle Downloads:** Windows **1.9.27** · Android **0.8.11**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
+**Aktuelle Downloads:** Windows **1.9.28** · Android **0.8.11**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
 
 | Am Windows-PC einziehen | Auf Android loslegen |
 | --- | --- |
-| **1.** EXE laden und in einen eigenen beschreibbaren Benutzerordner legen. | **1.** Die APK direkt auf dem Handy herunterladen und öffnen. |
-| **2.** MeeriDEX.exe starten, Lizenz aktivieren und Züchterprofil ausfüllen. | **2.** Falls angefordert, die Installation für die verwendete Downloadquelle erlauben und **Installieren** wählen. |
-| **3.** Unter Meine Meeris die erste Fellnase anlegen oder eine Sicherung einlesen. | **3.** Ein Tier anlegen oder die App über **Sync** mit dem PC verbinden. |
+| **1.** Windows-Installer herunterladen und starten. | **1.** Die APK direkt auf dem Handy herunterladen und öffnen. |
+| **2.** Installieren und die gewünschte Desktop-Verknüpfung anlegen lassen. | **2.** Falls angefordert, die Installation für die verwendete Downloadquelle erlauben und **Installieren** wählen. |
+| **3.** MeeriDEX öffnen, bestehende Kartei übernehmen oder neu beginnen und bei Bedarf die Lizenz aktivieren. | **3.** Ein Tier anlegen oder die App über **Sync** mit dem PC verbinden. |
 
-**Windows ohne Installation:** Die EXE in einen eigenen beschreibbaren Benutzerordner legen. Tierdaten und Fotos werden neben der EXE gespeichert. Den Windows-Ordner, Programme und das Laufwerksverzeichnis vermeiden.
+**Windows-Installer empfohlen:** Installation für dein Benutzerkonto mit Startmenüeintrag und optionaler Desktop-Verknüpfung. Programm und Tierdaten liegen getrennt in beschreibbaren Benutzerordnern. Beim ersten Start kannst du eine bestehende Kartei kopieren; eine Deinstallation lässt deine Tierdaten erhalten.
 
-[Programmpaket als ZIP](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Testversion.zip)
+[Portable Windows-EXE ohne Installation](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX.exe) · [Programmpaket als ZIP](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Testversion.zip)
 
 **Voraussetzungen:** Windows 10/11 mit .NET Framework 4.8 oder passender neuerer 4.x-Laufzeit · Android ab 8.0. **Windows braucht eine Lizenz; Android bleibt kostenlos.** Companion ist eine Testversion außerhalb des Play Stores.
 
@@ -154,4 +154,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 01.11.2026 · Windows 1.9.27 · Companion 0.8.11 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 01.11.2026 · Windows 1.9.28 · Companion 0.8.11 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
