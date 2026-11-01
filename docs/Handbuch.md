@@ -20,12 +20,19 @@ Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze V
 
 ### Desktop installieren und aktualisieren
 
-1. Auf der [Desktop-Release-Seite](https://github.com/Coupe5E/MerriDex/releases/latest) unter **Assets** die EXE oder das Programmpaket herunterladen.
-2. Bei der ZIP-Datei zuerst **alles entpacken**. Einen eigenen beschreibbaren Ordner nutzen, zum Beispiel im Benutzerordner. Das Programm legt seine Daten neben der EXE ab; nicht direkt aus der ZIP starten.
-3. `MeeriDEX.exe` öffnen. Ab Version 1.4.0 unter **Lizenz / Aktivierung** Vorname, Nachname, Zuchtname und den erhaltenen Lizenzschlüssel eintragen und online aktivieren; anschließend das Züchterprofil vervollständigen. Die aktivierte Tierverwaltung funktioniert bis zum angezeigten Prüftermin offline. Internet wird zur Aktivierung, spätestens nach 30 Tagen zur erneuten Lizenzprüfung und für GitHub-Updates benötigt; der Handyabgleich benötigt das lokale Netz.
-4. Für spätere Updates **Updates prüfen** im Programm verwenden. Beim manuellen Austausch MeeriDEX zuerst schließen und den gesamten bisherigen Programmordner zusätzlich sichern. Die EXE am bisherigen Ort ersetzen, damit die vorhandenen Daten dort gefunden werden.
+1. Den [Windows-Installer MeeriDEX-Setup.exe](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Setup.exe) herunterladen und starten.
+2. Den Assistenten durchgehen. **Desktop-Verknüpfung erstellen** aktiviert lassen, wenn du den Knopf auf dem Desktop möchtest. Ein Startmenüeintrag wird ebenfalls angelegt. MeeriDEX wird für das aktuelle Windows-Benutzerkonto installiert.
+3. MeeriDEX über die Verknüpfung öffnen. Beim ersten Start eine vorhandene Kartei aus dem bisherigen Programm-/Datenordner kopieren oder eine neue Kartei beginnen. Die alte Anwendung vorher schließen. Originale und frühere Sicherungen bleiben erhalten; ein bereits belegter Zielordner wird nicht überschrieben.
+4. Falls erforderlich unter **Lizenz / Aktivierung** Vorname, Nachname, Zuchtname und Lizenzschlüssel eintragen und online aktivieren. Danach das Züchterprofil vervollständigen.
+5. Für spätere Updates **Updates prüfen** verwenden oder den aktuellen Installer erneut starten. Vor einem manuellen Austausch MeeriDEX schließen und Daten sichern. Die Desktop-Verknüpfung bleibt verwendbar.
 
-**Daten aufbewahren:** `meeridex.sqlite` enthält die Tierkartei; `Profil` enthält unter anderem Züchterangaben und Tierfotos. Im Ordner `Sicherungen` liegen zusätzliche Backups. Für einen Umzug den gesamten Programmordner bei geschlossenem Programm kopieren. Die EXE allein enthält keine Tierkartei.
+**Speicherorte:** Das Programm liegt standardmäßig unter `%LOCALAPPDATA%\Programs\MeeriDEX`. Tierkartei, Fotos, Profil und Sicherungen liegen getrennt unter `%LOCALAPPDATA%\MeeriDEX\Daten`. Über **Datenordner öffnen** erreichst du sie direkt. Ein dauerhafter Start als Administrator ist nicht nötig. Auch eine Deinstallation lässt die Tierdaten erhalten.
+
+**Vorhandene Kartei:** Beim ersten Start den bisherigen Ordner mit `meeridex.sqlite` oder `tiere.json` wählen. Kartei, Fotos, Profil, Einstellungen und Zucht-Favoriten werden kopiert. Alte Backups bleiben im ursprünglichen Ordner und sollten ebenfalls aufgehoben werden. Die bestehende Aktivierung im selben Windows-Benutzerkonto bleibt an ihrem bisherigen Speicherort.
+
+**Portable Version:** Die [einzelne MeeriDEX.exe](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX.exe) und das Programmpaket bleiben verfügbar. Ohne Installationsmarker speichern sie weiterhin neben der EXE. Dafür einen eigenen beschreibbaren Benutzerordner verwenden, nicht `C:\Programme`, den Windows-Ordner oder direkt das Laufwerksverzeichnis. Beim Umzug den gesamten portablen Programmordner kopieren. Eine EXE allein enthält keine Tierdaten.
+
+**Daten aufbewahren:** `meeridex.sqlite` enthält die Kartei, `Profil` unter anderem Züchterdaten und Tierfotos; `Sicherungen` enthält Backups. Vor Umzug oder Änderungen die gesamte Datenablage bei geschlossenem Programm zusätzlich sichern. Die normale aktivierte Tierverwaltung funktioniert bis zum angezeigten Lizenz-Prüftermin offline. Internet wird zur Lizenzaktivierung/-prüfung und für GitHub-Updates benötigt; der Handyabgleich nutzt das lokale Netz.
 
 ### .NET Framework kostenlos nachinstallieren
 
@@ -238,7 +245,7 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 ---
 
-*Stand: 01.11.2026 · MeeriDEX 1.9.27 / Companion 0.8.11.*
+*Stand: 01.11.2026 · MeeriDEX 1.9.28 / Companion 0.8.11.*
 
 
 ## Genetik verstehen und WurfOrakel
