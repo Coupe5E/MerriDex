@@ -237,4 +237,15 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 ---
 
-*Stand: 01.11.2026 · MeeriDEX 1.9.20 / Companion 0.8.6.*
+*Stand: 01.11.2026 · MeeriDEX 1.9.21 / Companion 0.8.7.*
+
+
+## Genetik verstehen und WurfOrakel
+
+Ab **Windows 1.9.21 / Companion 0.8.7** ist eine gemeinsame Genetik-Hilfe enthalten. Am PC im WurfOrakel den Reiter **Genetik verstehen** öffnen oder im Rassengen-Editor den gleichnamigen Knopf verwenden. In Android steht der Knopf im Tierformular neben den Fell-/Farbangaben. Die Hilfe erläutert Allele, Trägergene, Genotyp/Phänotyp und Wahrscheinlichkeiten in eigenen Worten.
+
+Das PC-WurfOrakel berechnet **Rn** zusätzlich als gesonderten Genort. Bei `Rnrn × Rnrn` ergibt das vereinfachte Modell 25 % `RnRn`; das ist keine feste Totgeburtenquote und keine sichere Aussage zum Überleben. Schimmel/Dalmatiner nicht miteinander verpaaren. Fehlende Rn-Angaben bleiben unbekannt; weiße Tiere werden nicht automatisch als `RnRn` eingestuft. Auch gespeicherte Vorlagen sind kein Genotypnachweis.
+
+**Rh und M** werden zusätzlich gemeinsam ausgewertet. Die Modellgruppen zeigen mögliche Ausprägungen und bei unbekannten Eltern Unter-/Obergrenzen. Exakte Rosettenzahl, Lage und vollständige Rasse werden nicht vorhergesagt. Für `arat` erscheint eine differenzierte Erklärung zur Solidagouti-/Loh-Kombination. California, Dapple und weitere Zusatzfaktoren bleiben ausdrücklich unberechnet.
+
+Fachlicher Abgleich: Andreas Reinert, *Meerschweinchen – Haltung – Zucht – Ausstellung*, vorliegendes Exemplar mit Copyright 2014, ISBN 978-3-88627-321-8, fotografierte Seiten 50–65 und 94–95; ergänzend [British Cavy Council: Cavy Genetics: An Exploration](https://www.britishcavycouncil.org.uk/Resources/Cavy%20Genetics%20Article%20October%202008%20rev%20A.pdf). Eine Auflagennummer wurde im vorliegenden Impressum nicht festgestellt. Buchseiten und Buchbilder werden nicht mitgeliefert. Bestehende Tierangaben bleiben erhalten.
