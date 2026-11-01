@@ -237,7 +237,7 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 ---
 
-*Stand: 01.11.2026 · MeeriDEX 1.9.21 / Companion 0.8.7.*
+*Stand: 01.11.2026 · MeeriDEX 1.9.22 / Companion 0.8.8.*
 
 
 ## Genetik verstehen und WurfOrakel
@@ -249,3 +249,12 @@ Das PC-WurfOrakel berechnet **Rn** zusätzlich als gesonderten Genort. Bei `Rnrn
 **Rh und M** werden zusätzlich gemeinsam ausgewertet. Die Modellgruppen zeigen mögliche Ausprägungen und bei unbekannten Eltern Unter-/Obergrenzen. Exakte Rosettenzahl, Lage und vollständige Rasse werden nicht vorhergesagt. Für `arat` erscheint eine differenzierte Erklärung zur Solidagouti-/Loh-Kombination. California, Dapple und weitere Zusatzfaktoren bleiben ausdrücklich unberechnet.
 
 Fachlicher Abgleich: Andreas Reinert, *Meerschweinchen – Haltung – Zucht – Ausstellung*, vorliegendes Exemplar mit Copyright 2014, ISBN 978-3-88627-321-8, fotografierte Seiten 50–65 und 94–95; ergänzend [British Cavy Council: Cavy Genetics: An Exploration](https://www.britishcavycouncil.org.uk/Resources/Cavy%20Genetics%20Article%20October%202008%20rev%20A.pdf). Eine Auflagennummer wurde im vorliegenden Impressum nicht festgestellt. Buchseiten und Buchbilder werden nicht mitgeliefert. Bestehende Tierangaben bleiben erhalten.
+
+
+## Rassen und Farben aus dem Standardabgleich
+
+Ab Windows 1.9.22 / Companion 0.8.8 stehen Angora und Mohair sowie Tan/Loh Blau, Lux Blau, Otter Blau, Fox Blau und drei Brindle-Dalmatiner zur Auswahl. Angora nutzt vorläufig ein Peruanerbild und Mohair ein Alpakabild als Platzhalter; das Bild bestimmt keine Rasse. M und Satin bleiben in den neuen Rassevorlagen unbekannt.
+
+Die Farbtabelle nennt ergänzende Quellenhinweise zum [EE-Standard 2024](https://entente-ee.eu/wp-content/uploads/EE-standard-D-2024.pdf) und [MCB-Standard](https://meerschweinchenclubbayern-mcb.de/infos/rassestandards/mcb-standard). Die Standards werden getrennt betrachtet. Zusätzliche Katalogmodelle sind keine automatische Anerkennung oder Bewertung eines einzelnen Tiers.
+
+487 Farbauswahlen; die bisherigen Definitionen bleiben erhalten. Neue Vorlagen werden nur bei ausdrücklicher Auswahl übernommen. Eigene Gene bleiben individuell erfassbar. Schimmel/Dalmatiner nicht miteinander verpaaren.
