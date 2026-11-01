@@ -8,6 +8,8 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 ## Schnellstart & Downloads
 
+**Neu in Windows 1.9.24:** Der geschätzte Wurfzeitraum bleibt auch bei beendeten Verpaarungen sichtbar – in der Käfigzeile, im Tooltip und im Detailbereich. Companion 0.8.9 bleibt aktuell.
+
 **Neu in Windows 1.9.23 / Companion 0.8.9:** Eindeutige MeeriPro3-Farbnamen werden mit unserem Katalog für Pixelbilder verknüpft – auch bei bereits importierten Tieren. Originalgenformeln bleiben erhalten; unklare Namen werden nicht geraten.
 
 **Neu in Windows 1.9.22 / Companion 0.8.8:** Angora und Mohair, vier blaue Lohzeichnungen und drei Brindle-Dalmatiner. Gemeinsamer Katalog mit 487 Farben; ergänzte Quellenhinweise zu EE und MCB. Die neuen Rassen verwenden vorerst vorhandene Pixelbilder als Platzhalter.
@@ -19,7 +21,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 
 <p align="center">
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.23/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.23 für Windows herunterladen – EXE" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/v1.9.24/MeeriDEX.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX 1.9.24 für Windows herunterladen – EXE" width="280"></a>
   <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.9/MeeriDex-Companion-0.8.9-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion 0.8.9 für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
@@ -149,4 +151,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 01.11.2026 · Windows 1.9.23 · Companion 0.8.9 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 01.11.2026 · Windows 1.9.24 · Companion 0.8.9 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
