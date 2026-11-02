@@ -1,6 +1,6 @@
 ﻿# MeeriDEX · Handbuch und Hilfe
 
-[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.11)
+[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.12)
 
 Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze Vorstellung und alle Downloads stehen auf der Startseite.
 
@@ -30,7 +30,7 @@ Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze V
 
 **Vorhandene Kartei:** Beim ersten Start den bisherigen Ordner mit `meeridex.sqlite` oder `tiere.json` wählen. Kartei, Fotos, Profil, Einstellungen und Zucht-Favoriten werden kopiert. Alte Backups bleiben im ursprünglichen Ordner und sollten ebenfalls aufgehoben werden. Die bestehende Aktivierung im selben Windows-Benutzerkonto bleibt an ihrem bisherigen Speicherort.
 
-**Portable Version:** Die [einzelne MeeriDEX.exe](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX.exe) und das Programmpaket bleiben verfügbar. Ohne Installationsmarker speichern sie weiterhin neben der EXE. Dafür einen eigenen beschreibbaren Benutzerordner verwenden, nicht `C:\Programme`, den Windows-Ordner oder direkt das Laufwerksverzeichnis. Beim Umzug den gesamten portablen Programmordner kopieren. Eine EXE allein enthält keine Tierdaten.
+**Bisherige portable Versionen:** Für Neuinstallationen und manuelle Aktualisierungen den Windows-Installer verwenden. Die einzelne Programm-EXE bleibt als technische Kompatibilitätsdatei für ältere Auto-Updater im Release erhalten. Vor dem Umstieg die bisherige Kartei sichern und beim ersten Start gezielt übernehmen; eine EXE allein enthält keine Tierdaten.
 
 **Daten aufbewahren:** `meeridex.sqlite` enthält die Kartei, `Profil` unter anderem Züchterdaten und Tierfotos; `Sicherungen` enthält Backups. Vor Umzug oder Änderungen die gesamte Datenablage bei geschlossenem Programm zusätzlich sichern. Die normale aktivierte Tierverwaltung funktioniert bis zum angezeigten Lizenz-Prüftermin offline. Internet wird zur Lizenzaktivierung/-prüfung und für GitHub-Updates benötigt; der Handyabgleich nutzt das lokale Netz.
 
@@ -50,9 +50,9 @@ Programmpakete ab 1.7.3 enthalten zusätzlich `NET-Framework-4.8-herunterladen.u
 
 Die aktuelle Windows-Version von MeeriDEX ist **noch nicht digital signiert**. Bei einer neuen oder wenig verbreiteten Datei können Microsoft Edge und Windows deshalb eine Warnung zu einer unbekannten Anwendung anzeigen. Eine Signatur-/Reputationswarnung ist von einer konkreten Schadsoftware-Erkennung zu unterscheiden.
 
-1. MeeriDEX ausschließlich von den [offiziellen GitHub-Releases dieses Projekts](https://github.com/Coupe5E/MerriDex/releases/latest) herunterladen. Unter **Assets** für die Erstinstallation `MeeriDEX-Testversion.zip` auswählen; `Source code` und `.sha256` sind keine Installationspakete.
+1. MeeriDEX ausschließlich von den [offiziellen GitHub-Releases dieses Projekts](https://github.com/Coupe5E/MerriDex/releases/latest) herunterladen. Unter **Assets** für Installation und manuelle Updates `MeeriDEX-Setup.exe` auswählen; `Source code` und `.sha256` sind keine Installationspakete.
 2. Falls Edge den Download als selten heruntergeladen meldet: Im Downloadmenü bei der Datei **…** öffnen. Wenn angeboten, **Beibehalten** und anschließend **Mehr anzeigen → Trotzdem beibehalten** wählen – erst nachdem Herkunft und genaue Warnung geprüft wurden. Die Bezeichnungen können je nach Edge-Version abweichen.
-3. Die ZIP mit Rechtsklick → **Alle extrahieren** in einen eigenen beschreibbaren Ordner, zum Beispiel unter **Dokumente**, entpacken. Dort `MeeriDEX.exe` starten.
+3. `MeeriDEX-Setup.exe` öffnen, die Windows-Bestätigung prüfen und die Installation durchlaufen. MeeriDEX anschließend über die Desktop- oder Startmenü-Verknüpfung öffnen.
 4. Erscheint beim Start die SmartScreen-Meldung **„Der Computer wurde durch Windows geschützt“** wegen einer unbekannten App, auf **Weitere Informationen** klicken. Wenn du dem Download aus diesem Projekt vertraust und die Option angeboten wird, **Trotzdem ausführen** wählen.
 5. Beim ersten Start unter **Lizenz / Aktivierung** Vorname, Nachname, Zuchtname und Lizenzcode eingeben. Alle Angaben müssen zur ausgestellten Lizenz passen; zur Aktivierung ist Internet erforderlich.
 
@@ -65,7 +65,7 @@ Die aktuelle Windows-Version von MeeriDEX ist **noch nicht digital signiert**. B
 | Problem | Was du prüfen kannst |
 | --- | --- |
 | **Meldung zu fehlendem .NET Framework / Programm startet nicht** | Windows aktualisieren und die passende **.NET Framework 4.x-Laufzeit** von Microsoft prüfen/installieren, beispielsweise 4.8 oder 4.8.1 passend zur Windows-Version. Neuere Windows-Versionen enthalten sie bereits. Das ist ein anderes Produkt als die moderne „.NET Desktop Runtime“. [Microsoft-Anleitung](https://learn.microsoft.com/de-de/dotnet/framework/install/on-windows-10). |
-| **`winsqlite3.dll` fehlt** | Ab **1.7.2** enthält die EXE ihre eigene SQLite-Bibliothek; `winsqlite3.dll` muss nicht mehr vorhanden sein. Eine ältere MeeriDEX-Version durch die aktuelle EXE ersetzen, dabei den Datenordner behalten. Keine einzelnen DLLs von fremden Downloadseiten beziehen. Bei weiterem Fehler den vollständigen Meldungstext melden. |
+| **`winsqlite3.dll` fehlt** | Ab **1.7.2** enthält die EXE ihre eigene SQLite-Bibliothek; `winsqlite3.dll` muss nicht mehr vorhanden sein. Eine ältere MeeriDEX-Version mit dem aktuellen Installer aktualisieren und eine bisherige portable Kartei gezielt übernehmen. Keine einzelnen DLLs von fremden Downloadseiten beziehen. Bei weiterem Fehler den vollständigen Meldungstext melden. |
 | **Muss ich Java, Office oder Datenbankwerkzeuge nachinstallieren?** | Nein. Java, Python, Android Studio und ein separater SQLite-/SQL-Server werden für die Nutzung nicht benötigt. Excel muss für Import und Export nicht installiert sein; zum Ansehen einer XLSX-Datei ist ein kompatibles Tabellenprogramm nötig. |
 | **Windows oder Virenschutz warnt vor dem Download** | Eine unbekannte oder wenig verbreitete EXE kann einen Hinweis auslösen. Das allein sagt nicht, dass sie schädlich ist. Herkunft und genaue Meldung prüfen; eine konkrete Virenerkennung nicht pauschal ignorieren und den Virenschutz nicht für MeeriDEX abschalten. Mit Meldung und Version ein Problem melden. |
 | **Speichern oder Sicherung schlägt fehl** | Freien Speicherplatz und Schreibrechte im Programmordner prüfen. Einen eigenen beschreibbaren Ordner verwenden; das Programm nicht innerhalb einer ZIP betreiben. Eine fehlgeschlagene Sicherung verhindert die automatische Updateinstallation. |
@@ -90,7 +90,7 @@ Ab 1.7.4 öffnet eine fehlgeschlagene Online-Aktivierung einen Diagnose-Dialog m
 
 ### Android installieren – Schritt für Schritt
 
-1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.11) wechseln.
+1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.12) wechseln.
 2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.8.5-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
 3. Die heruntergeladene APK über die Downloadmeldung oder die Dateien-App im Ordner **Downloads** öffnen.
 4. Meldet Android, dass diese Quelle keine Apps installieren darf, über die angezeigten **Einstellungen** die Installation für genau den verwendeten Browser oder die Dateien-App erlauben. Die Einstellung heißt je nach Gerät **Unbekannte Apps installieren** oder **Aus dieser Quelle zulassen**; häufig unter **Einstellungen → Apps → Spezieller App-Zugriff**. Nur für eine bewusst gewählte vertrauenswürdige Quelle freigeben. Hersteller und Android-Version können andere Bezeichnungen verwenden.
@@ -229,7 +229,7 @@ Auch Meerschweinchen können bei TASSO registriert werden. Die Registrierung ist
 
 Ab Windows 1.7.0 gibt es unter „Meine Meeris“ den eigenen Knopf „MeeriPro3 importieren“. Ab Windows 1.9.20 direkt die `.back3up`-Datei auswählen. Der zugehörige Bildordner muss daneben liegen, zum Beispiel `MeineZucht.back3up` und `MeineZucht._bilder`; die Fotos werden automatisch erkannt. Alternativ bleibt eine ZIP mit genau einer `.back3up` und ihrem Bildordner möglich. Fehlt der Bildordner, erscheint ein Hinweis vor der Übernahme; die Tierdaten lassen sich auch ohne Fotos importieren. Die Vorschau zeigt neue Tiere und mögliche Dubletten. Je Tier kann man neu anlegen, vorhandene Angaben behalten, bekannte Importwerte übernehmen oder den Eintrag auslassen. Elternverweise werden entsprechend zugeordnet; mehrdeutige Zuordnungen und Familienkreise müssen vor dem Speichern gelöst werden.
 
-Bestehende Tiere und Verpaarungen bleiben erhalten. Vor dem Speichern werden automatisch Sicherungen angelegt. Unter `Importberichte` bleiben die Originalsicherung mit Bildern, vollständige Originaltabellen und die Importentscheidungen lokal erhalten. Beim Dateiimport werden die `.back3up` und zusätzlich ein ZIP-Archiv der Quelldateien aufbewahrt. Änderungen an Quelldateien während der Vorschau erfordern einen erneuten Importstart. Nicht automatisch abgebildete Zusatzdaten werden vor dem Übernehmen ausdrücklich genannt. Der MeeriPro3-Import benötigt kein Python.
+Bestehende Tiere und Verpaarungen bleiben erhalten. Vor dem Speichern werden automatisch Sicherungen angelegt. Unter `Importberichte` bleiben die Originalsicherung mit Bildern, vollständige Originaltabellen und die Importentscheidungen lokal erhalten. Beim Dateiimport werden die `.back3up` und zusätzlich ein ZIP-Archiv der Quelldateien aufbewahrt. Änderungen an Quelldateien während der Vorschau erfordern einen erneuten Importstart. Nicht automatisch abgebildete Zusatzdaten werden vor dem Übernehmen ausdrücklich genannt. Der MeeriPro3-Import benötigt kein Python. Beim Übernehmen von Importwerten werden Farb-Bildzuordnung und strukturierte Genpaar-Auswahl mit dem neuen Eintrag abgeglichen; unveränderte Originalcodes bleiben erhalten. Companion prüft auch über WLAN empfangene Gewichtseinträge vor dem Speichern.
 
 ## Problem melden
 
@@ -248,7 +248,7 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 **Gewichte aus MeeriPro3:** Einzelne unplausible Messungen verhindern nicht die Übernahme der übrigen Tiere. Fehlende oder ungültige Datumsangaben, Messungen vor Geburt oder in der Zukunft, Gewichte außerhalb von über 0 bis 10000 g und zusätzliche Messungen am selben Tag werden mit Hinweis zur Nachprüfung erhalten. Die Originalwerte stehen in den Tiernotizen und im Importbericht; gültige Messungen werden ins Gewichtsarchiv übernommen. Es werden keine Datums- oder Gewichtswerte geraten.
 
-*Stand: 01.11.2026 · MeeriDEX 1.9.30 / Companion 0.8.11.*
+*Stand: 02.11.2026 · MeeriDEX 1.9.31 / Companion 0.8.12.*
 
 
 ## Genetik verstehen und WurfOrakel
