@@ -229,7 +229,7 @@ Auch Meerschweinchen können bei TASSO registriert werden. Die Registrierung ist
 
 Ab Windows 1.7.0 gibt es unter „Meine Meeris“ den eigenen Knopf „MeeriPro3 importieren“. Ab Windows 1.9.20 direkt die `.back3up`-Datei auswählen. Der zugehörige Bildordner muss daneben liegen, zum Beispiel `MeineZucht.back3up` und `MeineZucht._bilder`; die Fotos werden automatisch erkannt. Alternativ bleibt eine ZIP mit genau einer `.back3up` und ihrem Bildordner möglich. Fehlt der Bildordner, erscheint ein Hinweis vor der Übernahme; die Tierdaten lassen sich auch ohne Fotos importieren. Die Vorschau zeigt neue Tiere und mögliche Dubletten. Je Tier kann man neu anlegen, vorhandene Angaben behalten, bekannte Importwerte übernehmen oder den Eintrag auslassen. Elternverweise werden entsprechend zugeordnet; mehrdeutige Zuordnungen und Familienkreise müssen vor dem Speichern gelöst werden.
 
-Bestehende Tiere und Verpaarungen bleiben erhalten. Vor dem Speichern werden automatisch Sicherungen angelegt. Unter `Importberichte` bleiben die Originalsicherung mit Bildern, vollständige Originaltabellen und die Importentscheidungen lokal erhalten. Beim Dateiimport werden die `.back3up` und zusätzlich ein ZIP-Archiv der Quelldateien aufbewahrt. Änderungen an Quelldateien während der Vorschau erfordern einen erneuten Importstart. Nicht automatisch abgebildete Zusatzdaten werden vor dem Übernehmen ausdrücklich genannt. Der MeeriPro3-Import benötigt kein Python. Beim Übernehmen von Importwerten werden Farb-Bildzuordnung und strukturierte Genpaar-Auswahl mit dem neuen Eintrag abgeglichen; unveränderte Originalcodes bleiben erhalten. Companion prüft auch über WLAN empfangene Gewichtseinträge vor dem Speichern.
+Bestehende Tiere und Verpaarungen bleiben erhalten. Vor dem Speichern werden automatisch Sicherungen angelegt. Unter `Importberichte` bleiben die Originalsicherung mit Bildern, vollständige Originaltabellen und die Importentscheidungen lokal erhalten. Beim Dateiimport werden die `.back3up` und zusätzlich ein ZIP-Archiv der Quelldateien aufbewahrt. Änderungen an Quelldateien während der Vorschau erfordern einen erneuten Importstart. Nicht automatisch abgebildete Zusatzdaten werden vor dem Übernehmen ausdrücklich genannt. Der MeeriPro3-Import benötigt kein Python. Namenlose Tiere erhalten einen eindeutigen Platzhalter wie „Unbenannt (MeeriPro3 u422)“ und einen Prüfhinweis. Fotos, Originalangaben und Abstammungsverknüpfungen bleiben erhalten; der tatsächliche Name kann anschließend ergänzt werden. Beim Übernehmen von Importwerten werden Farb-Bildzuordnung und strukturierte Genpaar-Auswahl mit dem neuen Eintrag abgeglichen; unveränderte Originalcodes bleiben erhalten. Companion prüft auch über WLAN empfangene Gewichtseinträge vor dem Speichern.
 
 ## Problem melden
 
@@ -248,7 +248,7 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 **Gewichte aus MeeriPro3:** Einzelne unplausible Messungen verhindern nicht die Übernahme der übrigen Tiere. Fehlende oder ungültige Datumsangaben, Messungen vor Geburt oder in der Zukunft, Gewichte außerhalb von über 0 bis 10000 g und zusätzliche Messungen am selben Tag werden mit Hinweis zur Nachprüfung erhalten. Die Originalwerte stehen in den Tiernotizen und im Importbericht; gültige Messungen werden ins Gewichtsarchiv übernommen. Es werden keine Datums- oder Gewichtswerte geraten.
 
-*Stand: 02.11.2026 · MeeriDEX 1.9.31 / Companion 0.8.12.*
+*Stand: 03.11.2026 · MeeriDEX 1.9.32 / Companion 0.8.12.*
 
 
 ## Genetik verstehen und WurfOrakel
