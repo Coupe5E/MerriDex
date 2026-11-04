@@ -1,6 +1,6 @@
 ﻿# MeeriDEX · Handbuch und Hilfe
 
-[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.13)
+[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.14)
 
 Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze Vorstellung und alle Downloads stehen auf der Startseite.
 
@@ -105,7 +105,7 @@ Ab 1.7.4 öffnet eine fehlgeschlagene Online-Aktivierung einen Diagnose-Dialog m
 
 ### Android installieren – Schritt für Schritt
 
-1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.13) wechseln.
+1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.14) wechseln.
 2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.8.5-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
 3. Die heruntergeladene APK über die Downloadmeldung oder die Dateien-App im Ordner **Downloads** öffnen.
 4. Meldet Android, dass diese Quelle keine Apps installieren darf, über die angezeigten **Einstellungen** die Installation für genau den verwendeten Browser oder die Dateien-App erlauben. Die Einstellung heißt je nach Gerät **Unbekannte Apps installieren** oder **Aus dieser Quelle zulassen**; häufig unter **Einstellungen → Apps → Spezieller App-Zugriff**. Nur für eine bewusst gewählte vertrauenswürdige Quelle freigeben. Hersteller und Android-Version können andere Bezeichnungen verwenden.
@@ -242,7 +242,10 @@ Auch Meerschweinchen können bei TASSO registriert werden. Die Registrierung ist
 
 ## MeeriPro3-Datei oder ZIP übernehmen
 
-Ab Windows 1.7.0 gibt es unter „Meine Meeris“ den eigenen Knopf „MeeriPro3 importieren“. Ab Windows 1.9.20 direkt die `.back3up`-Datei auswählen. Der zugehörige Bildordner muss daneben liegen, zum Beispiel `MeineZucht.back3up` und `MeineZucht._bilder`; die Fotos werden automatisch erkannt. Alternativ bleibt eine ZIP mit genau einer `.back3up` und ihrem Bildordner möglich. Fehlt der Bildordner, erscheint ein Hinweis vor der Übernahme; die Tierdaten lassen sich auch ohne Fotos importieren. Die Vorschau zeigt neue Tiere und mögliche Dubletten. Je Tier kann man neu anlegen, vorhandene Angaben behalten, bekannte Importwerte übernehmen oder den Eintrag auslassen. Elternverweise werden entsprechend zugeordnet; mehrdeutige Zuordnungen und Familienkreise müssen vor dem Speichern gelöst werden.
+Ab Windows **1.9.36** heißt der Knopf **MeeriPro importieren** und akzeptiert zusätzlich ältere `.backup`-Sicherungen – einzeln oder in ZIP. Das unterstützte Datenformat wird anhand des Inhalts geprüft. Alte Fototabellen mit drei Bildern sowie Kastratenangaben ohne OP-Datum werden berücksichtigt. Den zugehörigen Ordner, beispielsweise `MeineZucht._bilder`, neben `MeineZucht.backup` aufbewahren. Ohne ihn werden die Tierdaten mit einem Hinweis auf fehlende Fotos angeboten. Historische Fotopfade werden ausschließlich über den Dateinamen im mitgelieferten Bildarchiv gesucht.
+
+
+Ab Windows 1.7.0 gibt es unter „Meine Meeris“ den eigenen Knopf „MeeriPro importieren“. Ab Windows 1.9.20 direkt die `.back3up`-Datei auswählen. Der zugehörige Bildordner muss daneben liegen, zum Beispiel `MeineZucht.back3up` und `MeineZucht._bilder`; die Fotos werden automatisch erkannt. Alternativ bleibt eine ZIP mit genau einer `.back3up` und ihrem Bildordner möglich. Fehlt der Bildordner, erscheint ein Hinweis vor der Übernahme; die Tierdaten lassen sich auch ohne Fotos importieren. Die Vorschau zeigt neue Tiere und mögliche Dubletten. Je Tier kann man neu anlegen, vorhandene Angaben behalten, bekannte Importwerte übernehmen oder den Eintrag auslassen. Elternverweise werden entsprechend zugeordnet; mehrdeutige Zuordnungen und Familienkreise müssen vor dem Speichern gelöst werden.
 
 Bestehende Tiere und Verpaarungen bleiben erhalten. Vor dem Speichern werden automatisch Sicherungen angelegt. Unter `Importberichte` bleiben die Originalsicherung mit Bildern, vollständige Originaltabellen und die Importentscheidungen lokal erhalten. Beim Dateiimport werden die `.back3up` und zusätzlich ein ZIP-Archiv der Quelldateien aufbewahrt. Änderungen an Quelldateien während der Vorschau erfordern einen erneuten Importstart. Nicht automatisch abgebildete Zusatzdaten werden vor dem Übernehmen ausdrücklich genannt. Der MeeriPro3-Import benötigt kein Python. Namenlose Tiere erhalten einen eindeutigen Platzhalter wie „Unbenannt (MeeriPro3 u422)“ und einen Prüfhinweis. Fotos, Originalangaben und Abstammungsverknüpfungen bleiben erhalten; der tatsächliche Name kann anschließend ergänzt werden. Beim Übernehmen von Importwerten werden Farb-Bildzuordnung und strukturierte Genpaar-Auswahl mit dem neuen Eintrag abgeglichen; unveränderte Originalcodes bleiben erhalten. Companion prüft auch über WLAN empfangene Gewichtseinträge vor dem Speichern.
 
