@@ -20,19 +20,34 @@ Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze V
 
 ### Desktop installieren und aktualisieren
 
+**Neue Installation:**
+
 1. Den [Windows-Installer MeeriDEX-Setup.exe](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Setup.exe) herunterladen und starten.
-2. Den Assistenten durchgehen. **Desktop-Verknüpfung erstellen** aktiviert lassen, wenn du den Knopf auf dem Desktop möchtest. Ein Startmenüeintrag wird ebenfalls angelegt. Die Windows-Abfrage einmal bestätigen. MeeriDEX wird im Programme-Ordner installiert; spätere Programmupdates benötigen ebenfalls diese Bestätigung.
-3. MeeriDEX über die Verknüpfung öffnen. Beim ersten Start eine vorhandene Kartei aus dem bisherigen Programm-/Datenordner kopieren oder eine neue Kartei beginnen. Die alte Anwendung vorher schließen. Originale und frühere Sicherungen bleiben erhalten; ein bereits belegter Zielordner wird nicht überschrieben.
-4. Falls erforderlich unter **Lizenz / Aktivierung** Vorname, Nachname, Zuchtname und Lizenzschlüssel eintragen und online aktivieren. Danach das Züchterprofil vervollständigen.
-5. Für spätere Updates **Updates prüfen** verwenden oder den aktuellen Installer erneut starten. Vor einem manuellen Austausch MeeriDEX schließen und Daten sichern. Die Desktop-Verknüpfung bleibt verwendbar. MeeriDEX selbst startet ohne Administratorrechte; Einstellungen in den Dateieigenschaften sind nicht nötig.
+2. Die Windows-Abfrage bestätigen und den Assistenten durchgehen. Desktop- und Startmenü-Verknüpfungen werden angelegt. Am Ende kann MeeriDEX direkt starten.
+3. Eine bereits eindeutig gefundene Kartei wird ab 1.9.35 automatisch geprüft und gesichert übernommen. Bei mehreren unterschiedlichen Karteien folgt eine Auswahl; ohne gefundene Kartei kannst du den bisherigen Ordner wählen oder neu beginnen.
+4. Falls erforderlich die Lizenz aktivieren und das Züchterprofil vervollständigen.
 
-**Speicherorte:** Das Programm liegt standardmäßig unter `C:\Programme\MeeriDEX` (auf 64-Bit-Windows; der tatsächliche Pfad kann `C:\Program Files\MeeriDEX` heißen). Tierkartei, Fotos, Profil und Sicherungen liegen getrennt unter `%LOCALAPPDATA%\MeeriDEX\Daten`. Über **Datenordner öffnen** erreichst du sie direkt. Ein dauerhafter Start als Administrator ist nicht nötig. Auch eine Deinstallation lässt die Tierdaten erhalten.
+**Vorhandene Installation aktualisieren:** In MeeriDEX **Updates prüfen** verwenden oder MeeriDEX schließen und denselben aktuellen Installer starten. Vor automatischen Updates erstellt MeeriDEX eine ZIP- und Excel-Sicherung. Nur Installation und Programmupdates benötigen die Windows-Bestätigung; im Alltag läuft MeeriDEX ohne Administratorrechte.
 
-**Vorhandene Kartei:** Beim ersten Start den bisherigen Ordner mit `meeridex.sqlite` oder `tiere.json` wählen. Kartei, Fotos, Profil, Einstellungen und Zucht-Favoriten werden kopiert. Alte Backups bleiben im ursprünglichen Ordner und sollten ebenfalls aufgehoben werden. Die bestehende Aktivierung im selben Windows-Benutzerkonto bleibt an ihrem bisherigen Speicherort.
+Ab 1.9.35 werden ungeeignete Speicherorte vor dem Download erkannt. **Automatisch einrichten** lädt den geprüften offiziellen Installer und führt den Umstieg weiter. Während eines laufenden Updates wird kein zweiter Updatevorgang für dasselbe Ziel gestartet. Ein abgebrochener oder fehlgeschlagener Installationsversuch derselben Version löst beim nächsten Programmstart keinen erneuten automatischen Download aus: Mit **Updates prüfen** setzt du ihn fort. Ein vorhandener Download wird nach erneuter Größen- und SHA-256-Prüfung wiederverwendet. Der Abschluss prüft die tatsächlich installierte Programmversion und die Programmdatei.
 
-**Bisherige portable Versionen:** Für Neuinstallationen und manuelle Aktualisierungen den Windows-Installer verwenden. Die einzelne Programm-EXE bleibt als technische Kompatibilitätsdatei für ältere Auto-Updater im Release erhalten. Vor dem Umstieg die bisherige Kartei sichern und beim ersten Start gezielt übernehmen; eine EXE allein enthält keine Tierdaten.
+**Setup-Code 5:** Bedeutet einen Abbruch während der Installation oder nach einer Setup-Rückfrage; er bedeutet nicht automatisch „Zugriff verweigert“. Ab 1.9.35 zeigt die Updateübergabe Setup-Rückfragen an und nennt bei Fehlern den Pfad zum festen `installation.log` neben dem geladenen Installer. Die Installation in denselben bisherigen Programmordner ist normal. Bei einer Dateisperre den angebotenen regulären Abschluss der betroffenen Anwendung verwenden oder offene MeeriDEX-Fenster schließen und im Setup erneut versuchen. Es wird kein erzwungenes Beenden angefordert. [Bedeutung der Setup-Codes](https://jrsoftware.org/ishelp/topic_setupexitcodes.htm).
 
-**Daten aufbewahren:** `meeridex.sqlite` enthält die Kartei, `Profil` unter anderem Züchterdaten und Tierfotos; `Sicherungen` enthält Backups. Vor Umzug oder Änderungen die gesamte Datenablage bei geschlossenem Programm zusätzlich sichern. Die normale aktivierte Tierverwaltung funktioniert bis zum angezeigten Lizenz-Prüftermin offline. Internet wird zur Lizenzaktivierung/-prüfung und für GitHub-Updates benötigt; der Handyabgleich nutzt das lokale Netz.
+**Speicherorte:** Das Programm liegt standardmäßig unter `C:\Programme\MeeriDEX` beziehungsweise `C:\Program Files\MeeriDEX`. Tierkartei, Fotos, Profil und Sicherungen liegen getrennt unter `%LOCALAPPDATA%\MeeriDEX\Daten`. Über **Datenordner öffnen** erreichst du sie direkt. Eine Deinstallation lässt die Tierdaten erhalten.
+
+### Von einer alten Version umziehen
+
+1. Die bisherige MeeriDEX-Version schließen und den [aktuellen Windows-Installer](https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Setup.exe) starten. Bei alten Versionen mit „Zugriff verweigert“, „Ungültiger Update-Speicherort“ oder einer zu kleinen Downloadgrenze ist dieser einmalige manuelle Schritt nötig. Alte EXE-Dateien können ihre Updatefehler erst nach einem Austausch beheben.
+2. Die neue MeeriDEX-Verknüpfung verwenden. Ab 1.9.35 sucht MeeriDEX an bekannten bisherigen Installationsorten und berücksichtigt den beim automatischen Umstieg übergebenen Datenordner. Eine eindeutig gefundene Kartei zieht automatisch ein. Liegt sie an einem anderen Ort, fragt MeeriDEX nach dem bisherigen Ordner mit `meeridex.sqlite` oder `tiere.json`.
+3. Tiere, Fotos, Profil, Einstellungen und Zucht-Favoriten werden kopiert und geprüft. Eine Bestätigung nennt die Zahl der übernommenen Tiere und Fotos. Eine ZIP- und Excel-Sicherung entsteht automatisch. Die Originalkartei und ihre bisherigen Sicherungen bleiben im alten Ordner erhalten.
+
+**Mehrere Karteien:** Identische Kopien erfordern keine zusätzliche Auswahl. Bei unterschiedlichen gefundenen Karteien wählst du einmal die richtige aus. Ist im neuen Benutzerordner bereits eine andere Kartei vorhanden und wurde ein alter Datenordner ausdrücklich zum Umstieg übergeben, fragt MeeriDEX ebenfalls nach. Bei einem Wechsel wird die bisherige Zielkartei zusätzlich gesichert und als eigener Ordner neben dem Datenordner aufbewahrt. Es werden keine Karteien automatisch zusammengeführt.
+
+**Alte Verknüpfungen:** Bei einer geprüften Übernahme werden passende persönliche Desktop-, Startmenü- und angeheftete Verknüpfungen auf die neue Programmdatei angepasst. Erkennt eine neue Programmversion beim Start eine neuere Installation mit derselben Kartei, öffnet sie diese. Bei anderen Karteien erfolgt kein stiller Wechsel. Sehr alte EXE-Dateien kennen diese Erkennung noch nicht: bitte die neue MeeriDEX-Verknüpfung verwenden.
+
+Die bestehende Aktivierung im selben Windows-Benutzerkonto bleibt an ihrem bisherigen Speicherort. Die einzelne Programm-EXE im Release bleibt eine technische Kompatibilitätsdatei für ältere Auto-Updater; für manuelle Installationen und Updates den **Installer** verwenden. Eine EXE allein enthält keine Tierdaten.
+
+**Daten aufbewahren:** `meeridex.sqlite` enthält die Kartei, `Profil` unter anderem Züchterdaten und Tierfotos; `Sicherungen` enthält Backups. Die automatische Sicherung ersetzt keine zusätzliche Kopie auf einem anderen Datenträger. Der neue lokale Updatebericht liegt unter `%LOCALAPPDATA%\MeeriDEX\Einrichtung\Diagnose\letzte-update-pruefung.txt`.
 
 ### .NET Framework kostenlos nachinstallieren
 
