@@ -1,6 +1,6 @@
 ﻿# MeeriDEX · Handbuch und Hilfe
 
-[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.12)
+[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.13)
 
 Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze Vorstellung und alle Downloads stehen auf der Startseite.
 
@@ -90,7 +90,7 @@ Ab 1.7.4 öffnet eine fehlgeschlagene Online-Aktivierung einen Diagnose-Dialog m
 
 ### Android installieren – Schritt für Schritt
 
-1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.12) wechseln.
+1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.13) wechseln.
 2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.8.5-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
 3. Die heruntergeladene APK über die Downloadmeldung oder die Dateien-App im Ordner **Downloads** öffnen.
 4. Meldet Android, dass diese Quelle keine Apps installieren darf, über die angezeigten **Einstellungen** die Installation für genau den verwendeten Browser oder die Dateien-App erlauben. Die Einstellung heißt je nach Gerät **Unbekannte Apps installieren** oder **Aus dieser Quelle zulassen**; häufig unter **Einstellungen → Apps → Spezieller App-Zugriff**. Nur für eine bewusst gewählte vertrauenswürdige Quelle freigeben. Hersteller und Android-Version können andere Bezeichnungen verwenden.
@@ -248,7 +248,7 @@ Keine persönlichen Tierkarteien, Datenbanken, Kontaktdaten, Zugriffsschlüssel 
 
 **Gewichte aus MeeriPro3:** Einzelne unplausible Messungen verhindern nicht die Übernahme der übrigen Tiere. Fehlende oder ungültige Datumsangaben, Messungen vor Geburt oder in der Zukunft, Gewichte außerhalb von über 0 bis 10000 g und zusätzliche Messungen am selben Tag werden mit Hinweis zur Nachprüfung erhalten. Die Originalwerte stehen in den Tiernotizen und im Importbericht; gültige Messungen werden ins Gewichtsarchiv übernommen. Es werden keine Datums- oder Gewichtswerte geraten.
 
-*Stand: 03.11.2026 · MeeriDEX 1.9.32 / Companion 0.8.12.*
+*Stand: 04.11.2026 · MeeriDEX 1.9.34 / Companion 0.8.13.*
 
 
 ## Genetik verstehen und WurfOrakel
@@ -287,7 +287,7 @@ Ab Windows 1.9.24 bleibt die Geburtsschätzung bei beendeten Verpaarungen sichtb
 
 ## A4-Stammbaum anpassen
 
-Im A4-Stammbaumfenster links **Blatt & Ahnen → Anpassungen** öffnen. Dort anhaken, was erscheinen soll: Geburtsgewicht, Gen-Code (Rassengenetik), Farb-Code (Farbgenetik), Wurfquote, Farbe, Rasse, Geschlecht, Geburtsdatum, Herkunftszucht, Züchterkopf, Kontaktdaten, Zuchtlogo, Hauptbild, Pixelbilder der Vorfahren und Legende/Fußzeile. Namen bleiben immer sichtbar.
+Im A4-Stammbaumfenster links **Blatt & Ahnen → Anpassungen** öffnen. Die Bereiche **Haupttier** und **Vorfahren** lassen sich unabhängig einstellen. **Blatt & Zucht** enthält die gemeinsamen Dokumentoptionen. Auf Familien-Folgeseiten verwendet auch die große obere Ahnenkarte die Vorfahren-Auswahl. Dort anhaken, was erscheinen soll: Geburtsgewicht, Gen-Code (Rassengenetik), Farb-Code (Farbgenetik), Wurfquote, Farbe, Rasse, Geschlecht, Geburtsdatum, Herkunftszucht, Züchterkopf, Kontaktdaten, Zuchtlogo, Hauptbild, Pixelbilder der Vorfahren und Legende/Fußzeile. Namen bleiben immer sichtbar.
 
 **Übernehmen** aktualisiert die Vorschau und speichert die Auswahl lokal für den nächsten Ausdruck. **Abbrechen** lässt die bisherige Auswahl unverändert. **Alles anzeigen** setzt die Haken auf den vollständigen Umfang; anschließend Übernehmen wählen. Tierprofile und Züchterdaten werden dabei nicht verändert.
 
@@ -325,3 +325,5 @@ Vorhandene Tiercodes werden nicht überschrieben. Zum Übernehmen im Tierformula
 
 Ein Widerspruch fordert zum Prüfen der Codes und Elternzuordnung auf; er beweist keine falsche Abstammung. Die Hinweise ändern weder Gene noch Quellen automatisch und berechnen keine Wahrscheinlichkeit. K/Wd bleiben außerhalb des WurfOrakels. „Übernehmen“ übernimmt Quellennotizen ins Formular; erst „Tier speichern“ speichert das Profil. Die Hilfe verwirft auf Android keine bereits eingegebenen Quellennotizen.
 
+
+Die gemeinsame Bildsammlung enthält 169 zugeordnete Farbvarianten, darunter 35 neu eingebundene Motive vom 01.–04.11.2026. Windows und Android verwenden dieselben PNGs und Zuordnungen. Das Bild zum freien Namen „Brindle Blau-Creme“ ergänzt keine Katalogfarbe und keine Genformel.
