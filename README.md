@@ -13,7 +13,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
   <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.13/MeeriDex-Companion-0.8.13-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
-**Aktuelle Downloads:** Windows **1.9.34** · Android **0.8.13**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
+**Aktuelle Downloads:** Windows **1.9.35** · Android **0.8.13**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
 
 | Am Windows-PC einziehen | Auf Android loslegen |
 | --- | --- |
@@ -21,7 +21,15 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 | **2.** Die Windows-Abfrage bestätigen, installieren und die gewünschte Desktop-Verknüpfung anlegen lassen. | **2.** Falls angefordert, die Installation für die verwendete Downloadquelle erlauben und **Installieren** wählen. |
 | **3.** MeeriDEX öffnen, bestehende Kartei übernehmen oder neu beginnen und bei Bedarf die Lizenz aktivieren. | **3.** Ein Tier anlegen oder die App über **Sync** mit dem PC verbinden. |
 
-**Windows-Installation:** Installation im Programme-Ordner mit Startmenüeintrag und optionaler Desktop-Verknüpfung. Nur Installation und Programmupdates benötigen die Windows-Bestätigung. MeeriDEX startet danach ganz normal ohne Adminrechte. Die Tierdaten bleiben getrennt im beschreibbaren Benutzerordner. Beim ersten Start kannst du eine bestehende Kartei kopieren; eine Deinstallation lässt deine Tierdaten erhalten.
+### Neu installieren oder vorhandene Version aktualisieren
+
+**Neu hier?** Den Windows-Installer oben starten, Windows bestätigen und MeeriDEX öffnen. Der Installer legt die Verknüpfungen an; die Kartei liegt automatisch im beschreibbaren Benutzerordner.
+
+**Schon eine Kartei vorhanden?** MeeriDEX schließen und denselben Installer starten. Ab 1.9.35 wird eine eindeutig gefundene bisherige Kartei automatisch mit Fotos und Profil geprüft übernommen – einschließlich ZIP- und Excel-Sicherung. Bei mehreren unterschiedlichen Karteien wählst du einmal die passende aus. Die ursprünglichen Daten bleiben erhalten. [Umzug und Hilfe](docs/Handbuch.md#von-einer-alten-version-umziehen).
+
+**„Zugriff auf den Pfad verweigert“ bei einem alten Update?** Einmal den aktuellen Installer oben starten. Keine Ordnerrechte ändern und MeeriDEX nicht dauerhaft als Administrator ausführen. Bereits verteilte alte Programmdateien erhalten diese Hilfe erst mit dem Update.
+
+**Windows-Installation:** Installation im Programme-Ordner mit Startmenüeintrag und optionaler Desktop-Verknüpfung. Nur Installation und Programmupdates benötigen die Windows-Bestätigung. MeeriDEX startet danach ganz normal ohne Adminrechte. Die Tierdaten bleiben getrennt im beschreibbaren Benutzerordner. Eine eindeutig gefundene bisherige Kartei wird beim ersten Start gesichert übernommen; eine Deinstallation lässt deine Tierdaten erhalten.
 
 
 **Voraussetzungen:** Windows 10/11 mit .NET Framework 4.8 oder passender neuerer 4.x-Laufzeit · Android ab 8.0. **Windows braucht eine Lizenz; Android bleibt kostenlos.** Companion ist eine Testversion außerhalb des Play Stores.
@@ -33,7 +41,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 <details>
 <summary><strong>Du hast MeeriDEX oder Companion schon installiert?</strong></summary>
 
-Am PC **Updates prüfen** verwenden. Für ein manuelles Windows-Update MeeriDEX schließen und den aktuellen Installer ausführen. Eine vorhandene portable Kartei beim ersten Start gezielt übernehmen. Die Android-APK **über die vorhandene App installieren**; nicht vorher deinstallieren oder App-Daten löschen.
+Am PC **Updates prüfen** verwenden. Für ein manuelles Windows-Update MeeriDEX schließen und den aktuellen Installer ausführen. Eine eindeutig gefundene portable Kartei wird ab 1.9.35 automatisch gesichert übernommen; bei mehreren unterschiedlichen Karteien folgt eine Auswahl. Die Android-APK **über die vorhandene App installieren**; nicht vorher deinstallieren oder App-Daten löschen.
 
 Bei Windows-Versionen bis 1.9.15 den aktuellen Installer einmal manuell herunterladen: Die damalige Downloadgrenze verhindert den automatischen Bezug großer Programmdateien. Sehr alte Companion-Versionen benötigen ebenfalls einmalig den direkten APK-Download.
 
