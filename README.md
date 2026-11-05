@@ -13,7 +13,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
   <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v0.8.14/MeeriDex-Companion-0.8.14-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
-**Aktuelle Downloads:** Windows **1.9.36** · Android **0.8.14**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
+**Aktuelle Downloads:** Windows **1.9.37** · Android **0.8.14**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
 
 | Am Windows-PC einziehen | Auf Android loslegen |
 | --- | --- |
@@ -41,7 +41,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 <details>
 <summary><strong>Du hast MeeriDEX oder Companion schon installiert?</strong></summary>
 
-Am PC **Updates prüfen** verwenden. Für ein manuelles Windows-Update MeeriDEX schließen und den aktuellen Installer ausführen. Eine eindeutig gefundene portable Kartei wird ab 1.9.35 automatisch gesichert übernommen; bei mehreren unterschiedlichen Karteien folgt eine Auswahl. Die Android-APK **über die vorhandene App installieren**; nicht vorher deinstallieren oder App-Daten löschen.
+Am PC **Updates prüfen** verwenden. Nach einem unterbrochenen Update erscheint **Update fortsetzen**; passende Teil-Downloads werden weitergeladen und vollständige Downloads erneut geprüft. Für ein manuelles Windows-Update MeeriDEX schließen und den aktuellen Installer ausführen. Eine eindeutig gefundene portable Kartei wird ab 1.9.35 automatisch gesichert übernommen; bei mehreren unterschiedlichen Karteien folgt eine Auswahl. Die Android-APK **über die vorhandene App installieren**; nicht vorher deinstallieren oder App-Daten löschen.
 
 Bei Windows-Versionen bis 1.9.15 den aktuellen Installer einmal manuell herunterladen: Die damalige Downloadgrenze verhindert den automatischen Bezug großer Programmdateien. Sehr alte Companion-Versionen benötigen ebenfalls einmalig den direkten APK-Download.
 
@@ -64,14 +64,14 @@ Bei Windows-Versionen bis 1.9.15 den aktuellen Installer einmal manuell herunter
 
 | Bereich | Das steckt drin |
 | --- | --- |
-| **Meine Meeris & Profile** | Tiere anlegen, suchen und bearbeiten: Name, Geschlecht, Geburtstag, Rasse, Farbe, Herkunft, Eltern, Notizen und Kastrationsangaben. Mehrere Fotos pro Tier und optionale RFID-Chipnummern gehören dazu. |
+| **Meine Meeris & Profile** | Tiere anlegen, suchen, nach Spalten sortieren und bearbeiten: Name, Geschlecht, Geburtstag, Rasse, Farbe, Herkunft, Eltern, Notizen und Kastrationsangaben. Mehrere Fotos pro Tier und optionale RFID-Chipnummern gehören dazu. |
 | **Familie & Stammbäume** | Mutter, Vater und Geschwister verknüpfen, Familienbäume über drei bis sechs Generationen erkunden und Profile direkt öffnen. |
 | **A4-Stammbaum & PDF** | Stammbäume mit Tierfoto, Vorfahrenbildern und Zuchtlogo als A4-PDF speichern oder drucken. Sichtbare Angaben anpassen und größere Familien auf Folgeseiten ausgeben. |
 | **Gewicht & Erinnerungen** | Messungen mit Datum erfassen und als Verlauf ansehen. Eigene Aufgaben mit Termin, Wiederholung und Notizen anlegen, abhaken oder verschieben. |
 | **Verpaarungen & Würfe** | Käfige und Tiergruppen planen, Start- und Enddaten festhalten und Würfe mit Eltern, Jungtieren und M/W/T-Quote verwalten. |
 | **Farben & WurfOrakel** | Rassen, Farbvorlagen und bekannte Trägergene erfassen, Zucht-Favoriten speichern und mögliche Genpaare des Nachwuchses ansehen. Genstatus, Quellen und Stammbaum-Hinweise helfen beim Einordnen. |
 | **Krankenstation** | Befunde, Verdachtsfälle, Behandlungen und Krankheitsverläufe dokumentieren sowie Familienbeziehungen nachsehen. |
-| **Abgabe & MeeriHimmel** | Ausgezogene Tiere mit Datum, Kontaktangaben und optionalem Verkaufspreis verwalten. Verstorbene Meeris behalten ihr Profil, ihre Fotos und ihren Platz im Stammbaum. |
+| **Abgabe & MeeriHimmel** | Ausgezogene Tiere mit Datum, Kontaktangaben und optionalem Verkaufspreis verwalten. Bearbeitbare Abgabemappen mit Geburtsurkunde, Schutzvertragsvorlage und Futterliste als PDF erstellen. Verstorbene Meeris behalten ihr Profil, ihre Fotos und ihren Platz im Stammbaum. |
 | **Züchterprofil** | Zuchtname, Ort, Kontakte und ein eigenes Logo hinterlegen; Vorgaben für neue Tiere übernehmen. |
 | **Sicherungen & Import** | ZIP-Sicherungen, Excel-Import/-Export und MeeriPro-Übernahme aus `.backup`, `.back3up` oder ZIP. Vor Programmupdates erstellt MeeriDEX automatisch eine ZIP- und eine Excel-Sicherung. |
 | **Pixel-Meeris & kleine Extras** | Passende Rassen- und Farbbilder, bis zu vier eigene Meeris mit Namen im Kopfbereich, pixelige „So geht’s“-Sprechblasen und eine abschaltbare Kötelparty. |
