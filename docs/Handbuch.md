@@ -210,6 +210,28 @@ Ab **MeeriDEX 1.8.0 / Companion 0.8.0** gibt es eine Wurfliste im gewohnten Pixe
 - **Wurf aus Verpaarung** übernimmt den Bezug zur Gruppe. Bei mehreren Weibchen pro Gruppe jeden Wurf mit seiner tatsächlichen Mutter erfassen. Den wirklichen Trenntermin getrennt vom Geburtsdatum angeben. Auf Android stehen die PC-Verpaarungen nach einem Sync zur Verfügung; ohne vorherigen Sync ist eine manuelle Erfassung möglich.
 - Gespeicherte Würfe gehören zur Historie der Mutter. SQLite, ZIP, Excel und WLAN übertragen die Daten und Jungtierzuordnungen. Konflikte betreffen das vollständige Tierprofil; unterschiedliche Trenntermine werden nicht still überschrieben. Für den Abgleich beide Programme aktualisieren. Das Löschen eines Wurfeintrags löscht keine Tierprofile und öffnet keine beendete Verpaarung erneut. Aus vorhandenen Profilen kann weiterhin ein automatischer Eintrag erscheinen.
 
+## Abgabemappe als PDF
+
+Unter **Abgabe → Abgabemappe** bereitest du Deckblatt, Geburtsurkunde, Schutzvertrag und Futterliste vor. Markiere ein Tier oder wähle ohne markierte Zeile eines aus – auch vor dem Auszug. Alle Teile sind einzeln zuschaltbar.
+
+Tier-, Eltern-, Wurf-, Zucht- und Empfängerdaten werden vorausgefüllt. **Alle Angaben und Texte bleiben direkt in MeeriDEX bearbeitbar.** Änderungen gelten für die Mappe; Tierkartei und Züchterprofil werden dadurch nicht geändert. Ein eigenes Zuchtlogo und Tierfoto oder Pixel-Meeri sind möglich. Die Vorschau zeigt alle Seiten; längere Inhalte laufen auf Folgeseiten weiter. Unten steht ein kleiner MeeriDEX-Hinweis.
+
+**Entwurf merken** speichert die Mappe beim Tier. **Vorlage merken** übernimmt wiederverwendbare Texte und die ergänzte Anschrift für weitere Mappen. **Profildaten neu übernehmen** aktualisiert die vorausgefüllten Angaben; eigene freie Texte bleiben erhalten. **PDF speichern** gibt die fertige Mappe aus. Die Bearbeitung erfolgt in MeeriDEX, nicht in einem PDF-Formular.
+
+Der Schutzvertrag ist eine bearbeitbare Ausgangsvorlage. Passe die Vereinbarungen an die konkrete Abgabe an und lasse rechtliche Fragen bei Bedarf fachlich prüfen. Fremde Züchteradressen, Logos und Rabattcodes werden nicht mitgeliefert. Entwürfe und Vorlagen bleiben lokal und werden mit der Profilsicherung gesichert; sie sind kein eigener Bestandteil des WLAN-Abgleichs.
+
+## Listen sortieren
+
+Unter **Meine Meeris** sortiert ein Klick auf eine Spaltenüberschrift aufsteigend, ein zweiter absteigend. Geburtsdaten werden chronologisch sortiert, unbekannte Daten bleiben zuletzt. Suche und Aktualisierung behalten die gewählte Reihenfolge.
+
+Auch bei **Import prüfen und Konflikte lösen** lassen sich **MeeriPro3-Tier**, **Prüfhinweis**, **Vorhandenes Tier** und **Entscheidung** sortieren. Entscheidungen und Details bleiben beim zugehörigen Tier. **Alle neu anlegen** setzt sämtliche Importzeilen auf neue Profile zurück und entfernt Zuordnungen zu vorhandenen Tieren. Dies kann zusätzliche Profile erzeugen; vorhandene Tiere werden dabei nicht gelöscht.
+
+## Unterbrochenes Update fortsetzen
+
+Bei einem ausstehenden neueren Update steht in der Knopfleiste **Update fortsetzen** statt **Updates prüfen**. Ein Klick prüft die aktuelle Veröffentlichung erneut und lädt einen passenden Teilstand weiter, sofern der Server das unterstützt. Vollständige Dateien werden nach Größen- und SHA-256-Prüfung wiederverwendet. Eine abgebrochene Windows-Bestätigung oder Installation kann so ebenfalls erneut gestartet werden. Beim nächsten Programmstart wird derselbe abgebrochene Versuch nicht automatisch erneut heruntergeladen.
+
+MeeriDEX selbst läuft ohne Administratorrechte. Bei einer installierten Version liegen Kartei und Downloads im beschreibbaren Benutzerbereich; nur der Installer benötigt die Windows-Bestätigung für Änderungen im Programme-Ordner. Bei einer alten portablen Version mit Rechtefehler den aktuellen Installer einmal direkt herunterladen und ausführen. Keine Ordnerrechte lockern und MeeriDEX nicht dauerhaft als Administrator starten.
+
 ## Abgabe: übernehmende Personen und Zuchten
 
 Ab **MeeriDEX 1.8.1 / Companion 0.8.1** lassen sich bei einer Abgabe **Name, optionaler Zuchtname, Anschrift, Telefon, E-Mail und eine Notiz zur Abgabe** eintragen. Alle Angaben sind freiwillig; ältere Abgaben ohne Kontakt bleiben gültig. Der Zuchtname der übernehmenden Person ist von der Herkunftszucht des Tiers getrennt.
