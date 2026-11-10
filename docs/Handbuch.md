@@ -1,6 +1,6 @@
 ﻿# MeeriDEX · Handbuch und Hilfe
 
-[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.16)
+[Zurück zur Startseite](../README.md) · [Windows herunterladen](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android herunterladen](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v2.0.0)
 
 Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze Vorstellung und alle Downloads stehen auf der Startseite.
 
@@ -105,7 +105,7 @@ Ab 1.7.4 öffnet eine fehlgeschlagene Online-Aktivierung einen Diagnose-Dialog m
 
 ### Android installieren – Schritt für Schritt
 
-1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v0.8.16) wechseln.
+1. Diese GitHub-Seite **auf dem Android-Handy** öffnen und zum [Companion-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v2.0.0) wechseln.
 2. **Assets** aufklappen und die Datei **`MeeriDex-Companion-0.8.5-test.apk`** laden. Nicht die `.sha256`-Datei und nicht „Source code“ wählen.
 3. Die heruntergeladene APK über die Downloadmeldung oder die Dateien-App im Ordner **Downloads** öffnen.
 4. Meldet Android, dass diese Quelle keine Apps installieren darf, über die angezeigten **Einstellungen** die Installation für genau den verwendeten Browser oder die Dateien-App erlauben. Die Einstellung heißt je nach Gerät **Unbekannte Apps installieren** oder **Aus dieser Quelle zulassen**; häufig unter **Einstellungen → Apps → Spezieller App-Zugriff**. Nur für eine bewusst gewählte vertrauenswürdige Quelle freigeben. Hersteller und Android-Version können andere Bezeichnungen verwenden.
@@ -261,6 +261,14 @@ Ab **MeeriDEX 1.9.2 / Companion 0.8.3** im Tierprofil **TASSO · Chip prüfen / 
 Auch Meerschweinchen können bei TASSO registriert werden. Die Registrierung ist kostenlos; Chippen allein ersetzt sie nicht. TASSO nennt 15 Ziffern, selten 10 oder 12, für die Transpondernummer. Das Formular und das Abfrageergebnis bleiben auf TASSOs Webseite. MeeriDEX liest keinen Registrierungsstatus aus und behauptet nach einem Linkaufruf nicht, dass ein Tier registriert sei. Öffnen und Kopieren erfolgen jeweils erst nach dem zugehörigen Klick; Tier- und Halterdaten werden nicht automatisch übertragen.
 
 **Keine automatische Registrierung und kein TASSO-Login in MeeriDEX:** Anmeldung und Passwort werden direkt bei TASSO eingegeben. TASSO bietet [TASSO.Connect](https://www.tasso.net/Tierregister/Fuer-Tieraerzte-Vereine-und-mehr/Fuer-Tieraerzte/TASSO-Connect) für angebundene Praxis- und Tierheimsoftware an. Für eine echte MeeriDEX-Anbindung müssten die Zulassung, die Schnittstellendokumentation und der benötigte aktivierte Registrierungsschlüssel mit TASSO geklärt werden. Ein gewöhnliches MeinTASSO-Konto ist hier noch keine aktivierte Schnittstelle.
+
+## Visitenkarten, Wurffotos und Auszeichnungen
+
+Im Tierprofil oder per Rechtsklick auf ein Tier **Visitenkarte erstellen** öffnen. Mehrere Meeris anhaken und bei Bedarf mehrere Karten pro Tier wählen. Das PDF enthält A4-Blätter mit Vorder- und Rückseiten für Karten im Format 85 × 55 mm. Im Druckdialog A4, doppelseitigen Druck, die ausgewählte Wendekante und 100 % Größe einstellen. Zuerst auf Normalpapier prüfen; die lange Wendekante wurde auf einem Drucker erfolgreich getestet, die kurze nicht physisch geprüft.
+
+Ein Wurffoto kann am PC und im Companion beim Wurf ausgewählt werden. Tierprofile am PC enthalten Tabs für Allgemein, Nachkommen, Notizen und Preise & Auszeichnungen. Veranstaltungen und Fotos werden mit der App synchronisiert; die App zeigt Auszeichnungen an, das Bearbeiten erfolgt am PC. ZIP und Excel enthalten die zugeordneten Bilder. Alte PC- oder App-Versionen müssen für diese Daten zuerst aktualisiert werden.
+
+Im normalen Stammbaum lässt sich die Anzeige der Geschwister abschalten. Im A4-Stammbaum können Geschwister und Auszeichnungen des Haupttiers einzeln für ein zusätzliches Beiblatt ausgewählt werden. Unvollständige Elternangaben werden nicht als gesicherte Voll- oder Halbgeschwisterschaft ausgegeben. Das WurfOrakel berechnet zusätzlich einen Inzuchtkoeffizienten aus dem vorhandenen Stammbaum; unbekannte Eltern gelten im Modell als nicht verwandt, daher ist 0 % bei fehlenden Vorfahren kein Verwandtschaftsnachweis.
 
 ## Mehrere Meeris löschen
 
