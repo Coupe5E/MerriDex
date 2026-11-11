@@ -13,7 +13,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
   <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v2.0.0/MeeriDex-Companion-2.0.0-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
-**Aktuelle Downloads:** Windows **2.0.1** · Android **2.0.0**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
+**Aktuelle Downloads:** Windows **2.0.2** · Android **2.0.0**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
 
 | Am Windows-PC einziehen | Auf Android loslegen |
 | --- | --- |
@@ -161,4 +161,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 10.11.2026 · Windows 2.0.1 · Companion 2.0.0 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 11.11.2026 · Windows 2.0.2 · Companion 2.0.0 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
