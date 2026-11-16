@@ -29,7 +29,9 @@ Hier findest du die ausführlichen Installationsschritte und Hilfen. Die kurze V
 
 **Vorhandene Installation aktualisieren:** In MeeriDEX **Updates prüfen** verwenden oder MeeriDEX schließen und denselben aktuellen Installer starten. Vor automatischen Updates erstellt MeeriDEX eine ZIP- und Excel-Sicherung. Nur Installation und Programmupdates benötigen die Windows-Bestätigung; im Alltag läuft MeeriDEX ohne Administratorrechte.
 
-Ab 1.9.35 werden ungeeignete Speicherorte vor dem Download erkannt. **Automatisch einrichten** lädt den geprüften offiziellen Installer und führt den Umstieg weiter. Während eines laufenden Updates wird kein zweiter Updatevorgang für dasselbe Ziel gestartet. Ein abgebrochener oder fehlgeschlagener Installationsversuch derselben Version löst beim nächsten Programmstart keinen erneuten automatischen Download aus: Mit **Updates prüfen** setzt du ihn fort. Ein vorhandener Download wird nach erneuter Größen- und SHA-256-Prüfung wiederverwendet. Der Abschluss prüft die tatsächlich installierte Programmversion und die Programmdatei.
+Reguläre Updates in MeeriDEX ersetzen die Programm-EXE. Im Programme-Ordner erledigt das der geschützte Starthelfer nach der Windows-Bestätigung. Ab 2.0.7 zeigt MeeriDEX bei einer erforderlichen Reparatur den Grund an. Erst mit **Installer starten** wird das offizielle Setup geladen und ausgeführt. Mit **Später** schließt du den Hinweis.
+
+Während eines laufenden Updates ist der Vorgang für dieselbe Programmdatei gesperrt. Ein abgebrochenes Update lässt sich über **Updates prüfen** fortsetzen. Passende Teildownloads werden weitergeladen. Vollständige Downloads werden nach Größen- und SHA-256-Prüfung wiederverwendet. Der Abschluss prüft die installierte Programmversion und Programmdatei.
 
 **Setup-Code 5:** Bedeutet einen Abbruch während der Installation oder nach einer Setup-Rückfrage; er bedeutet nicht automatisch „Zugriff verweigert“. Ab 1.9.35 zeigt die Updateübergabe Setup-Rückfragen an und nennt bei Fehlern den Pfad zum festen `installation.log` neben dem geladenen Installer. Die Installation in denselben bisherigen Programmordner ist normal. Bei einer Dateisperre den angebotenen regulären Abschluss der betroffenen Anwendung verwenden oder offene MeeriDEX-Fenster schließen und im Setup erneut versuchen. Es wird kein erzwungenes Beenden angefordert. [Bedeutung der Setup-Codes](https://jrsoftware.org/ishelp/topic_setupexitcodes.htm).
 
@@ -45,7 +47,7 @@ Ab 1.9.35 werden ungeeignete Speicherorte vor dem Download erkannt. **Automatisc
 
 **Alte Verknüpfungen:** Bei einer geprüften Übernahme werden passende persönliche Desktop-, Startmenü- und angeheftete Verknüpfungen auf die neue Programmdatei angepasst. Erkennt eine neue Programmversion beim Start eine neuere Installation mit derselben Kartei, öffnet sie diese. Bei anderen Karteien erfolgt kein stiller Wechsel. Sehr alte EXE-Dateien kennen diese Erkennung noch nicht: bitte die neue MeeriDEX-Verknüpfung verwenden.
 
-Die bestehende Aktivierung im selben Windows-Benutzerkonto bleibt an ihrem bisherigen Speicherort. Die einzelne Programm-EXE im Release bleibt eine technische Kompatibilitätsdatei für ältere Auto-Updater; für manuelle Installationen und Updates den **Installer** verwenden. Eine EXE allein enthält keine Tierdaten.
+Die bestehende Aktivierung im selben Windows-Benutzerkonto bleibt an ihrem bisherigen Speicherort. Die Programm-EXE im Release ist für reguläre Updates und portable Installationen da. Für manuelle Installationen und Reparaturen verwende das **Setup**.
 
 **Daten aufbewahren:** `meeridex.sqlite` enthält die Kartei, `Profil` unter anderem Züchterdaten und Tierfotos; `Sicherungen` enthält Backups. Die automatische Sicherung ersetzt keine zusätzliche Kopie auf einem anderen Datenträger. Der neue lokale Updatebericht liegt unter `%LOCALAPPDATA%\MeeriDEX\Einrichtung\Diagnose\letzte-update-pruefung.txt`.
 
@@ -230,7 +232,7 @@ Auch bei **Import prüfen und Konflikte lösen** lassen sich **MeeriPro3-Tier**,
 
 Bei einem ausstehenden neueren Update steht in der Knopfleiste **Update fortsetzen** statt **Updates prüfen**. Ein Klick prüft die aktuelle Veröffentlichung erneut und lädt einen passenden Teilstand weiter, sofern der Server das unterstützt. Vollständige Dateien werden nach Größen- und SHA-256-Prüfung wiederverwendet. Eine abgebrochene Windows-Bestätigung oder Installation kann so ebenfalls erneut gestartet werden. Beim nächsten Programmstart wird derselbe abgebrochene Versuch nicht automatisch erneut heruntergeladen.
 
-MeeriDEX selbst läuft ohne Administratorrechte. Bei einer installierten Version liegen Kartei und Downloads im beschreibbaren Benutzerbereich; nur der Installer benötigt die Windows-Bestätigung für Änderungen im Programme-Ordner. Bei einer alten portablen Version mit Rechtefehler den aktuellen Installer einmal direkt herunterladen und ausführen. Keine Ordnerrechte lockern und MeeriDEX nicht dauerhaft als Administrator starten.
+MeeriDEX selbst läuft ohne Administratorrechte. Kartei und Downloads liegen bei einer installierten Version im beschreibbaren Benutzerbereich. Für Änderungen im Programme-Ordner fragt Windows beim Starthelfer oder beim Setup nach Bestätigung. Hat eine alte portable Version einen Rechtefehler, kannst du den aktuellen Installer einmal direkt herunterladen und ausführen.
 
 ## Abgabe: übernehmende Personen und Zuchten
 
