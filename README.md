@@ -10,10 +10,10 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 <p align="center">
   <a href="https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Setup.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX für Windows installieren – Setup" width="280"></a>
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v2.0.2/MeeriDex-Companion-2.0.2-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v2.0.3/MeeriDex-Companion-2.0.3-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
-**Aktuelle Downloads:** Windows **2.0.4** · Android **2.0.2**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
+**Aktuelle Downloads:** Windows **2.0.5** · Android **2.0.3**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
 
 | Am Windows-PC einziehen | Auf Android loslegen |
 | --- | --- |
@@ -34,7 +34,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 **Voraussetzungen:** Windows 10/11 mit .NET Framework 4.8 oder passender neuerer 4.x-Laufzeit · Android ab 8.0. **Windows braucht eine Lizenz; Android bleibt kostenlos.** Companion ist eine Testversion außerhalb des Play Stores.
 
-[Windows-Installer / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v2.0.2) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
+[Windows-Installer / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v2.0.3) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
 
 **Ausführliche Installationsanleitung:** [Windows Schritt für Schritt](docs/Handbuch.md#desktop-installieren-und-aktualisieren) · [SmartScreen-Hilfe](docs/Handbuch.md#windows-smartscreen-beim-download-oder-start) · [Android Schritt für Schritt & Warnmeldungen](docs/Handbuch.md#android-installieren--schritt-für-schritt) · [Windows 7](docs/Handbuch.md#hinweis-zu-windows-7)
 
@@ -73,6 +73,7 @@ Bei Windows-Versionen bis 1.9.15 den aktuellen Installer einmal manuell herunter
 | **Krankenstation** | Befunde, Verdachtsfälle, Behandlungen und Krankheitsverläufe dokumentieren sowie Familienbeziehungen nachsehen. |
 | **Abgabe & MeeriHimmel** | Ausgezogene Tiere mit Datum, Kontaktangaben und optionalem Verkaufspreis verwalten. Bearbeitbare Abgabemappen mit Geburtsurkunde, Schutzvertragsvorlage und Futterliste als PDF erstellen. Verstorbene Meeris behalten ihr Profil, ihre Fotos und ihren Platz im Stammbaum. |
 | **Züchterprofil** | Zuchtname, Ort, Kontakte und ein eigenes Logo hinterlegen; Vorgaben für neue Tiere übernehmen. |
+| **Adressbuch & Vorschläge** | Züchterkontakte und zugehörige Käufe und Verkäufe ansehen, Kontakte bei der Abgabe auswählen und mit Companion abgleichen. Gespeicherte Zuchtnamen, Orte und Kostenbezeichnungen beim Tippen wiederverwenden. |
 | **Sicherungen & Import** | Unter **Optionen → Import & Export**: ZIP-Sicherungen, Excel-Import/-Export und MeeriPro-Übernahme aus `.backup`, `.back3up` oder ZIP. Vor Programmupdates erstellt MeeriDEX automatisch eine ZIP- und eine Excel-Sicherung. |
 | **Pixel-Meeris & kleine Extras** | Passende Rassen- und Farbbilder, bis zu vier eigene Meeris mit Namen im Kopfbereich, pixelige „So geht’s“-Sprechblasen und eine abschaltbare Kötelparty. |
 
@@ -107,6 +108,7 @@ Unter **Optionen → Kötelparty** ein-/ausschalten und Platz für **1–200 Kö
 | **Schnell wiegen** | Direkt aus der Liste oder im Profil eine Messung eintragen und den kleinen Gewichtsverlauf ansehen. |
 | **Familie, Würfe & Erinnerungen** | Eltern und Großeltern im mobilen Stammbaum öffnen, Familienprofile ansehen, Würfe erfassen und Merkzettel pflegen. |
 | **Züchterprofil & Vorgaben** | Das übertragene PC-Züchterprofil ansehen und Zuchtname sowie Geburtsort für neue Tiere vorbelegen. |
+| **Adressbuch & Vorschläge** | Züchterkontakte unterwegs pflegen, im Tierprofil auswählen und per WLAN mit dem PC abgleichen. Wiederkehrende Eingaben direkt aus Vorschlägen übernehmen. |
 | **WLAN & Updates** | Lokal arbeiten, später mit dem PC abgleichen und neue APK-Versionen über die App laden. |
 
 **Die beiden ergänzen sich:** Größere grafische Stammbäume, PDF-Ausgabe, Verpaarungsverwaltung und WurfOrakel gehören zum Desktop. Krankenverläufe und bestehende Abgabedaten lassen sich unterwegs nachlesen; Kontakte der übernehmenden Person können in Companion bearbeitet werden. Das vollständige Züchterprofil wird am PC gepflegt. Companion ist derzeit für Android erhältlich; eine iPhone-Version gibt es nicht.
@@ -161,4 +163,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 15.11.2026 · Windows 2.0.4 · Companion 2.0.2 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 16.11.2026 · Windows 2.0.5 · Companion 2.0.3 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
