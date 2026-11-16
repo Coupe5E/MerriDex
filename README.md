@@ -13,7 +13,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
   <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v2.0.4/MeeriDex-Companion-2.0.4-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
-**Aktuelle Downloads:** Windows **2.0.6** · Android **2.0.4**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
+**Aktuelle Downloads:** Windows **2.0.7** · Android **2.0.4**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
 
 | Am Windows-PC einziehen | Auf Android loslegen |
 | --- | --- |
@@ -41,7 +41,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 <details>
 <summary><strong>Du hast MeeriDEX oder Companion schon installiert?</strong></summary>
 
-Am PC **Updates prüfen** verwenden. Nach einem unterbrochenen Update erscheint **Update fortsetzen**; passende Teil-Downloads werden weitergeladen und vollständige Downloads erneut geprüft. Für ein manuelles Windows-Update MeeriDEX schließen und den aktuellen Installer ausführen. Eine eindeutig gefundene portable Kartei wird ab 1.9.35 automatisch gesichert übernommen; bei mehreren unterschiedlichen Karteien folgt eine Auswahl. Die Android-APK **über die vorhandene App installieren**; nicht vorher deinstallieren oder App-Daten löschen.
+Am PC **Updates prüfen** verwenden. Reguläre Windows-Updates ersetzen die Programm-EXE. Wenn eine Reparatur nötig ist, zeigt MeeriDEX den Grund an und öffnet das Setup nach Klick auf **Installer starten**. Nach einem unterbrochenen Update kannst du den Download fortsetzen. Für ein manuelles Windows-Update MeeriDEX schließen und den aktuellen Installer ausführen. Eine eindeutig gefundene portable Kartei wird ab 1.9.35 automatisch gesichert übernommen. Bei mehreren unterschiedlichen Karteien folgt eine Auswahl. Die Android-APK **über die vorhandene App installieren** und dabei die App-Daten behalten.
 
 Bei Windows-Versionen bis 1.9.15 den aktuellen Installer einmal manuell herunterladen: Die damalige Downloadgrenze verhindert den automatischen Bezug großer Programmdateien. Sehr alte Companion-Versionen benötigen ebenfalls einmalig den direkten APK-Download.
 
@@ -163,4 +163,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 16.11.2026 · Windows 2.0.6 · Companion 2.0.4 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 16.11.2026 · Windows 2.0.7 · Companion 2.0.4 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
