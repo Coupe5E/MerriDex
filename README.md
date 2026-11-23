@@ -10,10 +10,10 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 <p align="center">
   <a href="https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Setup.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX für Windows installieren – Setup" width="280"></a>
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v2.0.9/MeeriDex-Companion-2.0.9-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v2.0.10/MeeriDex-Companion-2.0.10-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
-**Aktuelle Downloads:** Windows **2.0.13** · Android **2.0.9**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
+**Aktuelle Downloads:** Windows **2.0.14** · Android **2.0.10**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
 
 | Am Windows-PC einziehen | Auf Android loslegen |
 | --- | --- |
@@ -32,9 +32,9 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 **Windows-Installation:** Installation im Programme-Ordner mit Startmenüeintrag und optionaler Desktop-Verknüpfung. Nur Installation und Programmupdates benötigen die Windows-Bestätigung. MeeriDEX startet danach ganz normal ohne Adminrechte. Die Tierdaten bleiben getrennt im beschreibbaren Benutzerordner. Eine eindeutig gefundene bisherige Kartei wird beim ersten Start gesichert übernommen; eine Deinstallation lässt deine Tierdaten erhalten.
 
 
-**Voraussetzungen:** Windows 10/11 mit .NET Framework 4.8 oder passender neuerer 4.x-Laufzeit · Android ab 8.0. **Windows braucht eine Lizenz; Android bleibt kostenlos.** Companion ist eine Testversion außerhalb des Play Stores.
+**Voraussetzungen:** Windows 10/11 mit .NET Framework 4.8 oder passender neuerer 4.x-Laufzeit · Android ab 8.0. **Beide Programme sind kostenlos. Windows benötigt die vorhandene persönliche Aktivierung; Android kommt ohne Aktivierung aus.** Companion ist eine Testversion außerhalb des Play Stores.
 
-[Windows-Installer / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v2.0.9) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
+[Windows-Installer / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v2.0.10) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
 
 **Ausführliche Installationsanleitung:** [Windows Schritt für Schritt](docs/Handbuch.md#desktop-installieren-und-aktualisieren) · [SmartScreen-Hilfe](docs/Handbuch.md#windows-smartscreen-beim-download-oder-start) · [Android Schritt für Schritt & Warnmeldungen](docs/Handbuch.md#android-installieren--schritt-für-schritt) · [Windows 7](docs/Handbuch.md#hinweis-zu-windows-7)
 
@@ -67,6 +67,7 @@ Bei Windows-Versionen bis 1.9.15 den aktuellen Installer einmal manuell herunter
 | **Meine Meeris & Profile** | Tiere anlegen, suchen, sortieren und bearbeiten: Name, Geschlecht, Geburtstag, Rasse, Farbe, Herkunft, Eltern, Notizen und Kastrationsangaben. Profile bieten Tabs für Nachkommen, Notizen und Auszeichnungen. Mehrere Fotos pro Tier und optionale RFID-Chipnummern gehören dazu. |
 | **Familie & Stammbäume** | Mutter, Vater und Geschwister verknüpfen, Familienbäume über drei bis sechs Generationen erkunden und Profile direkt öffnen. |
 | **A4-Stammbaum & PDF** | Stammbäume mit Tierfoto, Vorfahrenbildern und Zuchtlogo als A4-PDF speichern oder drucken. Sichtbare Angaben anpassen und größere Familien auf Folgeseiten ausgeben. |
+| **Finanzen** | Einkaufswerte, Abgabepreise und frei benennbare Einnahmen sowie Ausgaben erfassen, eigene Buchungen bearbeiten oder löschen und den Saldo im rot-grünen Verlauf verfolgen. Finanzdaten lassen sich mit Companion abgleichen. |
 | **Gewicht & Erinnerungen** | Messungen mit Datum erfassen und als Verlauf ansehen. Eigene Aufgaben mit Termin, Wiederholung und Notizen anlegen, abhaken oder verschieben. |
 | **Verpaarungen & Würfe** | Käfige und Tiergruppen planen, Start- und Enddaten festhalten und Würfe mit Eltern, Jungtieren und M/W/T-Quote verwalten. |
 | **Farben & WurfOrakel** | Rassen, Farbvorlagen und bekannte Trägergene erfassen, Zucht-Favoriten speichern und mögliche Genpaare des Nachwuchses ansehen. Genstatus, Quellen und Stammbaum-Hinweise helfen beim Einordnen. |
@@ -110,6 +111,7 @@ Unter **Optionen → Kötelparty** ein-/ausschalten und Platz für **1–200 Kö
 | **Familie, Würfe & Erinnerungen** | Eltern und Großeltern im mobilen Stammbaum öffnen, Familienprofile ansehen, Würfe erfassen und Merkzettel pflegen. |
 | **Züchterprofil & Vorgaben** | Das übertragene PC-Züchterprofil ansehen und Zuchtname sowie Geburtsort für neue Tiere vorbelegen. |
 | **Adressbuch & Vorschläge** | Züchterkontakte unterwegs pflegen, im Tierprofil auswählen und per WLAN mit dem PC abgleichen. Wiederkehrende Eingaben direkt aus Vorschlägen übernehmen. |
+| **Finanzen** | Kosten und frei benennbare Einnahmen unterwegs erfassen, bearbeiten oder löschen und mit MeeriDEX am PC abgleichen. |
 | **WLAN & Updates** | Lokal arbeiten, später mit dem PC abgleichen und neue APK-Versionen über die App laden. |
 
 **Die beiden ergänzen sich:** Größere grafische Stammbäume, PDF-Ausgabe, Verpaarungsverwaltung und WurfOrakel gehören zum Desktop. Krankenverläufe und bestehende Abgabedaten lassen sich unterwegs nachlesen; Kontakte der übernehmenden Person können in Companion bearbeitet werden. Das vollständige Züchterprofil wird am PC gepflegt. Companion ist derzeit für Android erhältlich; eine iPhone-Version gibt es nicht.
@@ -127,7 +129,7 @@ Für Updates die neue APK über die vorhandene App installieren. **Nicht vorher 
 
 ## PC & Handy zusammenbringen
 
-**Im selben privaten WLAN, ohne Cloud-Konto für deine Tierkartei.** Ein PC am LAN-Kabel im selben Heimnetz funktioniert ebenfalls.
+**Im selben privaten WLAN, ohne Cloud-Konto für deine Tierkartei.** Für frei erfasste Einnahmen bitte Windows ab 2.0.14 und Companion ab 2.0.10 verwenden. Ein PC am LAN-Kabel im selben Heimnetz funktioniert ebenfalls.
 
 1. Am PC **Sync** öffnen und das Fenster offen lassen.
 2. In Companion **PC verbinden / QR-Code scannen** wählen und den PC-Code scannen.
@@ -164,4 +166,4 @@ MeeriDEX und Companion sind **Closed Source**. Dieses öffentliche Repository is
 
 Die ältere Schreibweise in der GitHub-Adresse bleibt wegen der Update-Kompatibilität erhalten.
 
-*Stand: 18.11.2026 · Windows 2.0.12 · Companion 2.0.8 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
+*Stand: 18.11.2026 · Windows 2.0.12 · Companion 2.0.10 · [Alle Releases](https://github.com/Coupe5E/MerriDex/releases)*
