@@ -10,10 +10,10 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 <p align="center">
   <a href="https://github.com/Coupe5E/MerriDex/releases/latest/download/MeeriDEX-Setup.exe"><img src="docs/assets/windows-download.svg" alt="MeeriDEX für Windows installieren – Setup" width="280"></a>
-  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v2.0.8/MeeriDex-Companion-2.0.8-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
+  <a href="https://github.com/Coupe5E/MerriDex/releases/download/companion-v2.0.9/MeeriDex-Companion-2.0.9-test.apk"><img src="docs/assets/android-download.svg" alt="MeeriDex Companion für Android herunterladen – Test-APK" width="280"></a>
 </p>
 
-**Aktuelle Downloads:** Windows **2.0.12** · Android **2.0.8**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
+**Aktuelle Downloads:** Windows **2.0.13** · Android **2.0.9**. [Versionshinweise und ältere Downloads stehen unter Releases.](https://github.com/Coupe5E/MerriDex/releases)
 
 | Am Windows-PC einziehen | Auf Android loslegen |
 | --- | --- |
@@ -34,7 +34,7 @@ Ein gemütliches Zuhause für deine Meerschweinchenkartei: **Tiere und Fotos ver
 
 **Voraussetzungen:** Windows 10/11 mit .NET Framework 4.8 oder passender neuerer 4.x-Laufzeit · Android ab 8.0. **Windows braucht eine Lizenz; Android bleibt kostenlos.** Companion ist eine Testversion außerhalb des Play Stores.
 
-[Windows-Installer / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v2.0.8) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
+[Windows-Installer / Releasehinweise](https://github.com/Coupe5E/MerriDex/releases/latest) · [Android-Release](https://github.com/Coupe5E/MerriDex/releases/tag/companion-v2.0.9) · [.NET von Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
 
 **Ausführliche Installationsanleitung:** [Windows Schritt für Schritt](docs/Handbuch.md#desktop-installieren-und-aktualisieren) · [SmartScreen-Hilfe](docs/Handbuch.md#windows-smartscreen-beim-download-oder-start) · [Android Schritt für Schritt & Warnmeldungen](docs/Handbuch.md#android-installieren--schritt-für-schritt) · [Windows 7](docs/Handbuch.md#hinweis-zu-windows-7)
 
@@ -105,6 +105,7 @@ Unter **Optionen → Kötelparty** ein-/ausschalten und Platz für **1–200 Kö
 | --- | --- |
 | **Tierliste & Profile** | Meeris mit Pixelbild, Name und Geschlecht finden; suchen, filtern und Favoriten markieren. Neue Tiere mit Stammdaten, RFID, Eltern, Rasse, Farbe und Codes anlegen. |
 | **Kamera & Fotos** | Mit der Handykamera direkt zum Profil fotografieren oder bestehende Bilder auswählen. Mehrere Fotos pro Tier verwalten. |
+| **Preise & Auszeichnungen** | Veranstaltungen mit Ort, Datum und Fotos festhalten; Hauptklasse, Rassestandard, Sonderpreise, Unterklasse und Platzierung auswählen oder eigene Angaben eintragen. Einträge bearbeiten und nach Bestätigung löschen. |
 | **Schnell wiegen** | Direkt aus der Liste oder im Profil eine Messung eintragen und den kleinen Gewichtsverlauf ansehen. |
 | **Familie, Würfe & Erinnerungen** | Eltern und Großeltern im mobilen Stammbaum öffnen, Familienprofile ansehen, Würfe erfassen und Merkzettel pflegen. |
 | **Züchterprofil & Vorgaben** | Das übertragene PC-Züchterprofil ansehen und Zuchtname sowie Geburtsort für neue Tiere vorbelegen. |
