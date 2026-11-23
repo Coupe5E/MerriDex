@@ -1,0 +1,100 @@
+MeeriDEX und MeeriDex Companion
+Nutzungsbedingungen – Fassung vom 23.11.2026
+Projektverantwortlich: Coupe5E
+Offizielle Projektseite: https://github.com/Coupe5E/MerriDex
+
+1. Kostenlose Nutzung
+
+Die bereitgestellten Programmversionen dürfen kostenlos zur eigenen Tier- und
+Zuchtverwaltung verwendet werden. Dies umfasst auch die Verwaltung einer
+gewerblich betriebenen Zucht. Spenden sind freiwillig und keine Voraussetzung
+für das hier eingeräumte Nutzungsrecht. Dieses Nutzungsrecht ist nicht exklusiv.
+
+Die vorhandene Windows-Aktivierung bleibt erforderlich: Windows-Lizenzen
+werden kostenlos und personalisiert vergeben. Eine Dauerlizenz erlaubt zwei
+gleichzeitig genutzte PC-Aktivierungen desselben Inhabers und Zuchtnamens und
+benötigt spätestens alle 30 Tage eine Online-Bestätigung. Testlizenzen gelten
+15 Tage ab der ersten Aktivierung. MeeriDex Companion für Android benötigt
+keine solche Aktivierung. Diese Textfassung ändert die technische Aktivierung
+bereits veröffentlichter Programmversionen nicht.
+
+2. Quellcode und geschützte Bestandteile
+
+Die eigenen Programmquellen bleiben privat. Diese Bedingungen sind keine
+Open-Source-Lizenz und gewähren keinen Anspruch auf Zugang zum Quellcode.
+
+Copyright (c) 2026 Coupe5E, soweit entsprechende Rechte bestehen. Rechte an
+Beiträgen anderer Urheber und an Drittkomponenten verbleiben bei diesen.
+An rechtlich geschützten Bestandteilen werden nur die hier ausdrücklich
+beschriebenen Nutzungsrechte eingeräumt. Insbesondere wird keine Erlaubnis
+erteilt, geschützten Code oder geschützte Gestaltungselemente ohne weitere
+Zustimmung in andere Produkte zu übernehmen, zu bearbeiten oder gesondert
+zu veröffentlichen. Gesetzlich erlaubte Handlungen bleiben zulässig.
+
+Die allgemeinen Ideen und Funktionen einer Tier- oder Zuchtverwaltung werden
+hierdurch nicht exklusiv beansprucht. Ein unabhängig entwickeltes Programm
+mit ähnlichen Funktionen wird durch diese Bedingungen nicht untersagt.
+
+3. KI-Unterstützung und Herkunft
+
+Bei der Entwicklung und Gestaltung wurden KI-Werkzeuge eingesetzt. Für
+KI-generierte oder KI-unterstützte Bestandteile, einschließlich Code und
+Pixelgrafiken, wird urheberrechtlicher Schutz nur insoweit beansprucht, wie
+die gesetzlichen Voraussetzungen tatsächlich vorliegen. Rein KI-generierte
+Ergebnisse erhalten durch diese Bedingungen oder einen Copyright-Vermerk
+keine zusätzlichen ausschließlichen Rechte. Menschliche schöpferische
+Beiträge und Rechte Dritter sind jeweils gesondert zu beurteilen.
+
+4. Weitergabe offizieller Programmdateien
+
+Unveränderte, offiziell veröffentlichte Installations- und Programmpakete
+dürfen kostenlos weitergegeben werden. Diese Nutzungsbedingungen sowie
+vorhandene Urheber-, Herkunfts- und Drittanbieterhinweise müssen dabei
+erhalten bleiben und mitgegeben oder unmittelbar zugänglich gemacht werden.
+Die offizielle Projektseite bleibt die empfohlene Bezugsquelle für Updates.
+
+Diese Erlaubnis umfasst keine entgeltliche Vermarktung und keine Verbreitung
+veränderter Fassungen oder gesondert entnommener geschützter Bestandteile.
+Sie erteilt auch keine Erlaubnis, eine fremde Veröffentlichung als offizielle
+MeeriDEX-Ausgabe oder als eigene Entwicklung auszugeben. Weitergehende Rechte
+aus dem Gesetz oder aus Drittlizenzen werden dadurch nicht eingeschränkt.
+
+Personalisierte Aktivierungsschlüssel, private Verwaltungszugänge und
+personenbezogene Daten sind nicht Teil dieser Weitergabeerlaubnis.
+
+5. Name und Auftritt
+
+Die sachliche Nennung von MeeriDEX, etwa in Anleitungen, Rezensionen und
+Downloadverweisen, bleibt erlaubt. Eine Erlaubnis, sich als Projektinhaber
+auszugeben oder Name und Logo für ein anderes Produkt als eigenen offiziellen
+Auftritt zu verwenden, wird nicht erteilt. Diese Bedingungen behaupten keine
+Markeneintragung und begründen selbst keinen Markenschutz.
+
+6. Daten und Inhalte der Nutzer
+
+An Tierdaten, Fotos, Zuchtlogos und anderen von Nutzern eingebrachten Inhalten
+werden durch diese Bedingungen keine Rechte auf das Projekt übertragen.
+Dasselbe gilt für die eigenen Inhalte in PDF-, Excel- und Sicherungsexporten.
+Nutzer können diese Inhalte im Rahmen ihrer eigenen Rechte verwenden und
+weitergeben. Rechte anderer Personen an enthaltenem Material bleiben bestehen.
+
+7. Drittkomponenten und gesetzliche Rechte
+
+Mitgelieferte Bibliotheken, Schriftarten und andere Drittkomponenten unterliegen
+ihren eigenen Lizenzen. Deren Hinweise und Lizenztexte bleiben erhalten.
+Weitergehende Rechte, die diese Lizenzen für die jeweiligen Komponenten
+einräumen, werden durch die MeeriDEX-Bedingungen nicht eingeschränkt.
+
+Zwingende gesetzliche Rechte bleiben unberührt. Dazu gehören insbesondere
+zulässige Sicherungskopien, das gesetzlich erlaubte Beobachten, Untersuchen
+und Testen des Programms und die Dekompilierung zur Interoperabilität unter
+den gesetzlichen Voraussetzungen. Auch gesetzliche Erschöpfungs-, Mängel-
+und Haftungsregeln werden durch diese Bedingungen nicht ausgeschlossen.
+
+8. Fassungsstand
+
+Diese Fassung beschreibt die Bedingungen für Ausgaben, denen sie beigefügt
+oder bei deren Bereitstellung sie wirksam einbezogen wird. Sie verändert
+frühere, bereits eingeräumte Nutzungsrechte nicht rückwirkend. Die zu einer
+bereits veröffentlichten Ausgabe gehörenden Lizenzdateien werden zu
+Dokumentationszwecken unverändert archiviert.
